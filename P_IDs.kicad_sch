@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "045f1f05-3134-4b6d-91b6-463031104f1e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 132.08 33.02)
+		(size 41.91 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b22dc67f-22e2-4992-8273-fe279f768d16")
+		(property "Sheetname" "GSS"
+			(at 132.08 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gss.kicad_sch"
+			(at 132.08 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkywalkerPID"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 34.29)
+		(size 46.99 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2a44d31-f19b-434c-8a2d-23a7bd94dbba")
+		(property "Sheetname" "Skywalker"
+			(at 55.88 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Skywalker.kicad_sch"
+			(at 55.88 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkywalkerPID"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
