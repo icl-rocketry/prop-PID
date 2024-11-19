@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 48.26 165.1)
+		(size 35.56 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24f96460-7959-422f-b459-d4a864eaf867")
+		(property "Sheetname" "AnswerKeyPID"
+			(at 48.26 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnswerKey.kicad_sch"
+			(at 48.26 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 33.02)
 		(size 41.91 25.4)
 		(fields_autoplaced yes)
@@ -45,7 +83,7 @@
 	)
 	(sheet
 		(at 55.88 34.29)
-		(size 46.99 24.13)
+		(size 41.91 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
