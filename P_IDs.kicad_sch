@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 204.978 34.036)
+		(size 44.45 19.812)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a55bbd5-ed21-4b79-a194-d378f68dea1b")
+		(property "Sheetname" "Igniter Test"
+			(at 204.978 33.3244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IgniterTest.kicad_sch"
+			(at 204.978 54.4326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 33.02)
 		(size 41.91 25.4)
 		(fields_autoplaced yes)
