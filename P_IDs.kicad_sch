@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 139.7 83.82)
+		(size 53.34 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ff5724e-b29b-49c2-a1fa-190081404476")
+		(property "Sheetname" "AnswerKey"
+			(at 139.7 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnswerKey.kicad_sch"
+			(at 139.7 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 33.02)
 		(size 41.91 25.4)
 		(fields_autoplaced yes)
