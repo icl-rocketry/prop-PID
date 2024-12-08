@@ -6729,7 +6729,7 @@
 			(xy 130.81 45.72) (xy 130.81 46.99)
 		)
 		(stroke
-			(width 0)
+			(width 0.635)
 			(type default)
 		)
 		(uuid "2ba5a54c-5b87-402c-88f3-797985156f31")
@@ -7581,7 +7581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ecf98e7-bd69-40bf-b060-105c7beafc30")
-		(property "Reference" "Ball_Valve12"
+		(property "Reference" "Ox_Vent"
 			(at 123.698 132.08 90)
 			(effects
 				(font
@@ -7635,7 +7635,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Ball_Valve12")
+					(reference "Ox_Vent")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86867902-b32d-462b-ba79-87abf5bbb72b")
-		(property "Reference" "Ball_Valve11"
+		(property "Reference" "Nitrogen_Fill"
 			(at 134.62 62.8649 90)
 			(effects
 				(font
@@ -8464,7 +8464,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Ball_Valve11")
+					(reference "Nitrogen_Fill")
 					(unit 1)
 				)
 			)
@@ -8838,7 +8838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b734371e-626e-4bcb-a082-3e32866980bf")
-		(property "Reference" "Ball_Valve10"
+		(property "Reference" "Nitrous_Vent"
 			(at 129.54 83.566 0)
 			(effects
 				(font
@@ -8890,7 +8890,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Ball_Valve10")
+					(reference "Nitrous_Vent")
 					(unit 1)
 				)
 			)
@@ -9186,7 +9186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eca2e7ba-d524-4942-a0b2-202f0b45ab58")
-		(property "Reference" "Ball_Valve13"
+		(property "Reference" "Fuel_Main"
 			(at 163.322 132.08 90)
 			(effects
 				(font
@@ -9240,7 +9240,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Ball_Valve13")
+					(reference "Fuel_Main")
 					(unit 1)
 				)
 			)
