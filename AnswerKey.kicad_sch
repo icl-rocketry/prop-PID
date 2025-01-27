@@ -8143,65 +8143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PID_symbols:Pressure_Regulator")
-		(at 160.02 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83e166df-2479-4085-b681-b8b5eaea4b57")
-		(property "Reference" "Reg?"
-			(at 160.274 86.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 163.8925 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pressure Regulator"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "93441c72-b450-44cf-abbf-98f0eb938689")
-		)
-		(pin ""
-			(uuid "31500676-6c3c-4bbc-89ff-de08451f7b59")
-		)
-	)
-	(symbol
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 119.38 154.94 270)
 		(unit 1)
@@ -9135,68 +9076,6 @@
 		)
 		(pin ""
 			(uuid "478aca70-a8ce-433b-a471-60bd76184734")
-		)
-	)
-	(symbol
-		(lib_id "PID_symbols:Pressure_Regulator")
-		(at 171.45 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec0b673d-ffbd-4b5c-9b86-2b826e24f482")
-		(property "Reference" "Reg?"
-			(at 175.26 98.3624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 175.26 100.2675 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pressure Regulator"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7eb0a71e-bd15-427b-b49c-8f025fa7870c")
-		)
-		(pin ""
-			(uuid "abbc5492-196f-485c-96fb-ea3cf5141941")
 		)
 	)
 	(symbol
