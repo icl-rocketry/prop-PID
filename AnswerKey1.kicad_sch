@@ -310,127 +310,6 @@
 				)
 			)
 		)
-		(symbol "Ball_Valve_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Ball_Valve"
-				(at 3.81 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ball_Valve_2_1_1"
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 0 -2.54) (xy 0 2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 3.81 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PID_symbols:Ball_Valve"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5016,150 +4895,6 @@
 				)
 			)
 		)
-		(symbol "Solenoid_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Solenoid"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Solenoid_1_0_1"
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Solenoid_1_1_1"
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 5.08) (xy 5.08 5.08) (xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "S\n"
-					(at 3.81 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 195.58 39.37)
@@ -5288,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 157.48 137.16)
+			(xy 157.48 91.44) (xy 157.48 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5351,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 185.42) (xy 153.67 185.42)
+			(xy 152.4 181.61) (xy 153.67 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5431,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 167.64) (xy 152.4 168.91)
+			(xy 152.4 179.07) (xy 152.4 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5452,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 123.19) (xy 152.4 153.67)
+			(xy 152.4 123.19) (xy 152.4 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5555,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 185.42) (xy 158.75 185.42)
+			(xy 161.29 181.61) (xy 158.75 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5772,33 +5507,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 167.64) (xy 161.29 168.91)
+			(xy 161.29 179.07) (xy 161.29 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9158681a-0a1e-4294-abe0-5463b5a83d6e")
-	)
-	(wire
-		(pts
-			(xy 161.29 181.61) (xy 161.29 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ba8605-689d-4e6e-9afa-02e4e2bcf866")
-	)
-	(wire
-		(pts
-			(xy 152.4 181.61) (xy 152.4 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924cde9c-9d2a-408b-ab31-eeca69ce1f5e")
 	)
 	(wire
 		(pts
@@ -5938,7 +5653,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 161.29 153.67)
+			(xy 161.29 143.51) (xy 161.29 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5960,7 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 144.78) (xy 171.45 144.78)
+			(xy 162.56 163.83) (xy 171.45 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 105.41) (xy 171.45 144.78)
+			(xy 171.45 105.41) (xy 171.45 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6077,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 137.16) (xy 153.67 153.67)
+			(xy 153.67 163.83) (xy 153.67 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6120,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 144.78) (xy 162.56 153.67)
+			(xy 162.56 163.83) (xy 162.56 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 137.16) (xy 153.67 137.16)
+			(xy 157.48 163.83) (xy 153.67 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6398,7 +6113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0095808e-ab9f-493b-a7ae-5a742db36e5c")
-		(property "Reference" "N2"
+		(property "Reference" "N?"
 			(at 121.666 27.94 0)
 			(effects
 				(font
@@ -6451,8 +6166,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "N2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "N?")
 					(unit 1)
 				)
 			)
@@ -6468,7 +6183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07288dc5-8a8f-493f-9ea9-9ce10ebe3af7")
-		(property "Reference" "Engine2"
+		(property "Reference" "Engine?"
 			(at 129.54 185.0318 0)
 			(effects
 				(font
@@ -6524,8 +6239,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Engine2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Engine?")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08745a3c-78fc-42e9-a851-8342107bb91a")
-		(property "Reference" "PT10"
+		(property "Reference" "PT?"
 			(at 139.7 173.99 0)
 			(effects
 				(font
@@ -6593,8 +6308,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT10")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PT?")
 					(unit 1)
 				)
 			)
@@ -6610,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8c9c29-24e7-4eb4-82af-60fe8e715b96")
-		(property "Reference" "Check_Valve9"
+		(property "Reference" "Check_Valve?"
 			(at 162.687 15.24 0)
 			(effects
 				(font
@@ -6661,8 +6376,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Check_Valve9")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Check_Valve?")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1614e2d0-4ba5-4c8d-8017-3d3467e297fa")
-		(property "Reference" "PT9"
+		(property "Reference" "PT?"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -6729,8 +6444,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT9")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PT?")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fb01d4-ad77-4a32-a175-fbb559c55aad")
-		(property "Reference" "Ball_Valve7"
+		(property "Reference" "Ball_Valve?"
 			(at 129.286 159.258 90)
 			(effects
 				(font
@@ -6798,8 +6513,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve7")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cfd6952-d1bf-451a-a514-f0f01831e3ca")
-		(property "Reference" "Check_Valve7"
+		(property "Reference" "Check_Valve?"
 			(at 103.124 68.326 90)
 			(effects
 				(font
@@ -6867,8 +6582,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Check_Valve7")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Check_Valve?")
 					(unit 1)
 				)
 			)
@@ -6933,10 +6648,18 @@
 		(pin ""
 			(uuid "adfbdb66-86b1-4fca-9099-d1cffce22de4")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Reg?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Tank")
-		(at 151.13 165.1 0)
+		(at 151.13 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6944,7 +6667,7 @@
 		(dnp no)
 		(uuid "2b21d496-b3b8-41b0-9b7a-1dbe85f3620f")
 		(property "Reference" "EthBuffer?"
-			(at 148.082 157.48 0)
+			(at 148.082 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6676,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 161.925 0)
+			(at 157.48 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +6685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 165.1 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +6694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 165.1 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +6703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 165.1 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,10 +6717,18 @@
 		(pin ""
 			(uuid "a3fcc945-f118-4989-9028-f0fec28b0c27")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "EthBuffer?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Tank")
-		(at 160.02 165.1 0)
+		(at 160.02 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7005,7 +6736,7 @@
 		(dnp no)
 		(uuid "33f0c1cf-79ab-441d-aa83-400f9fcde13b")
 		(property "Reference" "G_N?"
-			(at 159.512 157.226 0)
+			(at 157.988 169.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +6745,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 161.925 0)
+			(at 166.37 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +6754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 165.1 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +6763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 165.1 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +6772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 165.1 0)
+			(at 160.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,6 +6786,14 @@
 		(pin ""
 			(uuid "ce0fc16a-7649-4eff-9935-f401cc2bb995")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "G_N?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Tank")
@@ -7065,7 +6804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390d1570-e15a-4530-b5fe-8aced23d81bd")
-		(property "Reference" "Ethanol2"
+		(property "Reference" "Ethanol?"
 			(at 115.57 92.202 0)
 			(effects
 				(font
@@ -7118,8 +6857,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ethanol2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ethanol?")
 					(unit 1)
 				)
 			)
@@ -7134,7 +6873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3952aaa2-336a-4aea-9bc3-45ad2c4731af")
-		(property "Reference" "Pmatic_B_Valve2"
+		(property "Reference" "Pmatic_B_Valve?"
 			(at 148.082 60.706 0)
 			(effects
 				(font
@@ -7191,8 +6930,75 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Pmatic_B_Valve2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Pmatic_B_Valve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Ball_Valve")
+		(at 134.62 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3956d93a-f225-47e9-86b4-47be4fece765")
+		(property "Reference" "Ball_ValvePneumatic?"
+			(at 138.43 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6011b126-670f-4e4e-93e0-fe7e8b32ad6a")
+		)
+		(pin ""
+			(uuid "ee9dca46-0fd4-4b9c-b09c-5c4f646b2558")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_ValvePneumatic?")
 					(unit 1)
 				)
 			)
@@ -7207,7 +7013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b49534e-f8fb-4f9f-ac2c-e44c9cedcc3f")
-		(property "Reference" "Pmatic_B_Valve3"
+		(property "Reference" "Pmatic_B_Valve?"
 			(at 186.182 122.682 0)
 			(effects
 				(font
@@ -7264,8 +7070,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Pmatic_B_Valve3")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Pmatic_B_Valve?")
 					(unit 1)
 				)
 			)
@@ -7281,7 +7087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c548fc0-b236-47cf-8147-fbb34bcee26a")
-		(property "Reference" "PT6"
+		(property "Reference" "PT?"
 			(at 107.95 173.99 0)
 			(effects
 				(font
@@ -7333,8 +7139,75 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT6")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PT?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Ball_Valve")
+		(at 135.89 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ee0c5c-3532-48f9-8a6e-993fd5eaf951")
+		(property "Reference" "Ball_Valve9Pneumatic?"
+			(at 139.446 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "de0a8b40-0883-4943-9986-c2dac9bfc690")
+		)
+		(pin ""
+			(uuid "318d69ec-3ea0-4cbd-be3c-d77461771ef1")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve9Pneumatic?")
 					(unit 1)
 				)
 			)
@@ -7350,7 +7223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "479afe59-d1ff-4f68-8676-9a98acd09af1")
-		(property "Reference" "PT7"
+		(property "Reference" "PT?"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -7402,8 +7275,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT7")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PT?")
 					(unit 1)
 				)
 			)
@@ -7418,7 +7291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fd957e1-5919-473c-b608-5dc8707df824")
-		(property "Reference" "Burst_Disc4"
+		(property "Reference" "Burst_Disc?"
 			(at 143.764 116.84 0)
 			(effects
 				(font
@@ -7469,8 +7342,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Burst_Disc4")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Burst_Disc?")
 					(unit 1)
 				)
 			)
@@ -7535,6 +7408,14 @@
 		(pin ""
 			(uuid "196af45f-2803-4f6b-b771-815dfe2c98b6")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Solenoid?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Quick_Disconnect")
@@ -7546,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5248b65b-7f84-4de0-937a-43267affbe57")
-		(property "Reference" "QD6"
+		(property "Reference" "QD?"
 			(at 222.25 153.6699 90)
 			(effects
 				(font
@@ -7599,75 +7480,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "QD6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PID_symbols:Ball_Valve")
-		(at 134.62 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53ac64a6-1770-4cd8-9232-45ba4caf1548")
-		(property "Reference" "Ball_Valve?"
-			(at 138.176 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "467d859c-a3ca-4955-acf0-adf5d5d3d17c")
-		)
-		(pin ""
-			(uuid "e78b88f2-6e23-4636-8a20-d59259d87336")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve?")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "QD?")
 					(unit 1)
 				)
 			)
@@ -7682,7 +7496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62b15281-ec96-4f33-81b9-f246af733693")
-		(property "Reference" "QD5"
+		(property "Reference" "QD?"
 			(at 183.642 136.144 90)
 			(effects
 				(font
@@ -7735,76 +7549,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "QD5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Ball_Valve_2")
-		(lib_id "PID_symbols:Ball_Valve")
-		(at 143.51 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65332cbf-ebe5-443c-9f4a-61a140e311ca")
-		(property "Reference" "Ball_Valve?"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "d8e8b37a-7907-4215-bc52-5948c3456768")
-		)
-		(pin ""
-			(uuid "e8aa9c4b-fdb7-4bf1-ab25-0b72fc29c564")
-		)
-		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve?")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "QD?")
 					(unit 1)
 				)
 			)
@@ -7871,6 +7617,14 @@
 		(pin ""
 			(uuid "323d12cf-cbc9-450f-bad6-1e2d7370b713")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PnSol?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:SPRV")
@@ -7882,7 +7636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e86d114-385c-42f5-aaf2-6f2fc7a28871")
-		(property "Reference" "SPRV3"
+		(property "Reference" "SPRV?"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -7933,8 +7687,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "SPRV3")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "SPRV?")
 					(unit 1)
 				)
 			)
@@ -7950,7 +7704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd138ef-437f-4174-9c77-7e69e0babf52")
-		(property "Reference" "PnSOL1"
+		(property "Reference" "PnSOL?"
 			(at 139.7 47.6249 90)
 			(effects
 				(font
@@ -8003,78 +7757,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PnSOL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Solenoid_1")
-		(lib_id "PID_symbols:Solenoid")
-		(at 161.29 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76e53bfb-d68b-4e26-b5fe-4470bb446d0b")
-		(property "Reference" "Solenoid?"
-			(at 167.64 171.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 167.64 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "930cd3b6-7c8d-445b-8725-da3ebeba1fdd")
-		)
-		(pin ""
-			(uuid "ed2c3f14-f179-4634-8405-e36f49f8b520")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Solenoid?")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PnSOL?")
 					(unit 1)
 				)
 			)
@@ -8141,6 +7825,14 @@
 		(pin ""
 			(uuid "5d1ba3c4-b9e8-4161-a2b4-1ca6a90ca29f")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Reg?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Regulator")
@@ -8200,6 +7892,14 @@
 		(pin ""
 			(uuid "31500676-6c3c-4bbc-89ff-de08451f7b59")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Reg?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Ball_Valve")
@@ -8210,7 +7910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c8918df-9a2a-4d9c-8716-8c50792fb9e8")
-		(property "Reference" "Ball_Valve6"
+		(property "Reference" "Ball_Valve?"
 			(at 106.426 159.004 90)
 			(effects
 				(font
@@ -8263,8 +7963,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve6")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
 					(unit 1)
 				)
 			)
@@ -8329,6 +8029,14 @@
 		(pin ""
 			(uuid "dc958820-341c-4edd-8959-c96cf4bdbdc8")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Ball_Valve")
@@ -8339,8 +8047,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9be6ea70-2a52-402e-b11f-e2d7f8f1a92f")
-		(property "Reference" "Ball_Valve10"
-			(at 146.558 100.076 0)
+		(property "Reference" "Ball_Valve?"
+			(at 145.796 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,8 +8098,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve10")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
 					(unit 1)
 				)
 			)
@@ -8406,7 +8114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dc9b664-e448-4d44-b9ba-2ef8dab5c6aa")
-		(property "Reference" "Ball_Valve5"
+		(property "Reference" "Ball_Valve?"
 			(at 93.726 128.524 0)
 			(effects
 				(font
@@ -8457,8 +8165,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ball_Valve5")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
 					(unit 1)
 				)
 			)
@@ -8473,7 +8181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a57624d1-94d9-4789-a6e2-c1f23641c676")
-		(property "Reference" "SPRV4"
+		(property "Reference" "SPRV?"
 			(at 157.48 79.248 0)
 			(effects
 				(font
@@ -8524,8 +8232,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "SPRV4")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "SPRV?")
 					(unit 1)
 				)
 			)
@@ -8541,7 +8249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe9645e-a38a-4baa-9251-fac256b5aa2c")
-		(property "Reference" "PnSol2"
+		(property "Reference" "PnSol?"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -8592,8 +8300,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PnSol2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "PnSol?")
 					(unit 1)
 				)
 			)
@@ -8608,7 +8316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bda3b4-9890-4aa9-bfe0-8700495fcbbb")
-		(property "Reference" "Check_Valve10"
+		(property "Reference" "Check_Valve?"
 			(at 179.578 128.27 90)
 			(effects
 				(font
@@ -8661,8 +8369,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Check_Valve10")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Check_Valve?")
 					(unit 1)
 				)
 			)
@@ -8677,7 +8385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd423790-d5ef-4f93-a898-14f33b85abe2")
-		(property "Reference" "Nitrous2"
+		(property "Reference" "Nitrous?"
 			(at 123.444 92.456 0)
 			(effects
 				(font
@@ -8730,8 +8438,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Nitrous2")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Nitrous?")
 					(unit 1)
 				)
 			)
@@ -8747,7 +8455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf90e060-82aa-4f1d-bd75-0642148490ac")
-		(property "Reference" "QD4"
+		(property "Reference" "QD?"
 			(at 77.47 133.3499 90)
 			(effects
 				(font
@@ -8800,8 +8508,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "QD4")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "QD?")
 					(unit 1)
 				)
 			)
@@ -8866,6 +8574,14 @@
 		(pin ""
 			(uuid "0c59a752-9f62-4498-9b01-c84f8187cdb7")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
@@ -8876,7 +8592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da8e443d-a45b-4131-9e6b-94745f47473e")
-		(property "Reference" "Pmatic_B_Valve1"
+		(property "Reference" "Pmatic_B_Valve?"
 			(at 122.428 143.51 0)
 			(effects
 				(font
@@ -8933,78 +8649,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Pmatic_B_Valve1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Solenoid_1")
-		(lib_id "PID_symbols:Solenoid")
-		(at 152.4 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e357925f-f355-4f36-b1cb-e0d5d4e81597")
-		(property "Reference" "Solenoid?"
-			(at 156.464 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 156.21 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2bb67828-0429-400a-9f9c-2df2f394e259")
-		)
-		(pin ""
-			(uuid "e4ce7079-280f-4a60-b0f7-f872f51ed77b")
-		)
-		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Solenoid?")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Pmatic_B_Valve?")
 					(unit 1)
 				)
 			)
@@ -9019,7 +8665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5bdcef7-3de1-43e6-9883-3674dfe87834")
-		(property "Reference" "Solenoid6"
+		(property "Reference" "Solenoid?"
 			(at 219.71 51.816 0)
 			(effects
 				(font
@@ -9070,8 +8716,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Solenoid6")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Solenoid?")
 					(unit 1)
 				)
 			)
@@ -9136,6 +8782,14 @@
 		(pin ""
 			(uuid "478aca70-a8ce-433b-a471-60bd76184734")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Ball_Valve?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Regulator")
@@ -9198,6 +8852,14 @@
 		(pin ""
 			(uuid "abbc5492-196f-485c-96fb-ea3cf5141941")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Reg?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Burst_Disc")
@@ -9208,7 +8870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eda77cd7-08c8-4ef6-9fca-88222b1f9086")
-		(property "Reference" "Burst_Disc3"
+		(property "Reference" "Burst_Disc?"
 			(at 82.042 81.026 0)
 			(effects
 				(font
@@ -9259,8 +8921,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Burst_Disc3")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Burst_Disc?")
 					(unit 1)
 				)
 			)
@@ -9276,7 +8938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e163d9-08b7-4d0f-b025-5ff64ccef553")
-		(property "Reference" "Check_Valve8"
+		(property "Reference" "Check_Valve?"
 			(at 130.81 70.3579 90)
 			(effects
 				(font
@@ -9329,8 +8991,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Check_Valve8")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Check_Valve?")
 					(unit 1)
 				)
 			)
@@ -9338,7 +9000,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:Torch_Igniter")
-		(at 156.21 189.23 0)
+		(at 156.21 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9346,7 +9008,7 @@
 		(dnp no)
 		(uuid "f4717623-521f-4110-8aec-7252a08660a3")
 		(property "Reference" "T_I?"
-			(at 156.718 188.976 0)
+			(at 156.718 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9016,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 156.21 184.15 0)
+			(at 156.21 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.448 187.96 0)
+			(at 155.448 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +9033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.448 187.96 0)
+			(at 155.448 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 155.448 187.96 0)
+			(at 155.448 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,6 +9056,14 @@
 		(pin ""
 			(uuid "45eef529-75f2-4562-baab-53d2d6c269f3")
 		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "T_I?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PID_symbols:Solenoid")
@@ -9405,7 +9075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfd63a9-3995-4afc-9a54-c910e61f2858")
-		(property "Reference" "Solenoid4"
+		(property "Reference" "Solenoid?"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -9456,8 +9126,8 @@
 		)
 		(instances
 			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Solenoid4")
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/51d9ce5e-1984-411f-8d10-0f38354f2ff9"
+					(reference "Solenoid?")
 					(unit 1)
 				)
 			)
