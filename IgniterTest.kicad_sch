@@ -629,6 +629,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 0 180)
 					(length 0)
 					(name ""
@@ -1710,6 +1728,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 139.7 157.48 0)
 		(unit 1)
@@ -1766,6 +1785,9 @@
 		)
 		(pin ""
 			(uuid "1441183d-3345-4ccc-b0df-b832edd00beb")
+		)
+		(pin ""
+			(uuid "f9e51aa6-dde2-447a-8253-d260bb32de4f")
 		)
 		(instances
 			(project "P_IDs"
@@ -2083,6 +2105,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 139.7 149.86 0)
 		(unit 1)
@@ -2139,6 +2162,9 @@
 		)
 		(pin ""
 			(uuid "64d74ec3-57f1-4bb6-9127-60d83eaeae8d")
+		)
+		(pin ""
+			(uuid "2d8b38eb-9543-4542-89d9-0ef4d5c61c2a")
 		)
 		(instances
 			(project "P_IDs"
@@ -2212,6 +2238,9 @@
 		)
 		(pin ""
 			(uuid "72480ea4-a746-4fbb-af80-b767341a04ca")
+		)
+		(pin ""
+			(uuid "600eadb0-922a-4fc0-8c0f-afd3bf94cbfc")
 		)
 		(instances
 			(project "P_IDs"
@@ -2381,6 +2410,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 134.62 134.62 270)
 		(unit 1)
@@ -2458,6 +2488,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 127 90.17 0)
 		(unit 1)
@@ -2514,6 +2545,9 @@
 		)
 		(pin ""
 			(uuid "f69bc024-46f1-46ed-9d65-257bc4917513")
+		)
+		(pin ""
+			(uuid "3459e517-f89f-4ae0-85e7-56794a0d1e63")
 		)
 		(instances
 			(project "P_IDs"

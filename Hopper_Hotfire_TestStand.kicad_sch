@@ -216,6 +216,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -3.81 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 3.81 0 180)
 					(length 0)
 					(name ""
@@ -4065,6 +4083,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 0 180)
 					(length 0)
 					(name ""
@@ -4260,7 +4296,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Solenoid"
+			(property "Reference" "nO_Sol"
 				(at 3.81 -3.81 0)
 				(effects
 					(font
@@ -4352,6 +4388,22 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "nO"
+					(at 6.096 0 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "nO\n\n"
+					(at 1.524 -0.762 0)
+					(effects
+						(font
+							(size 1 1)
+						)
 					)
 				)
 				(text "S\n"
@@ -5400,6 +5452,7 @@
 		(uuid "4d0a1325-8738-42bd-8122-b98ebb6fe1d8")
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 143.51 135.89 0)
 		(unit 1)
@@ -5458,6 +5511,9 @@
 		(pin ""
 			(uuid "8c76dfcc-e8e8-4727-b879-815417ea9090")
 		)
+		(pin ""
+			(uuid "ea291c74-78c6-47a8-a380-7a59fe3865c1")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
@@ -5476,7 +5532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11bd9284-bb3d-40b5-a75b-0738458af388")
-		(property "Reference" "Check_Valve9"
+		(property "Reference" "Check_Valve7"
 			(at 100.584 111.506 0)
 			(effects
 				(font
@@ -5528,13 +5584,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Check_Valve9")
+					(reference "Check_Valve7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 49.53 69.85 270)
 		(unit 1)
@@ -5605,6 +5662,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 151.13 85.09 0)
 		(unit 1)
@@ -5741,6 +5799,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 153.67 140.97 0)
 		(unit 1)
@@ -5798,6 +5857,9 @@
 		)
 		(pin ""
 			(uuid "6cd8a115-9d62-484a-9c0f-a4735b4df9bf")
+		)
+		(pin ""
+			(uuid "338dd05d-f986-4f4c-a457-718c275f740d")
 		)
 		(instances
 			(project "P_IDs"
@@ -5882,6 +5944,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 140.97 69.85 0)
 		(unit 1)
@@ -5890,7 +5953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a37b944-329e-4992-baa8-da27e32ffccf")
-		(property "Reference" "Check_Valve11"
+		(property "Reference" "Check_Valve9"
 			(at 143.51 73.914 0)
 			(effects
 				(font
@@ -5942,7 +6005,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Check_Valve11")
+					(reference "Check_Valve9")
 					(unit 1)
 				)
 			)
@@ -6006,6 +6069,9 @@
 		)
 		(pin ""
 			(uuid "bbe3abb2-09ae-4f60-8091-b1cb21baa803")
+		)
+		(pin ""
+			(uuid "07bff3ca-2007-42be-b46e-5aa462e5521c")
 		)
 		(instances
 			(project "P_IDs"
@@ -6141,6 +6207,9 @@
 		(pin ""
 			(uuid "9898b22a-cba0-4f96-879a-3207a177b649")
 		)
+		(pin ""
+			(uuid "f3ae4b62-e8aa-4f89-8c1f-a6791a9e8367")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
@@ -6151,6 +6220,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 114.3 114.3 0)
 		(unit 1)
@@ -6208,6 +6278,9 @@
 		)
 		(pin ""
 			(uuid "134f04f2-ea57-46d0-9019-cc8d0bde7d7a")
+		)
+		(pin ""
+			(uuid "c4f2a4d0-b83c-4d59-9c68-8c8a28fa56d3")
 		)
 		(instances
 			(project "P_IDs"
@@ -6287,6 +6360,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 132.08 143.51 0)
 		(unit 1)
@@ -6344,6 +6418,9 @@
 		)
 		(pin ""
 			(uuid "38d7c1d6-160a-4a57-adb0-ba8991712659")
+		)
+		(pin ""
+			(uuid "207cd8b7-e1b4-4135-91a1-8b404aad759d")
 		)
 		(instances
 			(project "P_IDs"
@@ -6493,6 +6570,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 130.81 59.69 270)
 		(unit 1)
@@ -6639,6 +6717,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 175.26 80.01 0)
 		(unit 1)
@@ -6698,6 +6777,9 @@
 		(pin ""
 			(uuid "a1352535-1f13-4d02-8ccd-5ef5a5f48287")
 		)
+		(pin ""
+			(uuid "50b86f43-e4b5-4ade-a271-06cbd05fa784")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
@@ -6708,6 +6790,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 140.97 45.72 0)
 		(unit 1)
@@ -6766,6 +6849,9 @@
 		)
 		(pin ""
 			(uuid "10e058d7-2dae-40df-9b33-418e905701f2")
+		)
+		(pin ""
+			(uuid "28f31e50-8d94-46da-a1a5-1864f3d1f0ac")
 		)
 		(instances
 			(project "P_IDs"
@@ -6847,6 +6933,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 129.54 27.94 0)
 		(unit 1)
@@ -6917,6 +7004,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 113.03 83.82 0)
 		(unit 1)
@@ -6984,6 +7072,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 110.49 72.39 270)
 		(unit 1)
@@ -6992,7 +7081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5f36397-fc64-467f-b0b6-f253af0800bf")
-		(property "Reference" "Check_Valve10"
+		(property "Reference" "Check_Valve8"
 			(at 112.776 74.93 90)
 			(effects
 				(font
@@ -7046,13 +7135,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/12264f82-10ad-4f8b-aee0-7883d457c15c"
-					(reference "Check_Valve10")
+					(reference "Check_Valve8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 48.26 64.77 0)
 		(unit 1)
@@ -7123,6 +7213,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 100.33 83.82 0)
 		(unit 1)
@@ -7190,6 +7281,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 166.37 54.61 0)
 		(unit 1)
@@ -7260,6 +7352,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 149.86 128.27 270)
 		(unit 1)
