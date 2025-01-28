@@ -130,7 +130,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Ball_Valve"
+			(property "Reference" "BV"
 				(at 3.81 -4.318 0)
 				(effects
 					(font
@@ -251,7 +251,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Check_Valve"
+			(property "Reference" "CV"
 				(at 2.54 -4.064 0)
 				(effects
 					(font
@@ -1737,7 +1737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d8b7c28-e7c0-4ed2-8467-9cb147846f4c")
-		(property "Reference" "Chamber_Pressure1"
+		(property "Reference" "PT1"
 			(at 152.146 157.48 0)
 			(effects
 				(font
@@ -1792,7 +1792,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Chamber_Pressure1")
+					(reference "PT1")
 					(unit 1)
 				)
 			)
@@ -1889,7 +1889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80fef04d-171d-4900-8122-6e8ee13d191b")
-		(property "Reference" "N2_Line_Vent_Manual1"
+		(property "Reference" "Needle_Valve?"
 			(at 154.94 65.786 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "N2_Line_Vent_Manual1")
+					(reference "Needle_Valve?")
 					(unit 1)
 				)
 			)
@@ -2114,7 +2114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96dda438-e909-4bc8-a1b1-8182ce594c9d")
-		(property "Reference" "Fuel_Inj_Pressure1"
+		(property "Reference" "PT1"
 			(at 151.638 149.86 0)
 			(effects
 				(font
@@ -2169,7 +2169,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Fuel_Inj_Pressure1")
+					(reference "PT1")
 					(unit 1)
 				)
 			)
@@ -2190,7 +2190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "978171ef-0822-45ac-8c6a-45f2e8d399f7")
-		(property "Reference" "Ox_Inj_Pressure1"
+		(property "Reference" "PT1"
 			(at 100.838 149.606 0)
 			(effects
 				(font
@@ -2245,7 +2245,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Ox_Inj_Pressure1")
+					(reference "PT1")
 					(unit 1)
 				)
 			)
@@ -2342,7 +2342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdcfaf06-2c97-49e9-b785-5f277d407ddb")
-		(property "Reference" "Check_Valve1"
+		(property "Reference" "CV1"
 			(at 120.65 136.3979 90)
 			(effects
 				(font
@@ -2397,7 +2397,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Check_Valve1")
+					(reference "CV1")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5562219-977f-433b-9c1b-55708b6fec65")
-		(property "Reference" "Check_Valve2"
+		(property "Reference" "CV2"
 			(at 138.43 136.3979 90)
 			(effects
 				(font
@@ -2475,7 +2475,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Check_Valve2")
+					(reference "CV2")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d98c0c68-cea8-4143-ac5e-1ffeb447be10")
-		(property "Reference" "Fuel_Tank_Pressure1"
+		(property "Reference" "PT1"
 			(at 113.538 89.916 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Fuel_Tank_Pressure1")
+					(reference "PT1")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df8ee760-eeb1-4553-99f0-6c96c39e9178")
-		(property "Reference" "Fuel_Vent_Servo1"
+		(property "Reference" "BV1"
 			(at 154.94 85.852 0)
 			(effects
 				(font
@@ -2625,7 +2625,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
-					(reference "Fuel_Vent_Servo1")
+					(reference "BV1")
 					(unit 1)
 				)
 			)
