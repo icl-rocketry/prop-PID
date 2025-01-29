@@ -6904,7 +6904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0095808e-ab9f-493b-a7ae-5a742db36e5c")
-		(property "Reference" "N2_Tank"
+		(property "Reference" "N2_Tank1"
 			(at 59.69 22.098 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "N2_Tank")
+					(reference "N2_Tank1")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01f5e8d4-bfa8-4adb-a42b-37a63f91ee46")
-		(property "Reference" "CV4"
+		(property "Reference" "CV6"
 			(at 98.298 124.968 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV4")
+					(reference "CV6")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02c29ed3-2660-4f63-9556-5379f211f2e0")
-		(property "Reference" "PT?"
+		(property "Reference" "PT8"
 			(at 72.39 151.384 0)
 			(effects
 				(font
@@ -7098,7 +7098,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT?")
+					(reference "PT8")
 					(unit 1)
 				)
 			)
@@ -7186,7 +7186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08745a3c-78fc-42e9-a851-8342107bb91a")
-		(property "Reference" "PT3"
+		(property "Reference" "PT9"
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT3")
+					(reference "PT9")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8c9c29-24e7-4eb4-82af-60fe8e715b96")
-		(property "Reference" "CV5"
+		(property "Reference" "CV9"
 			(at 102.997 16.51 0)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV5")
+					(reference "CV9")
 					(unit 1)
 				)
 			)
@@ -7327,7 +7327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13288353-2a52-41c2-a620-eb0f785a5efc")
-		(property "Reference" "MB_V1"
+		(property "Reference" "MB_V2"
 			(at 82.55 172.212 0)
 			(effects
 				(font
@@ -7381,7 +7381,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "MB_V1")
+					(reference "MB_V2")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fb01d4-ad77-4a32-a175-fbb559c55aad")
-		(property "Reference" "BV3"
+		(property "Reference" "BV4"
 			(at 69.596 138.938 90)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV3")
+					(reference "BV4")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ae7ad80-e2d7-40b2-834b-ffec4ff7577c")
-		(property "Reference" "CV4"
+		(property "Reference" "CV8"
 			(at 108.966 164.592 0)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV4")
+					(reference "CV8")
 					(unit 1)
 				)
 			)
@@ -7537,7 +7537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cfd6952-d1bf-451a-a514-f0f01831e3ca")
-		(property "Reference" "CV1"
+		(property "Reference" "CV3"
 			(at 54.61 67.564 90)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV1")
+					(reference "CV3")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29adf7bf-7640-4120-9d1c-d62d6b2f3b1f")
-		(property "Reference" "PT2"
+		(property "Reference" "PT6"
 			(at 53.34 77.47 0)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT2")
+					(reference "PT6")
 					(unit 1)
 				)
 			)
@@ -7747,7 +7747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c2a9c0-5ae0-4c4f-9090-675653960890")
-		(property "Reference" "Hose?"
+		(property "Reference" "Hose1"
 			(at 60.96 128.2699 0)
 			(effects
 				(font
@@ -7801,7 +7801,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Hose?")
+					(reference "Hose1")
 					(unit 1)
 				)
 			)
@@ -7817,8 +7817,9 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b21d496-b3b8-41b0-9b7a-1dbe85f3620f")
-		(property "Reference" "Ethanol"
-			(at 90.17 138.43 0)
+		(property "Reference" "Ig_Fuel1"
+			(at 89.916 137.414 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7872,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ethanol")
+					(reference "Ig_Fuel1")
 					(unit 1)
 				)
 			)
@@ -7886,7 +7887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32520e75-3f77-433a-81b2-d4fbde35bf88")
-		(property "Reference" "Hose?"
+		(property "Reference" "Hose3"
 			(at 91.694 181.864 90)
 			(effects
 				(font
@@ -7940,7 +7941,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Hose?")
+					(reference "Hose3")
 					(unit 1)
 				)
 			)
@@ -7956,8 +7957,9 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33f0c1cf-79ab-441d-aa83-400f9fcde13b")
-		(property "Reference" "Nitrous"
-			(at 114.808 137.668 0)
+		(property "Reference" "Ig_Ox1"
+			(at 115.062 137.16 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8012,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Nitrous")
+					(reference "Ig_Ox1")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "353be091-31f6-47e4-8476-24b13ce3f243")
-		(property "Reference" "CV3"
+		(property "Reference" "CV7"
 			(at 90.17 167.132 0)
 			(effects
 				(font
@@ -8080,7 +8082,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV3")
+					(reference "CV7")
 					(unit 1)
 				)
 			)
@@ -8096,8 +8098,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390d1570-e15a-4530-b5fe-8aced23d81bd")
-		(property "Reference" "Ethanol"
-			(at 55.88 87.63 0)
+		(property "Reference" "Fuel1"
+			(at 57.404 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8152,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ethanol")
+					(reference "Fuel1")
 					(unit 1)
 				)
 			)
@@ -8166,7 +8168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c548fc0-b236-47cf-8147-fbb34bcee26a")
-		(property "Reference" "PT1"
+		(property "Reference" "PT5"
 			(at 48.26 143.764 0)
 			(effects
 				(font
@@ -8222,7 +8224,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT1")
+					(reference "PT5")
 					(unit 1)
 				)
 			)
@@ -8237,7 +8239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "438383e3-d519-444b-a4e1-a058bc129fec")
-		(property "Reference" "3WayPBall?"
+		(property "Reference" "3WayPBall1"
 			(at 68.834 122.428 90)
 			(effects
 				(font
@@ -8297,13 +8299,14 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "3WayPBall?")
+					(reference "3WayPBall1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 146.05 33.02 0)
 		(unit 1)
@@ -8312,7 +8315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51607ed7-4a00-45b7-94f0-3d6724358a27")
-		(property "Reference" "nO_Sol6"
+		(property "Reference" "nO_Sol5"
 			(at 150.114 26.162 0)
 			(effects
 				(font
@@ -8364,7 +8367,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol6")
+					(reference "nO_Sol5")
 					(unit 1)
 				)
 			)
@@ -8451,7 +8454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "540c589e-79e9-4ea0-b852-679375f10cb1")
-		(property "Reference" "BV1"
+		(property "Reference" "BV5"
 			(at 104.394 67.31 90)
 			(effects
 				(font
@@ -8503,13 +8506,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV1")
+					(reference "BV5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 74.93 80.01 0)
 		(unit 1)
@@ -8585,7 +8589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a61dd76-33de-468c-9dcd-df1fc428682b")
-		(property "Reference" "nC_Sol?"
+		(property "Reference" "nC_Sol1"
 			(at 108.204 152.4 0)
 			(effects
 				(font
@@ -8639,7 +8643,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nC_Sol?")
+					(reference "nC_Sol1")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dfe7873-d787-4b12-8e5b-393b4b00f82b")
-		(property "Reference" "Pn_Sol?"
+		(property "Reference" "Pn_Sol1"
 			(at 80.01 110.236 0)
 			(effects
 				(font
@@ -8775,7 +8779,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Pn_Sol?")
+					(reference "Pn_Sol1")
 					(unit 1)
 				)
 			)
@@ -8862,7 +8866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1c9e29-8ed7-43ae-8956-f0d6e4fb5da6")
-		(property "Reference" "BV2"
+		(property "Reference" "BV3"
 			(at 67.31 56.5149 90)
 			(effects
 				(font
@@ -8916,7 +8920,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV2")
+					(reference "BV3")
 					(unit 1)
 				)
 			)
@@ -9002,7 +9006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fff76f4-3ca8-4b8f-87f5-59713b30c494")
-		(property "Reference" "PT?"
+		(property "Reference" "PT12"
 			(at 124.46 124.46 0)
 			(effects
 				(font
@@ -9058,13 +9062,14 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT?")
+					(reference "PT12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 87.63 50.8 0)
 		(unit 1)
@@ -9143,7 +9148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77248a21-fee2-4be6-9db1-70d0240eb8bb")
-		(property "Reference" "PT?"
+		(property "Reference" "PT13"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -9199,7 +9204,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT?")
+					(reference "PT13")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae8f93a-bd91-4528-bc23-9b35e8d4eac9")
-		(property "Reference" "PT?"
+		(property "Reference" "PT11"
 			(at 99.06 173.99 0)
 			(effects
 				(font
@@ -9272,7 +9277,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT?")
+					(reference "PT11")
 					(unit 1)
 				)
 			)
@@ -9289,7 +9294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d726b78-c19c-40cb-9b98-fbeb4b122b18")
-		(property "Reference" "MB_V?"
+		(property "Reference" "MB_V1"
 			(at 53.34 99.06 0)
 			(effects
 				(font
@@ -9341,7 +9346,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "MB_V?")
+					(reference "MB_V1")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a649ab-a81d-4255-9adb-af10796d6539")
-		(property "Reference" "PT?"
+		(property "Reference" "PT7"
 			(at 54.61 29.21 0)
 			(effects
 				(font
@@ -9485,7 +9490,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT?")
+					(reference "PT7")
 					(unit 1)
 				)
 			)
@@ -9501,7 +9506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c8918df-9a2a-4d9c-8716-8c50792fb9e8")
-		(property "Reference" "BV1"
+		(property "Reference" "BV2"
 			(at 53.848 138.684 90)
 			(effects
 				(font
@@ -9555,7 +9560,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV1")
+					(reference "BV2")
 					(unit 1)
 				)
 			)
@@ -9639,7 +9644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae76c26a-d18b-4730-9b85-8c403ef56e0b")
-		(property "Reference" "CV3"
+		(property "Reference" "CV5"
 			(at 78.74 103.632 0)
 			(effects
 				(font
@@ -9691,7 +9696,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV3")
+					(reference "CV5")
 					(unit 1)
 				)
 			)
@@ -9707,7 +9712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bda3b4-9890-4aa9-bfe0-8700495fcbbb")
-		(property "Reference" "CV6"
+		(property "Reference" "CV10"
 			(at 150.368 144.78 90)
 			(effects
 				(font
@@ -9761,7 +9766,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV6")
+					(reference "CV10")
 					(unit 1)
 				)
 			)
@@ -9777,8 +9782,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd423790-d5ef-4f93-a898-14f33b85abe2")
-		(property "Reference" "Nitrous"
-			(at 64.008 87.63 0)
+		(property "Reference" "Ox1"
+			(at 65.786 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9836,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Nitrous")
+					(reference "Ox1")
 					(unit 1)
 				)
 			)
@@ -9918,7 +9923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd07f19e-f101-49bb-b5f4-529f7b8d4114")
-		(property "Reference" "Hose?"
+		(property "Reference" "Hose4"
 			(at 105.41 179.0699 0)
 			(effects
 				(font
@@ -9972,7 +9977,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Hose?")
+					(reference "Hose4")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d062ee04-681d-4adf-b321-0c296959d4fb")
-		(property "Reference" "Hose?"
+		(property "Reference" "Hose2"
 			(at 68.58 128.2699 0)
 			(effects
 				(font
@@ -10042,7 +10047,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Hose?")
+					(reference "Hose2")
 					(unit 1)
 				)
 			)
@@ -10058,7 +10063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d818a998-1ef4-4727-a84d-9630b7dfd182")
-		(property "Reference" "PT4"
+		(property "Reference" "PT10"
 			(at 85.09 64.77 0)
 			(effects
 				(font
@@ -10114,7 +10119,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "PT4")
+					(reference "PT10")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1f2cc02-bc05-4312-adf0-d1fe87ea65dc")
-		(property "Reference" "MB_V2"
+		(property "Reference" "MB_V3"
 			(at 101.854 133.604 0)
 			(effects
 				(font
@@ -10182,7 +10187,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "MB_V2")
+					(reference "MB_V3")
 					(unit 1)
 				)
 			)
@@ -10259,6 +10264,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 146.05 44.45 0)
 		(unit 1)
@@ -10267,7 +10273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5bdcef7-3de1-43e6-9883-3674dfe87834")
-		(property "Reference" "nO_Sol7"
+		(property "Reference" "nO_Sol6"
 			(at 149.86 49.276 0)
 			(effects
 				(font
@@ -10319,7 +10325,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol7")
+					(reference "nO_Sol6")
 					(unit 1)
 				)
 			)
@@ -10397,6 +10403,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 45.72 83.82 90)
 		(unit 1)
@@ -10475,7 +10482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2e163d9-08b7-4d0f-b025-5ff64ccef553")
-		(property "Reference" "CV2"
+		(property "Reference" "CV4"
 			(at 70.358 68.326 90)
 			(effects
 				(font
@@ -10529,7 +10536,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV2")
+					(reference "CV4")
 					(unit 1)
 				)
 			)
