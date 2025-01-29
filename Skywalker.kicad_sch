@@ -7067,22 +7067,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0095808e-ab9f-493b-a7ae-5a742db36e5c")
-		(property "Reference" "N2_Tank1"
-			(at 59.69 22.098 0)
+		(property "Reference" "T?"
+			(at 68.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 68.58 24.765 0)
+		(property "Value" ""
+			(at 62.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7121,7 +7119,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "N2_Tank1")
+					(reference "T?")
 					(unit 1)
 				)
 			)
@@ -7138,15 +7136,15 @@
 		(dnp no)
 		(uuid "01f5e8d4-bfa8-4adb-a42b-37a63f91ee46")
 		(property "Reference" "CV6"
-			(at 98.298 124.968 0)
+			(at 89.916 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 90.17 124.333 0)
+		(property "Value" ""
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,14 +7204,14 @@
 		(dnp no)
 		(uuid "02c29ed3-2660-4f63-9556-5379f211f2e0")
 		(property "Reference" "PT8"
-			(at 72.39 151.384 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 72.39 156.21 0)
 			(effects
 				(font
@@ -7277,21 +7275,19 @@
 		(dnp no)
 		(uuid "07288dc5-8a8f-493f-9ea9-9ce10ebe3af7")
 		(property "Reference" "Engine1"
-			(at 51.816 154.686 0)
+			(at 63.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 69.85 155.1869 0)
+		(property "Value" ""
+			(at 63.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7350,14 +7346,14 @@
 		(dnp no)
 		(uuid "08745a3c-78fc-42e9-a851-8342107bb91a")
 		(property "Reference" "PT9"
-			(at 77.47 143.51 0)
+			(at 77.47 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 77.47 148.59 0)
 			(effects
 				(font
@@ -7423,15 +7419,15 @@
 		(fields_autoplaced yes)
 		(uuid "0e8c9c29-24e7-4eb4-82af-60fe8e715b96")
 		(property "Reference" "CV9"
-			(at 102.997 16.51 0)
+			(at 102.997 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 102.997 19.05 0)
+		(property "Value" ""
+			(at 105.41 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,21 +7487,19 @@
 		(dnp no)
 		(uuid "13288353-2a52-41c2-a620-eb0f785a5efc")
 		(property "Reference" "MB_V2"
-			(at 82.55 172.212 0)
+			(at 80.01 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 78.74 179.07 90)
+		(property "Value" ""
+			(at 80.01 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7561,21 +7555,19 @@
 		(dnp no)
 		(uuid "19fb01d4-ad77-4a32-a175-fbb559c55aad")
 		(property "Reference" "BV4"
-			(at 69.596 138.938 90)
+			(at 62.992 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 71.12 139.7 90)
+		(property "Value" ""
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7631,21 +7623,19 @@
 		(dnp no)
 		(uuid "1ae7ad80-e2d7-40b2-834b-ffec4ff7577c")
 		(property "Reference" "CV8"
-			(at 115.316 162.052 0)
+			(at 106.426 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 114.3 167.513 90)
+		(property "Value" ""
+			(at 110.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7701,21 +7691,19 @@
 		(dnp no)
 		(uuid "1cfd6952-d1bf-451a-a514-f0f01831e3ca")
 		(property "Reference" "CV3"
-			(at 54.61 67.564 90)
+			(at 55.626 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 63.5 69.723 90)
+		(property "Value" ""
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7771,15 +7759,15 @@
 		(dnp no)
 		(uuid "1f1fe2df-c51d-413d-bd14-d9bcd4388b7d")
 		(property "Reference" "Reg2"
-			(at 85.344 28.702 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 85.1525 27.94 0)
+		(property "Value" ""
+			(at 81.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 81.28 34.29 0)
+			(at 85.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,14 +7827,14 @@
 		(dnp no)
 		(uuid "29adf7bf-7640-4120-9d1c-d62d6b2f3b1f")
 		(property "Reference" "PT6"
-			(at 53.34 77.47 0)
+			(at 53.34 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 53.34 82.55 0)
 			(effects
 				(font
@@ -7919,7 +7907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 61.595 128.27 90)
 			(effects
 				(font
@@ -7980,23 +7968,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b21d496-b3b8-41b0-9b7a-1dbe85f3620f")
-		(property "Reference" "Ig_Fuel1"
-			(at 89.916 137.414 0)
-			(do_not_autoplace yes)
+		(property "Reference" "T1"
+			(at 99.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 99.06 141.605 0)
+		(property "Value" ""
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8035,7 +8020,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ig_Fuel1")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -8051,15 +8036,14 @@
 		(dnp no)
 		(uuid "32520e75-3f77-433a-81b2-d4fbde35bf88")
 		(property "Reference" "Hose3"
-			(at 98.044 178.054 90)
+			(at 99.06 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 102.235 175.26 90)
 			(effects
 				(font
@@ -8120,23 +8104,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33f0c1cf-79ab-441d-aa83-400f9fcde13b")
-		(property "Reference" "Ig_Ox1"
-			(at 115.062 137.16 0)
-			(do_not_autoplace yes)
+		(property "Reference" "T1"
+			(at 123.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 123.19 141.605 0)
+		(property "Value" ""
+			(at 116.84 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8175,7 +8156,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ig_Ox1")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -8192,21 +8173,19 @@
 		(dnp no)
 		(uuid "353be091-31f6-47e4-8476-24b13ce3f243")
 		(property "Reference" "CV7"
-			(at 96.52 164.592 0)
+			(at 96.266 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 104.14 167.513 90)
+		(property "Value" ""
+			(at 100.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8261,22 +8240,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390d1570-e15a-4530-b5fe-8aced23d81bd")
-		(property "Reference" "Fuel1"
-			(at 57.404 88.392 0)
+		(property "Reference" "T1"
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 64.77 92.075 0)
+		(property "Value" ""
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8315,7 +8292,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Fuel1")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -8332,14 +8309,14 @@
 		(dnp no)
 		(uuid "3c548fc0-b236-47cf-8147-fbb34bcee26a")
 		(property "Reference" "PT5"
-			(at 48.26 143.764 0)
+			(at 48.26 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -8402,22 +8379,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "438383e3-d519-444b-a4e1-a058bc129fec")
-		(property "Reference" "3WayPBall1"
-			(at 68.834 122.428 90)
+		(property "Reference" "3WayPBall?"
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 74.93 118.11 90)
+		(property "Value" ""
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8462,7 +8437,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "3WayPBall1")
+					(reference "3WayPBall?")
 					(unit 1)
 				)
 			)
@@ -8537,7 +8512,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 172.72 153.67 90)
 		(unit 1)
@@ -8548,7 +8522,7 @@
 		(fields_autoplaced yes)
 		(uuid "5248b65b-7f84-4de0-937a-43267affbe57")
 		(property "Reference" "QD3"
-			(at 168.91 152.3999 90)
+			(at 168.91 153.0349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,13 +8530,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 168.91 154.305 90)
+		(property "Value" ""
+			(at 172.72 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8618,15 +8591,15 @@
 		(dnp no)
 		(uuid "540c589e-79e9-4ea0-b852-679375f10cb1")
 		(property "Reference" "BV5"
-			(at 104.394 67.31 90)
+			(at 112.268 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 104.14 67.31 0)
+		(property "Value" ""
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,21 +8726,19 @@
 		(dnp no)
 		(uuid "5a61dd76-33de-468c-9dcd-df1fc428682b")
 		(property "Reference" "nC_Sol1"
-			(at 114.554 151.13 0)
+			(at 114.3 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 114.3 156.21 90)
+		(property "Value" ""
+			(at 113.03 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8824,15 +8795,15 @@
 		(fields_autoplaced yes)
 		(uuid "5d6d13e3-93d7-4e3c-8c8a-b109b8f51072")
 		(property "Reference" "QD1"
-			(at 55.245 168.91 0)
+			(at 55.245 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 55.245 171.45 0)
+		(property "Value" ""
+			(at 54.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,21 +8863,19 @@
 		(dnp no)
 		(uuid "62b15281-ec96-4f33-81b9-f246af733693")
 		(property "Reference" "QD2"
-			(at 154.432 152.654 90)
+			(at 151.892 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 143.51 154.305 90)
+		(property "Value" ""
+			(at 147.32 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8963,7 +8932,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c1c9e29-8ed7-43ae-8956-f0d6e4fb5da6")
 		(property "Reference" "BV3"
-			(at 67.31 56.5149 90)
+			(at 67.31 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,13 +8940,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 67.31 58.42 90)
+		(property "Value" ""
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9034,15 +9002,15 @@
 		(fields_autoplaced yes)
 		(uuid "6e86d114-385c-42f5-aaf2-6f2fc7a28871")
 		(property "Reference" "SPRV1"
-			(at 24.13 64.77 0)
+			(at 24.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 24.13 67.31 0)
+		(property "Value" ""
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 124.46 130.81 0)
 			(effects
 				(font
@@ -9252,7 +9220,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -9325,7 +9293,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -9380,7 +9348,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Regulator")
 		(lib_id "PID_symbols:Pressure_Regulator")
 		(at 63.5 48.26 90)
 		(unit 1)
@@ -9391,7 +9358,7 @@
 		(fields_autoplaced yes)
 		(uuid "82740748-8bbc-4bed-a5eb-6b7ee45fc09c")
 		(property "Reference" "Reg1"
-			(at 67.31 43.7524 90)
+			(at 67.31 44.3874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,13 +9366,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 67.31 45.6575 90)
+		(property "Value" ""
+			(at 63.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9427,7 +9393,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 63.5 48.26 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,15 +9427,15 @@
 		(fields_autoplaced yes)
 		(uuid "84f514dd-203f-4b26-ac23-53c69af8b270")
 		(property "Reference" "Pn_Sol?"
-			(at 80.01 107.95 0)
+			(at 80.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 80.01 110.49 0)
+		(property "Value" ""
+			(at 80.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 54.61 35.56 0)
 			(effects
 				(font
@@ -9592,7 +9558,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 59.69 134.62 270)
 		(unit 1)
@@ -9602,21 +9567,19 @@
 		(dnp no)
 		(uuid "8c8918df-9a2a-4d9c-8716-8c50792fb9e8")
 		(property "Reference" "BV2"
-			(at 53.848 138.684 90)
+			(at 55.372 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 63.5 139.7 90)
+		(property "Value" ""
+			(at 59.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9662,7 +9625,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:SPRV")
 		(lib_id "PID_symbols:SPRV")
 		(at 113.03 73.66 0)
 		(unit 1)
@@ -9672,15 +9634,15 @@
 		(dnp no)
 		(uuid "a57624d1-94d9-4789-a6e2-c1f23641c676")
 		(property "Reference" "SPRV2"
-			(at 116.84 76.708 0)
+			(at 116.586 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 116.84 67.31 0)
+		(property "Value" ""
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +9692,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 81.28 99.06 180)
 		(unit 1)
@@ -9740,15 +9701,15 @@
 		(dnp no)
 		(uuid "ae76c26a-d18b-4730-9b85-8c403ef56e0b")
 		(property "Reference" "CV5"
-			(at 78.74 103.632 0)
+			(at 78.74 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 78.867 95.25 0)
+		(property "Value" ""
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,21 +9769,19 @@
 		(dnp no)
 		(uuid "b3bda3b4-9890-4aa9-bfe0-8700495fcbbb")
 		(property "Reference" "CV10"
-			(at 150.368 144.78 90)
+			(at 151.384 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 151.13 146.177 90)
+		(property "Value" ""
+			(at 147.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9868,7 +9827,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 66.04 95.25 0)
 		(unit 1)
@@ -9877,22 +9835,20 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd423790-d5ef-4f93-a898-14f33b85abe2")
-		(property "Reference" "Ox1"
-			(at 65.786 88.392 0)
+		(property "Reference" "T1"
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 72.39 92.075 0)
+		(property "Value" ""
+			(at 66.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9931,14 +9887,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ox1")
+					(reference "T1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Burst_Disc")
 		(lib_id "PID_symbols:Burst_Disc")
 		(at 95.25 67.31 0)
 		(unit 1)
@@ -9948,15 +9903,15 @@
 		(dnp no)
 		(uuid "c5974295-821a-498c-afad-bf68c70dbd6c")
 		(property "Reference" "Burst_Disc2"
-			(at 94.996 61.214 0)
+			(at 95.25 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 95.25 62.23 0)
+		(property "Value" ""
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +9964,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:MBallValve")
 		(lib_id "PID_symbols:MBallValve")
 		(at 53.34 105.41 0)
 		(unit 1)
@@ -10020,15 +9974,15 @@
 		(fields_autoplaced yes)
 		(uuid "cc996a8d-54ad-4185-ba38-3f5af606ce10")
 		(property "Reference" "MB_V?"
-			(at 53.34 99.06 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 53.34 101.6 0)
+		(property "Value" ""
+			(at 53.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 112.395 175.26 90)
 			(effects
 				(font
@@ -10166,7 +10120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 69.215 128.27 90)
 			(effects
 				(font
@@ -10218,7 +10172,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 85.09 68.58 0)
 		(unit 1)
@@ -10228,14 +10181,14 @@
 		(dnp no)
 		(uuid "d818a998-1ef4-4727-a84d-9630b7dfd182")
 		(property "Reference" "PT10"
-			(at 85.09 64.77 0)
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 85.09 69.85 0)
 			(effects
 				(font
@@ -10300,15 +10253,15 @@
 		(dnp no)
 		(uuid "e1f2cc02-bc05-4312-adf0-d1fe87ea65dc")
 		(property "Reference" "MB_V3"
-			(at 101.854 133.604 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 101.6 127 0)
+		(property "Value" ""
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,15 +10459,15 @@
 		(dnp no)
 		(uuid "eda77cd7-08c8-4ef6-9fca-88222b1f9086")
 		(property "Reference" "Burst_Disc1"
-			(at 35.56 58.928 0)
+			(at 35.56 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 35.56 59.69 0)
+		(property "Value" ""
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,21 +10600,19 @@
 		(dnp no)
 		(uuid "f2e163d9-08b7-4d0f-b025-5ff64ccef553")
 		(property "Reference" "CV4"
-			(at 70.358 68.326 90)
+			(at 63.246 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 71.12 69.723 90)
+		(property "Value" ""
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10716,15 +10667,15 @@
 		(dnp no)
 		(uuid "f4717623-521f-4110-8aec-7252a08660a3")
 		(property "Reference" "T_I1"
-			(at 105.918 183.896 0)
+			(at 104.394 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 105.41 179.07 0)
+		(property "Value" ""
+			(at 104.648 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

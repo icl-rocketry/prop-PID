@@ -82,6 +82,44 @@
 		)
 	)
 	(sheet
+		(at 160.02 93.98)
+		(size 44.45 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80d334bb-222a-483c-b02d-befc9811806d")
+		(property "Sheetname" "L9"
+			(at 160.02 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "L9.kicad_sch"
+			(at 160.02 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 54.61 39.37)
 		(size 53.34 26.67)
 		(fields_autoplaced yes)
