@@ -7715,7 +7715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b21d496-b3b8-41b0-9b7a-1dbe85f3620f")
-		(property "Reference" "Fuel"
+		(property "Reference" "Fuel2"
 			(at 93.726 138.43 0)
 			(effects
 				(font
@@ -7767,7 +7767,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Fuel")
+					(reference "Fuel2")
 					(unit 1)
 				)
 			)
@@ -7851,7 +7851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33f0c1cf-79ab-441d-aa83-400f9fcde13b")
-		(property "Reference" "Ox"
+		(property "Reference" "Ox2"
 			(at 116.84 138.176 0)
 			(effects
 				(font
@@ -7905,7 +7905,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ox")
+					(reference "Ox2")
 					(unit 1)
 				)
 			)
@@ -7989,7 +7989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390d1570-e15a-4530-b5fe-8aced23d81bd")
-		(property "Reference" "Fuel"
+		(property "Reference" "Fuel1"
 			(at 59.182 88.646 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Fuel")
+					(reference "Fuel1")
 					(unit 1)
 				)
 			)
@@ -9590,7 +9590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd423790-d5ef-4f93-a898-14f33b85abe2")
-		(property "Reference" "Ox"
+		(property "Reference" "Ox1"
 			(at 67.31 88.646 0)
 			(effects
 				(font
@@ -9642,7 +9642,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "Ox")
+					(reference "Ox1")
 					(unit 1)
 				)
 			)
