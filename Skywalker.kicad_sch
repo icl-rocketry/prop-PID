@@ -5847,6 +5847,17 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 148.59) (xy 93.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(uuid "424be9a3-6ac9-47bb-a24a-bab3a4b2fa19")
+	)
+	(wire
+		(pts
 			(xy 100.33 148.59) (xy 93.98 148.59)
 		)
 		(stroke
@@ -5917,17 +5928,6 @@
 			(type default)
 		)
 		(uuid "4ec5f60e-9c24-442b-9d1d-5aa5007301e2")
-	)
-	(wire
-		(pts
-			(xy 87.63 148.59) (xy 93.98 148.59)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 255 255 1)
-		)
-		(uuid "52e912b0-1135-4030-89e6-5d63038de425")
 	)
 	(wire
 		(pts
@@ -6805,7 +6805,6 @@
 		(uuid "d7a4993a-43dd-46aa-a80d-256e2d893fe3")
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 62.23 27.94 0)
 		(unit 1)
@@ -6873,7 +6872,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 93.98 121.92 270)
 		(unit 1)
@@ -6941,7 +6939,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 72.39 154.94 0)
 		(unit 1)
@@ -7083,7 +7080,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 77.47 147.32 0)
 		(unit 1)
@@ -7155,7 +7151,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 105.41 22.86 180)
 		(unit 1)
@@ -7224,7 +7219,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:MBallValve")
 		(lib_id "PID_symbols:MBallValve")
 		(at 80.01 175.26 0)
 		(unit 1)
@@ -7292,7 +7286,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 67.31 134.62 270)
 		(unit 1)
@@ -7360,7 +7353,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 110.49 163.83 270)
 		(unit 1)
@@ -7428,7 +7420,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 59.69 66.04 270)
 		(unit 1)
@@ -7496,7 +7487,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Regulator")
 		(lib_id "PID_symbols:Pressure_Regulator")
 		(at 81.28 34.29 0)
 		(unit 1)
@@ -7564,7 +7554,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 53.34 81.28 0)
 		(unit 1)
@@ -7706,7 +7695,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 92.71 144.78 0)
 		(unit 1)
@@ -7842,7 +7830,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 116.84 144.78 0)
 		(unit 1)
@@ -7912,7 +7899,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 100.33 163.83 270)
 		(unit 1)
@@ -7980,7 +7966,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 58.42 95.25 0)
 		(unit 1)
@@ -8048,7 +8033,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 48.26 147.32 0)
 		(unit 1)
@@ -8193,7 +8177,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 146.05 33.02 0)
 		(unit 1)
@@ -8261,7 +8244,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 172.72 153.67 90)
 		(unit 1)
@@ -8331,7 +8313,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 107.95 71.12 90)
 		(unit 1)
@@ -8399,7 +8380,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 74.93 80.01 0)
 		(unit 1)
@@ -8534,7 +8514,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 54.61 175.26 0)
 		(unit 1)
@@ -8603,7 +8582,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 147.32 153.67 90)
 		(unit 1)
@@ -8671,7 +8649,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 63.5 60.96 90)
 		(unit 1)
@@ -8741,7 +8718,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:SPRV")
 		(lib_id "PID_symbols:SPRV")
 		(at 20.32 73.66 0)
 		(unit 1)
@@ -8810,7 +8786,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 124.46 129.54 0)
 		(unit 1)
@@ -8883,7 +8858,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 87.63 50.8 0)
 		(unit 1)
@@ -8952,7 +8926,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 142.24 86.36 0)
 		(unit 1)
@@ -9025,7 +8998,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 105.41 175.26 0)
 		(unit 1)
@@ -9098,7 +9070,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Regulator")
 		(lib_id "PID_symbols:Pressure_Regulator")
 		(at 63.5 48.26 90)
 		(unit 1)
@@ -9236,7 +9207,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 54.61 34.29 0)
 		(unit 1)
@@ -9309,7 +9279,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 59.69 134.62 270)
 		(unit 1)
@@ -9377,7 +9346,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:SPRV")
 		(lib_id "PID_symbols:SPRV")
 		(at 113.03 73.66 0)
 		(unit 1)
@@ -9445,7 +9413,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 81.28 99.06 180)
 		(unit 1)
@@ -9513,7 +9480,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 147.32 147.32 90)
 		(unit 1)
@@ -9581,7 +9547,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 66.04 95.25 0)
 		(unit 1)
@@ -9649,7 +9614,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Burst_Disc")
 		(lib_id "PID_symbols:Burst_Disc")
 		(at 95.25 66.04 0)
 		(unit 1)
@@ -9720,7 +9684,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:MBallValve")
 		(lib_id "PID_symbols:MBallValve")
 		(at 53.34 105.41 0)
 		(unit 1)
@@ -9928,7 +9891,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Transducer")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 86.36 68.58 0)
 		(unit 1)
@@ -10000,7 +9962,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:MBallValve")
 		(lib_id "PID_symbols:MBallValve")
 		(at 101.6 130.81 0)
 		(unit 1)
@@ -10068,7 +10029,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 100.33 158.75 90)
 		(unit 1)
@@ -10138,7 +10098,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 146.05 44.45 0)
 		(unit 1)
@@ -10206,7 +10165,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Burst_Disc")
 		(lib_id "PID_symbols:Burst_Disc")
 		(at 35.56 64.77 0)
 		(unit 1)
@@ -10277,7 +10235,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Solenoid")
 		(lib_id "PID_symbols:Solenoid")
 		(at 45.72 83.82 90)
 		(unit 1)
@@ -10347,7 +10304,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Check_Valve")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 67.31 66.04 270)
 		(unit 1)
