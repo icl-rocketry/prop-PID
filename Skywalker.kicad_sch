@@ -7280,7 +7280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fb01d4-ad77-4a32-a175-fbb559c55aad")
-		(property "Reference" "BV5"
+		(property "Reference" "BV4"
 			(at 62.992 138.43 0)
 			(effects
 				(font
@@ -7332,7 +7332,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV5")
+					(reference "BV4")
 					(unit 1)
 				)
 			)
@@ -8171,7 +8171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51607ed7-4a00-45b7-94f0-3d6724358a27")
-		(property "Reference" "nO_Sol1"
+		(property "Reference" "nO_Sol2"
 			(at 150.114 26.162 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol1")
+					(reference "nO_Sol2")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "540c589e-79e9-4ea0-b852-679375f10cb1")
-		(property "Reference" "BV3"
+		(property "Reference" "BV2"
 			(at 112.268 67.31 0)
 			(effects
 				(font
@@ -8359,7 +8359,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV3")
+					(reference "BV2")
 					(unit 1)
 				)
 			)
@@ -8374,7 +8374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "594e9f9d-a909-485d-be3b-255ace982f95")
-		(property "Reference" "nO_Sol4"
+		(property "Reference" "nO_Sol5"
 			(at 78.994 84.074 0)
 			(effects
 				(font
@@ -8426,7 +8426,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol4")
+					(reference "nO_Sol5")
 					(unit 1)
 				)
 			)
@@ -8644,7 +8644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1c9e29-8ed7-43ae-8956-f0d6e4fb5da6")
-		(property "Reference" "BV2"
+		(property "Reference" "BV1"
 			(at 67.31 57.1499 90)
 			(effects
 				(font
@@ -8697,7 +8697,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV2")
+					(reference "BV1")
 					(unit 1)
 				)
 			)
@@ -8853,7 +8853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756f7e0b-c91a-4e81-bdcd-1e1b6aaa35e0")
-		(property "Reference" "nO_Sol3"
+		(property "Reference" "nO_Sol4"
 			(at 91.44 41.91 0)
 			(effects
 				(font
@@ -8905,7 +8905,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol3")
+					(reference "nO_Sol4")
 					(unit 1)
 				)
 			)
@@ -9273,7 +9273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c8918df-9a2a-4d9c-8716-8c50792fb9e8")
-		(property "Reference" "BV4"
+		(property "Reference" "BV3"
 			(at 55.372 138.43 0)
 			(effects
 				(font
@@ -9325,7 +9325,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "BV4")
+					(reference "BV3")
 					(unit 1)
 				)
 			)
@@ -10023,7 +10023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e357925f-f355-4f36-b1cb-e0d5d4e81597")
-		(property "Reference" "nO_Sol6"
+		(property "Reference" "nO_Sol7"
 			(at 103.886 150.876 0)
 			(effects
 				(font
@@ -10077,7 +10077,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol6")
+					(reference "nO_Sol7")
 					(unit 1)
 				)
 			)
@@ -10092,7 +10092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5bdcef7-3de1-43e6-9883-3674dfe87834")
-		(property "Reference" "nO_Sol2"
+		(property "Reference" "nO_Sol3"
 			(at 149.86 49.276 0)
 			(effects
 				(font
@@ -10144,7 +10144,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol2")
+					(reference "nO_Sol3")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef4d37be-36dc-4661-bcea-700fabe00875")
-		(property "Reference" "nO_Sol5"
+		(property "Reference" "nO_Sol6"
 			(at 40.894 70.358 90)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "nO_Sol5")
+					(reference "nO_Sol6")
 					(unit 1)
 				)
 			)
