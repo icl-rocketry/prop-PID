@@ -1395,7 +1395,6 @@
 		(uuid "f4134230-e932-4d3e-99a8-b167b43c52a4")
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 191.77 71.12 0)
 		(unit 1)
@@ -1405,7 +1404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a9f2321-6a3c-4bdb-9284-34afe68993a5")
-		(property "Reference" "BV_Depressurise_Nitrogen?"
+		(property "Reference" "BV_Depressurise_Nitrogen1"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -1457,14 +1456,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BV_Depressurise_Nitrogen?")
+					(reference "BV_Depressurise_Nitrogen1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Needle_Valve")
 		(lib_id "PID_symbols:Needle_Valve")
 		(at 113.03 107.95 0)
 		(unit 1)
@@ -1474,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eb2ae25-ff27-4ed1-953b-6359a3a41d30")
-		(property "Reference" "Needle_Valve_Nitrous?"
+		(property "Reference" "Needle_Valve_Nitrous1"
 			(at 116.84 100.33 0)
 			(effects
 				(font
@@ -1526,14 +1524,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Needle_Valve_Nitrous?")
+					(reference "Needle_Valve_Nitrous1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 105.41 54.61 90)
 		(unit 1)
@@ -1543,7 +1540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d734d6-2bf7-4d54-881f-643efa73cf9d")
-		(property "Reference" "QD?"
+		(property "Reference" "QD1"
 			(at 101.6 53.3399 90)
 			(effects
 				(font
@@ -1597,14 +1594,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "QD?")
+					(reference "QD1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 181.61 99.06 90)
 		(unit 1)
@@ -1614,7 +1610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16b398cc-9e1e-40e7-a966-fc1f6f17e9ca")
-		(property "Reference" "BVNitrogen?"
+		(property "Reference" "BVNitrogen1"
 			(at 185.42 94.6149 90)
 			(effects
 				(font
@@ -1668,14 +1664,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BVNitrogen?")
+					(reference "BVNitrogen1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pressure_Regulator")
 		(lib_id "PID_symbols:Pressure_Regulator")
 		(at 163.83 114.3 0)
 		(unit 1)
@@ -1685,7 +1680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "307afa4d-81d5-45ea-95ee-888eb3bca33b")
-		(property "Reference" "Reg?"
+		(property "Reference" "Reg1"
 			(at 167.7025 106.68 0)
 			(effects
 				(font
@@ -1737,14 +1732,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Reg?")
+					(reference "Reg1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pneumatic_Rotary_Ball_Valve")
 		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
 		(at 140.97 76.2 90)
 		(unit 1)
@@ -1753,7 +1747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44d768f5-eab0-4f04-931e-4bd125d46b4a")
-		(property "Reference" "Pmatic_B_Valve?"
+		(property "Reference" "Pmatic_B_Valve1"
 			(at 122.936 76.454 90)
 			(effects
 				(font
@@ -1811,14 +1805,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pmatic_B_Valve?")
+					(reference "Pmatic_B_Valve1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pneumatic_Rotary_Ball_Valve")
 		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
 		(at 161.29 76.2 90)
 		(unit 1)
@@ -1828,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66cbbec0-2168-49e5-8001-e507fd79d323")
-		(property "Reference" "Pmatic_B_Valve?"
+		(property "Reference" "Pmatic_B_Valve2"
 			(at 172.72 72.5168 90)
 			(effects
 				(font
@@ -1886,14 +1879,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pmatic_B_Valve?")
+					(reference "Pmatic_B_Valve2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Needle_Valve")
 		(lib_id "PID_symbols:Needle_Valve")
 		(at 187.96 109.22 0)
 		(unit 1)
@@ -1903,7 +1895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88676c84-ea44-4428-978f-a964df158081")
-		(property "Reference" "Needle_Valve_Nitrogen?"
+		(property "Reference" "Needle_Valve_Nitrogen1"
 			(at 191.77 101.6 0)
 			(effects
 				(font
@@ -1955,14 +1947,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Needle_Valve_Nitrogen?")
+					(reference "Needle_Valve_Nitrogen1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 105.41 97.79 90)
 		(unit 1)
@@ -1972,7 +1963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d53be23-0e79-4cab-9e2e-ed3255836aa9")
-		(property "Reference" "BVNitrous?"
+		(property "Reference" "BVNitrous1"
 			(at 109.22 93.3449 90)
 			(effects
 				(font
@@ -2026,14 +2017,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BVNitrous?")
+					(reference "BVNitrous1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pneumatic_Solenoid")
 		(lib_id "PID_symbols:Pneumatic_Solenoid")
 		(at 140.97 88.9 90)
 		(unit 1)
@@ -2042,7 +2032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a82c859b-2b8d-431d-a41c-618d7cecc5e0")
-		(property "Reference" "Pn_Sol?"
+		(property "Reference" "Pn_Sol1"
 			(at 125.476 88.9 90)
 			(effects
 				(font
@@ -2096,14 +2086,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pn_Sol?")
+					(reference "Pn_Sol1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 180.34 129.54 0)
 		(unit 1)
@@ -2113,7 +2102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ff8f35-4ff1-4cc1-8db0-7d5ff0b9d611")
-		(property "Reference" "Nitrogen?"
+		(property "Reference" "Nitrogen1"
 			(at 186.69 124.4599 0)
 			(effects
 				(font
@@ -2167,14 +2156,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Nitrogen?")
+					(reference "Nitrogen1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Quick_Disconnect")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 181.61 55.88 90)
 		(unit 1)
@@ -2184,7 +2172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c326d13a-f530-423e-b014-71711392c2ac")
-		(property "Reference" "QD?"
+		(property "Reference" "QD2"
 			(at 177.8 54.6099 90)
 			(effects
 				(font
@@ -2238,14 +2226,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "QD?")
+					(reference "QD2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Tank")
 		(lib_id "PID_symbols:Tank")
 		(at 104.14 128.27 0)
 		(unit 1)
@@ -2255,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07e321b-c35c-4382-b948-d703686ef6d2")
-		(property "Reference" "NitrousTank?"
+		(property "Reference" "NitrousTank1"
 			(at 110.49 123.1899 0)
 			(effects
 				(font
@@ -2309,14 +2296,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "NitrousTank?")
+					(reference "NitrousTank1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 111.76 68.58 0)
 		(unit 1)
@@ -2325,7 +2311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed23a607-9a91-438e-8173-8460144e4d92")
-		(property "Reference" "BV_Depressurise_Nitrous?"
+		(property "Reference" "BV_Depressurise_Nitrous1"
 			(at 121.158 62.23 0)
 			(effects
 				(font
@@ -2377,14 +2363,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BV_Depressurise_Nitrous?")
+					(reference "BV_Depressurise_Nitrous1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Pneumatic_Solenoid")
 		(lib_id "PID_symbols:Pneumatic_Solenoid")
 		(at 161.29 86.36 90)
 		(unit 1)
@@ -2394,7 +2379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea62c2b-3bf7-414a-a53b-a39d0fff00c6")
-		(property "Reference" "Pn_Sol?"
+		(property "Reference" "Pn_Sol2"
 			(at 165.1 85.7249 90)
 			(effects
 				(font
@@ -2448,7 +2433,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pn_Sol?")
+					(reference "Pn_Sol2")
 					(unit 1)
 				)
 			)
