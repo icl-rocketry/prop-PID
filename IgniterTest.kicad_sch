@@ -1830,10 +1830,10 @@
 		(uuid "325856b9-046b-4f07-a70d-43be0f1f461c")
 	)
 	(junction
-		(at 116.84 149.86)
+		(at 109.22 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "363b80c0-0067-4948-9b94-3d480debdc72")
+		(uuid "37931eda-97ad-492d-8c14-45ea7a7ff698")
 	)
 	(junction
 		(at 134.62 149.86)
@@ -1848,10 +1848,10 @@
 		(uuid "84d6ed81-0b36-4413-8a70-c7adcf840888")
 	)
 	(junction
-		(at 116.84 107.95)
+		(at 109.22 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8dd22fdc-69d7-43d2-a973-6536e7d71f10")
+		(uuid "f60b78d7-a3e0-4d80-9258-a713875ab74e")
 	)
 	(wire
 		(pts
@@ -1885,16 +1885,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 149.86) (xy 116.84 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b866b1-0672-4007-bc2f-5f6205cf6a7a")
-	)
-	(wire
-		(pts
 			(xy 134.62 68.58) (xy 134.62 71.12)
 		)
 		(stroke
@@ -1925,23 +1915,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 149.86) (xy 116.84 149.86)
+			(xy 129.54 71.12) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53dd01c6-295d-465d-8e36-420cb2d69ec8")
+		(uuid "52fb2118-ce06-4d74-93f2-a059ed6074dd")
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 116.84 113.03)
+			(xy 109.22 132.08) (xy 109.22 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f005877-8149-4218-ac9f-c89ddc4c8b4e")
+		(uuid "56f462c5-442e-4f14-943d-bf398aab6f57")
 	)
 	(wire
 		(pts
@@ -1965,13 +1955,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 116.84 142.24)
+			(xy 109.22 104.14) (xy 109.22 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72046f06-59f5-4e7c-8d8d-e94b2005ac5d")
+		(uuid "75908345-4c12-4210-8baf-dd0a758c5dd0")
 	)
 	(wire
 		(pts
@@ -2005,6 +1995,36 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 119.38) (xy 109.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fa58ba-2cc3-44e5-98e0-106968abd5ee")
+	)
+	(wire
+		(pts
+			(xy 109.22 149.86) (xy 124.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e37540-b902-4884-b4fc-e4bcccfb58bf")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a624f641-28dd-400c-b1cc-8a98ac5cae0c")
+	)
+	(wire
+		(pts
 			(xy 134.62 90.17) (xy 148.59 90.17)
 		)
 		(stroke
@@ -2035,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 116.84 107.95)
+			(xy 109.22 101.6) (xy 109.22 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2055,33 +2075,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 116.84 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7886df7-5f45-4026-bca5-cc5edb66d9d0")
-	)
-	(wire
-		(pts
-			(xy 116.84 125.73) (xy 116.84 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79cb7a4-b053-48dc-9638-32c6a04e4acc")
-	)
-	(wire
-		(pts
-			(xy 116.84 86.36) (xy 116.84 92.71)
+			(xy 109.22 85.09) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc4af708-3c53-4c8e-bd17-4033172f0888")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f46aae-5bde-4ffc-8fe1-fcb5b0479ab9")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 109.22 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23ec7a6-0ae9-4354-8e4c-b8457424e79c")
 	)
 	(wire
 		(pts
@@ -2316,6 +2336,78 @@
 			(project "IgniterTest"
 				(path "/1fe58bd7-d6db-4cdb-9816-3cf1e5c4b0ec"
 					(reference "Fuel_Main_Servo")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PID_symbols:Pressure_Transducer")
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 127 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ea9da73-df44-4f13-a874-202a99afca88")
+		(property "Reference" "Fuel_Tank_Pressure1"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0e82e213-6c25-4be7-a79e-260f2cb092c7")
+		)
+		(pin ""
+			(uuid "1fc24d22-f73c-49b6-95fe-6aa1b55bf595")
+		)
+		(pin ""
+			(uuid "8907c54f-5e54-4df6-b41c-3a922a71b0ba")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/6a55bbd5-ed21-4b79-a194-d378f68dea1b"
+					(reference "Fuel_Tank_Pressure1")
 					(unit 1)
 				)
 			)
@@ -2624,7 +2716,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 111.76 149.86 0)
+		(at 100.33 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2632,7 +2724,7 @@
 		(dnp no)
 		(uuid "978171ef-0822-45ac-8c6a-45f2e8d399f7")
 		(property "Reference" "PT3"
-			(at 111.76 153.67 0)
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2732,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 151.13 0)
+			(at 100.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 149.86 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 149.86 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 149.86 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2793,7 @@
 	)
 	(symbol
 		(lib_id "PnID_symbols:Tank")
-		(at 115.57 83.82 0)
+		(at 107.95 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2709,7 +2801,7 @@
 		(dnp no)
 		(uuid "9aa57119-f572-4b90-8ff1-780dc47ec8a4")
 		(property "Reference" "N2O_Bottle1"
-			(at 101.346 78.74 0)
+			(at 93.726 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2810,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 80.645 0)
+			(at 114.3 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 83.82 0)
+			(at 107.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 83.82 0)
+			(at 107.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 83.82 0)
+			(at 107.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2868,7 @@
 	)
 	(symbol
 		(lib_id "PID:Pressure_Regulator")
-		(at 116.84 95.25 270)
+		(at 109.22 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2785,7 +2877,7 @@
 		(fields_autoplaced yes)
 		(uuid "b40884bf-c132-4b10-9d15-5f4e49886e51")
 		(property "Reference" "Reg1"
-			(at 121.92 98.4874 90)
+			(at 114.3 94.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2886,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 100.3925 90)
+			(at 114.3 96.5825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 95.25 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 95.25 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 110.49 99.06 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2938,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Check_Valve")
-		(at 116.84 134.62 270)
+		(at 109.22 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2855,7 +2947,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdcfaf06-2c97-49e9-b785-5f277d407ddb")
 		(property "Reference" "CV1"
-			(at 120.65 137.0329 90)
+			(at 113.03 125.6029 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2956,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 116.84 134.62 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 134.62 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 134.62 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 134.62 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3233,7 @@
 	)
 	(symbol
 		(lib_id "PID:Pressure_Transducer")
-		(at 104.14 107.95 0)
+		(at 102.87 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3150,7 +3242,7 @@
 		(fields_autoplaced yes)
 		(uuid "e390d085-632e-4e44-a3df-e7e51a9b2d29")
 		(property "Reference" "PT2"
-			(at 104.14 102.87 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3250,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 104.14 109.22 0)
+			(at 102.87 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 107.95 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 107.95 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 107.95 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3456,7 @@
 	(symbol
 		(lib_name "Ball_Valve_1")
 		(lib_id "PnID_symbols:Ball_Valve")
-		(at 116.84 123.19 90)
+		(at 109.22 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3372,7 +3464,7 @@
 		(dnp no)
 		(uuid "fe2f094e-5497-47bf-97aa-025ab04c779b")
 		(property "Reference" "Ox_Main_Servo1"
-			(at 100.838 119.38 90)
+			(at 93.218 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3473,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 120.65 120.65 90)
+			(at 113.03 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 123.19 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 123.19 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 123.19 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
