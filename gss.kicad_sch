@@ -1147,12 +1147,6 @@
 		)
 	)
 	(junction
-		(at 105.41 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d41619a-c633-42a9-8228-9a2240fdf20a")
-	)
-	(junction
 		(at 105.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1163,6 +1157,12 @@
 		(diameter 0)
 		(color 0 255 255 1)
 		(uuid "af64339b-67cb-407e-ad94-d2d3d02f2be1")
+	)
+	(junction
+		(at 105.41 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d68b93-3b9d-402a-a73f-be3f246e64e5")
 	)
 	(junction
 		(at 181.61 109.22)
@@ -1225,16 +1225,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 107.95) (xy 105.41 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d404db0-17de-4e9e-a8d3-dfa778ac9a4f")
-	)
-	(wire
-		(pts
 			(xy 185.42 109.22) (xy 181.61 109.22)
 		)
 		(stroke
@@ -1266,16 +1256,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 107.95) (xy 105.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5222b8a2-6ced-4510-89fa-c09b956ded3d")
-	)
-	(wire
-		(pts
 			(xy 105.41 57.15) (xy 105.41 68.58)
 		)
 		(stroke
@@ -1296,7 +1276,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 107.95) (xy 105.41 100.33)
+			(xy 105.41 104.14) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7600a0f-291f-41b2-b790-fafb4129d938")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 105.41 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 109.22 68.58)
+			(xy 105.41 68.58) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1323,6 +1313,16 @@
 			(type default)
 		)
 		(uuid "d7dcae2f-3bd2-49a5-94e6-03876bc02b8a")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 105.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de52dd87-6ae8-4d9b-ba6f-6d0c048f1e21")
 	)
 	(wire
 		(pts
@@ -1457,8 +1457,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Needle_Valve")
 		(lib_id "PID_symbols:Needle_Valve")
-		(at 113.03 107.95 0)
+		(at 118.11 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1467,23 +1468,25 @@
 		(fields_autoplaced yes)
 		(uuid "0eb2ae25-ff27-4ed1-953b-6359a3a41d30")
 		(property "Reference" "Needle_Valve_Nitrous1"
-			(at 116.84 100.33 0)
+			(at 123.19 109.8549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 116.84 102.87 0)
+			(at 123.19 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 107.95 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 107.95 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 107.95 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,8 +2300,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
-		(at 111.76 68.58 0)
+		(at 115.57 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2306,7 +2310,7 @@
 		(dnp no)
 		(uuid "ed23a607-9a91-438e-8173-8460144e4d92")
 		(property "Reference" "BV_Depressurise_Nitrous1"
-			(at 121.158 62.23 0)
+			(at 121.92 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2318,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 115.57 64.77 0)
+			(at 111.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 68.58 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 68.58 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 68.58 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

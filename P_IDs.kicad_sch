@@ -121,7 +121,7 @@
 	)
 	(sheet
 		(at 16.51 16.51)
-		(size 104.14 60.96)
+		(size 104.14 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "Skywalker.kicad_sch"
-			(at 16.51 78.0546 0)
+			(at 16.51 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +200,53 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 44.45)
+		(size 104.14 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9f62762-3062-4f95-80b2-152b76efbf42")
+		(property "Sheetname" "Skywalker1"
+			(at 16.51 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Skywalker_No_Torch.kicad_sch"
+			(at 16.51 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "2")
 				)
 			)
 		)
