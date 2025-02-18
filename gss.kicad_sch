@@ -1153,12 +1153,6 @@
 		(uuid "81c32a4a-18a5-4512-873f-5e246d57cbd8")
 	)
 	(junction
-		(at 161.29 114.3)
-		(diameter 0)
-		(color 0 255 255 1)
-		(uuid "af64339b-67cb-407e-ad94-d2d3d02f2be1")
-	)
-	(junction
 		(at 105.41 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1326,28 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 161.29 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 255 255 1)
-		)
-		(uuid "ecee022d-30d4-464e-81ea-1afca38c3383")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 140.97 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 255 255 1)
-		)
-		(uuid "efffd25e-adc5-47e2-9864-378dc4530c5e")
-	)
-	(wire
-		(pts
 			(xy 181.61 58.42) (xy 181.61 71.12)
 		)
 		(stroke
@@ -1457,7 +1429,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Needle_Valve")
 		(lib_id "PID_symbols:Needle_Valve")
 		(at 118.11 106.68 270)
 		(unit 1)
@@ -1737,79 +1708,6 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
-		(at 140.97 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44d768f5-eab0-4f04-931e-4bd125d46b4a")
-		(property "Reference" "Pmatic_B_Valve1"
-			(at 122.936 76.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 74.4219 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "d6f716ed-1064-4319-a5c9-b4a422374a20")
-		)
-		(pin ""
-			(uuid "5805d3a8-d14c-48a1-a165-53686418acdb")
-		)
-		(pin ""
-			(uuid "51a931f5-3c54-4110-8700-ae7e937e1512")
-		)
-		(pin ""
-			(uuid "980d0af5-de75-42e8-ad76-83906f4f514b")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pmatic_B_Valve1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
 		(at 161.29 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2015,75 +1913,6 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
 					(reference "BVNitrous1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PID_symbols:Pneumatic_Solenoid")
-		(at 140.97 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a82c859b-2b8d-431d-a41c-618d7cecc5e0")
-		(property "Reference" "Pn_Sol1"
-			(at 125.476 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 144.78 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c8b28feb-9158-4cc9-9fd6-6c70285399d7")
-		)
-		(pin ""
-			(uuid "141bce74-375a-4e92-8d71-2f6d2d5e5bb2")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "Pn_Sol1")
 					(unit 1)
 				)
 			)
@@ -2300,7 +2129,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PID_symbols:Ball_Valve")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 115.57 66.04 90)
 		(unit 1)
