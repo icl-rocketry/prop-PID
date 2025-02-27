@@ -1280,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 105.41 116.84)
+			(xy 105.41 104.14) (xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 114.3) (xy 181.61 118.11)
+			(xy 181.61 114.3) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1920,7 +1920,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Tank")
-		(at 180.34 129.54 0)
+		(at 180.34 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1929,7 +1929,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1ff8f35-4ff1-4cc1-8db0-7d5ff0b9d611")
 		(property "Reference" "Nitrogen1"
-			(at 186.69 124.4599 0)
+			(at 186.69 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 186.69 126.365 0)
+			(at 186.69 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 129.54 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 129.54 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 129.54 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2060,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Tank")
-		(at 104.14 128.27 0)
+		(at 104.14 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2069,7 +2069,7 @@
 		(fields_autoplaced yes)
 		(uuid "d07e321b-c35c-4382-b948-d703686ef6d2")
 		(property "Reference" "NitrousTank1"
-			(at 110.49 123.1899 0)
+			(at 110.49 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2078,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 110.49 125.095 0)
+			(at 110.49 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 128.27 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 128.27 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 128.27 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
