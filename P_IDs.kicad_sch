@@ -1,17 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20231120)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(uuid "045f1f05-3134-4b6d-91b6-463031104f1e")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
 		(at 127 18.415)
 		(size 41.91 24.765)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -50,10 +46,6 @@
 	(sheet
 		(at 127 52.07)
 		(size 41.91 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -90,54 +82,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 118.11)
-		(size 100.33 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7d4466f7-7ed7-495d-8022-a39b57490c7d")
-		(property "Sheetname" "Pluto Common Dome"
-			(at 17.78 117.3984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Pluto_Common_Dome.kicad_sch"
-			(at 17.78 140.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 17.78 91.44)
-		(size 100.33 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(at 17.78 106.68)
+		(size 215.9 45.72)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -148,7 +94,7 @@
 		)
 		(uuid "80d334bb-222a-483c-b02d-befc9811806d")
 		(property "Sheetname" "L9"
-			(at 17.78 90.7284 0)
+			(at 17.78 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "L9.kicad_sch"
-			(at 17.78 113.6146 0)
+			(at 17.78 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,10 +122,6 @@
 	(sheet
 		(at 16.51 16.51)
 		(size 104.14 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -225,54 +167,8 @@
 		)
 	)
 	(sheet
-		(at 127 91.44)
-		(size 105.41 46.99)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9704eb45-91f5-4a31-9f50-e6cb45eec041")
-		(property "Sheetname" "Pluto GSS"
-			(at 127 90.7284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Pluto_GSS.kicad_sch"
-			(at 127 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 237.49 17.78)
 		(size 41.91 134.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -311,10 +207,6 @@
 	(sheet
 		(at 16.51 44.45)
 		(size 104.14 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -362,10 +254,6 @@
 	(sheet
 		(at 172.72 17.78)
 		(size 60.96 58.42)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -406,5 +294,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
