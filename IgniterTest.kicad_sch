@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1fe58bd7-d6db-4cdb-9816-3cf1e5c4b0ec")
 	(paper "A4")
 	(lib_symbols
@@ -125,6 +125,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID:Normally Open Solenoid"
 			(exclude_from_sim no)
@@ -199,18 +200,6 @@
 			(symbol "Normally Open Solenoid_1_1"
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
 					)
 					(stroke
@@ -233,12 +222,16 @@
 						(type background)
 					)
 				)
-				(text "nO"
-					(at 6.096 0 0)
-					(effects
-						(font
-							(size 1 1)
-						)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(text "nO\n\n"
@@ -254,6 +247,14 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "nO"
+					(at 6.096 0 0)
+					(effects
+						(font
+							(size 1 1)
 						)
 					)
 				)
@@ -294,6 +295,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID:Pressure_Regulator"
 			(exclude_from_sim no)
@@ -366,7 +368,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 3.81 2.54)
+						(xy 3.81 2.54) (xy 3.81 2.794)
 					)
 					(stroke
 						(width 0)
@@ -378,7 +380,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 3.81 2.794)
+						(xy 3.81 0) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0)
@@ -392,7 +394,32 @@
 			(symbol "Pressure_Regulator_1_1"
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 3.81 3.556)
+						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
+						(xy 2.286 3.048) (xy 2.032 2.794)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 4.318) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0)
@@ -404,8 +431,20 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 4.318) (xy 3.81 3.81)
+						(xy 3.81 3.81) (xy 3.81 3.556)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 2.794)
+					(mid 3.81 3.5305)
+					(end 5.588 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -437,43 +476,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
-						(xy 2.286 3.048) (xy 2.032 2.794)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 5.588 2.794)
-					(mid 3.81 3.5305)
-					(end 2.032 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -513,6 +515,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID:Pressure_Transducer"
 			(exclude_from_sim no)
@@ -651,6 +654,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID_symbols:Check_Valve"
 			(exclude_from_sim no)
@@ -702,7 +706,7 @@
 			(symbol "Check_Valve_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.54)
+						(xy 0 2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -726,7 +730,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 5.08 -2.54)
+						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -750,10 +754,9 @@
 				)
 			)
 			(symbol "Check_Valve_1_1"
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 2.54 -1.27) (xy 3.81 0) (xy 5.08 -2.54)
-					)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -762,9 +765,10 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 2.54)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -1.27) (xy 3.81 0) (xy 5.08 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -810,6 +814,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID_symbols:Needle_Valve"
 			(exclude_from_sim no)
@@ -861,18 +866,6 @@
 			(symbol "Needle_Valve_1_1"
 				(polyline
 					(pts
-						(xy 3.048 3.556) (xy 3.81 0.254) (xy 4.572 3.556) (xy 3.048 3.556)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
 					)
 					(stroke
@@ -881,6 +874,18 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.556) (xy 3.81 0.254) (xy 4.572 3.556) (xy 3.048 3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -932,6 +937,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PID_symbols:Pressure_Transducer"
 			(exclude_from_sim no)
@@ -1070,6 +1076,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PnID_symbols:Ball_Valve"
 			(exclude_from_sim no)
@@ -1191,6 +1198,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PnID_symbols:Engine"
 			(exclude_from_sim no)
@@ -1241,9 +1249,9 @@
 			)
 			(symbol "Engine_0_1"
 				(arc
-					(start -2.54 -2.667)
-					(mid -2.2411 -4.9249)
-					(end -1.27 -6.985)
+					(start 2.54 -2.667)
+					(mid 2.2411 -4.9249)
+					(end 1.27 -6.985)
 					(stroke
 						(width 0)
 						(type default)
@@ -1253,21 +1261,9 @@
 					)
 				)
 				(arc
-					(start -1.27 -8.255)
-					(mid -2.0309 -9.462)
-					(end -2.54 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -8.255)
-					(mid -1.0887 -7.62)
-					(end -1.27 -6.985)
+					(start 1.27 -8.255)
+					(mid 2.0309 -9.462)
+					(end 2.54 -10.795)
 					(stroke
 						(width 0)
 						(type default)
@@ -1300,6 +1296,30 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -1.27 -6.985)
+					(mid -1.0887 -7.62)
+					(end -1.27 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -8.255)
+					(mid 1.0886 -7.62)
+					(end 1.27 -6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 2.54 -2.54)
@@ -1313,9 +1333,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -6.985)
-					(mid 1.0887 -7.62)
-					(end 1.27 -8.255)
+					(start -2.54 -10.795)
+					(mid -2.0309 -9.462)
+					(end -1.27 -8.255)
 					(stroke
 						(width 0)
 						(type default)
@@ -1325,21 +1345,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -6.985)
-					(mid 2.2411 -4.9249)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -10.795)
-					(mid 2.0309 -9.462)
-					(end 1.27 -8.255)
+					(start -1.27 -6.985)
+					(mid -2.2411 -4.9249)
+					(end -2.54 -2.667)
 					(stroke
 						(width 0)
 						(type default)
@@ -1352,7 +1360,7 @@
 			(symbol "Engine_1_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 2.54) (xy 1.905 2.54) (xy 1.905 0.635)
+						(xy -2.54 0) (xy -3.175 0) (xy -3.175 0.635) (xy 3.175 0.635) (xy 3.175 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1364,7 +1372,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -3.175 0) (xy -3.175 0.635) (xy 3.175 0.635) (xy 3.175 0) (xy 2.54 0)
+						(xy -1.905 0.635) (xy -1.905 2.54) (xy 1.905 2.54) (xy 1.905 0.635)
 					)
 					(stroke
 						(width 0)
@@ -1411,6 +1419,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PnID_symbols:Pressure_Regulator"
 			(exclude_from_sim no)
@@ -1474,7 +1483,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 3.81 2.54)
+						(xy 3.81 2.54) (xy 3.81 2.794)
 					)
 					(stroke
 						(width 0)
@@ -1486,7 +1495,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 3.81 2.794)
+						(xy 3.81 0) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1500,7 +1509,32 @@
 			(symbol "Pressure_Regulator_1_1"
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 3.81 3.556)
+						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
+						(xy 2.286 3.048) (xy 2.032 2.794)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 4.318) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1512,8 +1546,20 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 4.318) (xy 3.81 3.81)
+						(xy 3.81 3.81) (xy 3.81 3.556)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 2.794)
+					(mid 3.81 3.5305)
+					(end 5.588 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -1545,43 +1591,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
-						(xy 2.286 3.048) (xy 2.032 2.794)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 5.588 2.794)
-					(mid 3.81 3.5305)
-					(end 2.032 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -1621,6 +1630,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PnID_symbols:Tank"
 			(exclude_from_sim no)
@@ -1670,18 +1680,6 @@
 				)
 			)
 			(symbol "Tank_0_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.7961 -1.7961)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.54 8.89)
@@ -1694,10 +1692,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 -2.54)
+				(arc
+					(start -2.54 8.89)
+					(mid -1.7961 10.6861)
+					(end 0 11.43)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.7961 -1.7961)
+					(end -2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1720,44 +1730,44 @@
 				)
 				(polyline
 					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 11.43)
+					(mid 4.3361 10.6861)
+					(end 5.08 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.3361 -1.7961)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 5.08 0) (xy 5.08 8.89)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 11.43)
-					(mid -1.7961 10.6861)
-					(end -2.54 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.54)
-					(mid 4.3361 -1.7961)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 8.89)
-					(mid 4.3361 10.6861)
-					(end 2.54 11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -1785,24 +1795,6 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -2.54 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 1.27 11.43 270)
 					(length 0)
 					(name ""
@@ -1820,7 +1812,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -3604,4 +3615,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
