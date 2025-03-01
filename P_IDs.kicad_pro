@@ -467,10 +467,19 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "Direct",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "line_style": 1,
         "name": "Main-1/2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
@@ -479,7 +488,7 @@
         "line_style": 0,
         "name": "Main-1/4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
@@ -488,7 +497,16 @@
         "line_style": 2,
         "name": "Main-1/8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 3,
+        "name": "Main-3/8",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
@@ -497,7 +515,7 @@
         "line_style": 0,
         "name": "Pneumatics",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(0, 144, 255)",
         "wire_width": 10
       },
@@ -506,7 +524,7 @@
         "line_style": 2,
         "name": "Torch Igniter - Tube",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(253, 255, 255)",
         "wire_width": 12
       },
@@ -515,7 +533,7 @@
         "line_style": 0,
         "name": "Torch Igniter -1/4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(249, 255, 251)",
         "wire_width": 6
       }
@@ -536,23 +554,31 @@
       },
       {
         "netclass": "Torch Igniter -1/4",
-        "pattern": "TI_HP"
+        "pattern": "TI-HP"
       },
       {
         "netclass": "Torch Igniter - Tube",
-        "pattern": "TI_Pn"
+        "pattern": "TI-Pn"
       },
       {
         "netclass": "Main-1/4",
-        "pattern": "M1-4"
+        "pattern": "1-4"
       },
       {
         "netclass": "Main-1/2",
-        "pattern": "M1-2"
+        "pattern": "1-2"
       },
       {
         "netclass": "Main-1/8",
-        "pattern": "M1-8"
+        "pattern": "1-8"
+      },
+      {
+        "netclass": "Main-3/8",
+        "pattern": "3-8"
+      },
+      {
+        "netclass": "Direct",
+        "pattern": "D"
       }
     ]
   },

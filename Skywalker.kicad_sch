@@ -273,7 +273,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -291,7 +291,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -395,7 +395,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -413,7 +413,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -517,7 +517,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -535,7 +535,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -805,7 +805,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -823,7 +823,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -965,7 +965,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -983,7 +983,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1125,7 +1125,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -1143,7 +1143,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1285,7 +1285,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -1303,7 +1303,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1445,7 +1445,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -1463,7 +1463,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1605,7 +1605,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -1623,7 +1623,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1765,7 +1765,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -1783,7 +1783,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -2076,7 +2076,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
 					(name ""
@@ -2094,7 +2094,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name ""
@@ -2224,7 +2224,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
 					(name ""
@@ -2242,7 +2242,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name ""
@@ -2264,9 +2264,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "PID_symbols:3WayPmaticBall"
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2436,7 +2433,7 @@
 				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "IN/OUT"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2451,7 +2448,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 6.35 180)
 					(length 0)
 					(name ""
@@ -2469,7 +2466,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -6.35 90)
 					(length 2.54)
 					(name ""
@@ -2490,7 +2487,7 @@
 				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
-					(name "IN/OUT"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2591,7 +2588,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -2609,7 +2606,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -2879,7 +2876,7 @@
 						(type outline)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -2897,7 +2894,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -6051,7 +6048,7 @@
 						(type outline)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
 					(name ""
@@ -6069,7 +6066,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name ""
@@ -6593,7 +6590,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -6611,7 +6608,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -7775,7 +7772,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -7793,7 +7790,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -10323,6 +10320,12 @@
 		(uuid "d4fb8745-9d3f-4457-9fc6-549a23efd4fe")
 	)
 	(junction
+		(at 172.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d676e8c4-9b7d-47eb-89b5-cd491bf21147")
+	)
+	(junction
 		(at 67.31 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10583,7 +10586,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 22.86) (xy 172.72 149.86)
+			(xy 172.72 22.86) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10653,16 +10656,6 @@
 			(color 2 153 255 1)
 		)
 		(uuid "57414d07-764f-4273-a7a5-b129eb08b394")
-	)
-	(wire
-		(pts
-			(xy 69.85 22.86) (xy 97.79 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5836660d-fc79-42e9-927b-433fce1a74cd")
 	)
 	(wire
 		(pts
@@ -10862,6 +10855,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 44.45) (xy 173.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bf4e9b-ce69-49ac-95e1-f0dea5ece333")
+	)
+	(wire
+		(pts
 			(xy 162.56 44.45) (xy 162.56 41.91)
 		)
 		(stroke
@@ -11015,6 +11018,26 @@
 			(type default)
 		)
 		(uuid "a827871a-d245-42a7-9288-2974a386097d")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 97.79 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a916374b-5168-40a7-9e62-34efbf1b9c02")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd9d3a1-7abd-45ef-9f9e-a17db0200f80")
 	)
 	(wire
 		(pts
@@ -11465,17 +11488,17 @@
 	)
 	(global_label "M1-2"
 		(shape input)
-		(at 172.72 134.62 0)
+		(at 67.31 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.254 0.254)
 			)
 			(justify left)
 		)
-		(uuid "a14b025d-2d4e-4624-82ef-26189e760b6b")
+		(uuid "dcf11407-fc2e-40ba-b156-59834c262993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.148 134.62 0)
+			(at 68.9962 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11509,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Ball_Valve_1")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 107.95 71.12 90)
 		(unit 1)
@@ -11554,6 +11576,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Check_Valve_1")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 93.98 121.92 270)
 		(unit 1)
@@ -11621,7 +11644,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SPRV_1")
 		(lib_id "PID_symbols:SPRV")
 		(at 113.03 73.66 0)
 		(unit 1)
@@ -11750,75 +11772,6 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
 					(reference "MB_V4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Check_Valve_1")
-		(lib_id "PID_symbols:Check_Valve")
-		(at 105.41 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a44a8d7-599e-4029-8cd3-b6fd5ce5764b")
-		(property "Reference" "CV7"
-			(at 102.997 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 102.997 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "26745630-e39f-4a34-bde3-f24677786fca")
-		)
-		(pin ""
-			(uuid "b849d93f-1ac0-428c-b274-2320c7534a47")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
-					(reference "CV7")
 					(unit 1)
 				)
 			)
@@ -11960,6 +11913,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Ball_Valve_1")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 67.31 134.62 270)
 		(unit 1)
@@ -12027,7 +11981,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Tank_1")
 		(lib_id "PID_symbols:Tank")
 		(at 92.71 144.78 0)
 		(unit 1)
@@ -12095,7 +12048,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Tank_3")
+		(lib_name "Tank_1")
 		(lib_id "PID_symbols:Tank")
 		(at 58.42 95.25 0)
 		(unit 1)
@@ -12231,7 +12184,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Quick_Disconnect_1")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 54.61 175.26 0)
 		(unit 1)
@@ -12370,7 +12322,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_4")
+		(lib_name "Check_Valve_3")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 100.33 163.83 270)
 		(unit 1)
@@ -12438,7 +12390,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_8")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 86.36 68.58 0)
 		(unit 1)
@@ -12578,7 +12529,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Burst_Disc_1")
 		(lib_id "PID_symbols:Burst_Disc")
 		(at 35.56 64.77 0)
 		(unit 1)
@@ -12717,7 +12667,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Quick_Disconnect_2")
+		(lib_name "Quick_Disconnect_1")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 147.32 153.67 90)
 		(unit 1)
@@ -12995,7 +12945,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_5")
+		(lib_name "Pressure_Transducer_1")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 142.24 86.36 0)
 		(unit 1)
@@ -13068,6 +13018,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Pressure_Transducer_2")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 72.39 154.94 0)
 		(unit 1)
@@ -13139,7 +13090,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_4")
+		(lib_name "Pressure_Transducer_3")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 124.46 129.54 0)
 		(unit 1)
@@ -13212,7 +13163,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Tank_4")
+		(lib_name "Tank_3")
 		(lib_id "PID_symbols:Tank")
 		(at 66.04 95.25 0)
 		(unit 1)
@@ -13280,6 +13231,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Quick_Disconnect_2")
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 172.72 153.67 90)
 		(unit 1)
@@ -13350,7 +13302,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_6")
+		(lib_name "Pressure_Transducer_4")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 105.41 175.26 0)
 		(unit 1)
@@ -13423,7 +13375,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_7")
+		(lib_name "Check_Valve_4")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 67.31 66.04 270)
 		(unit 1)
@@ -13564,7 +13516,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Ball_Valve_3")
+		(lib_name "Ball_Valve_2")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 59.69 134.62 270)
 		(unit 1)
@@ -13699,6 +13651,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Burst_Disc_1")
 		(lib_id "PID_symbols:Burst_Disc")
 		(at 95.25 66.04 0)
 		(unit 1)
@@ -13769,7 +13722,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_3")
+		(lib_name "Pressure_Transducer_5")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 48.26 147.32 0)
 		(unit 1)
@@ -14186,6 +14139,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SPRV_1")
 		(lib_id "PID_symbols:SPRV")
 		(at 20.32 73.66 0)
 		(unit 1)
@@ -14462,6 +14416,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Tank_4")
 		(lib_id "PID_symbols:Tank")
 		(at 62.23 27.94 0)
 		(unit 1)
@@ -14736,7 +14691,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_3")
+		(lib_name "Check_Valve_6")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 59.69 66.04 270)
 		(unit 1)
@@ -14804,7 +14759,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_7")
+		(lib_name "Pressure_Transducer_6")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 54.61 34.29 0)
 		(unit 1)
@@ -14877,7 +14832,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_2")
+		(lib_name "Pressure_Transducer_7")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 53.34 81.28 0)
 		(unit 1)
@@ -14943,6 +14898,74 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
 					(reference "PT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Check_Valve")
+		(at 105.41 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f121efa8-e3e0-4773-9caa-c5736d05ea25")
+		(property "Reference" "CV7"
+			(at 102.997 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.997 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d5abad27-2a19-439d-9f07-d70671d2a743")
+		)
+		(pin ""
+			(uuid "53c766cc-1f48-4deb-9e03-e8c9b0a74ae9")
+		)
+		(instances
+			(project ""
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
+					(reference "CV7")
 					(unit 1)
 				)
 			)
@@ -15016,7 +15039,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_1")
+		(lib_name "Pressure_Transducer_8")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 77.47 147.32 0)
 		(unit 1)
@@ -15088,7 +15111,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Ball_Valve_2")
+		(lib_name "Ball_Valve_3")
 		(lib_id "PID_symbols:Ball_Valve")
 		(at 63.5 60.96 90)
 		(unit 1)
@@ -15159,7 +15182,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_6")
+		(lib_name "Check_Valve_7")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 147.32 147.32 90)
 		(unit 1)
