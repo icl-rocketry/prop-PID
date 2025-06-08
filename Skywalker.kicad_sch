@@ -7130,6 +7130,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pressure_Transducer_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pressure_Transducer_3_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_3_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pressure_Transducer_4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8699,6 +8838,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Tank_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tank_2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 8.89)
+					(mid -1.7961 10.6861)
+					(end 0 11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.7961 -1.7961)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 11.43) (xy 2.54 11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 11.43)
+					(mid 4.3361 10.6861)
+					(end 5.08 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.3361 -1.7961)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Tank_2_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
+						(xy 1.524 -2.54) (xy 2.286 -2.54) (xy 3.048 -2.54) (xy 4.064 -2.032) (xy 4.572 -1.524) (xy 4.826 -1.016)
+						(xy 5.08 0) (xy 5.08 3.81) (xy 5.08 8.89) (xy 4.826 9.906) (xy 4.318 10.668) (xy 3.81 11.176)
+						(xy 3.048 11.43) (xy 1.524 11.43) (xy 0.508 11.43) (xy -0.254 11.43) (xy -1.016 11.176) (xy -1.524 10.922)
+						(xy -2.032 10.414) (xy -2.54 9.144) (xy -2.54 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 1.27 11.43 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Tank_3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9696,6 +10036,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Gaseous"
+		(exclude_from_sim no)
+		(at 118.11 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32fde3d8-0bfd-4cb7-be35-9cd6779acf5d")
+	)
 	(text "3-8 INCH\n"
 		(exclude_from_sim no)
 		(at 233.68 35.56 0)
@@ -9823,12 +10173,6 @@
 		(uuid "116230f0-e4ac-4e84-94fe-a6fd5651334b")
 	)
 	(junction
-		(at 110.49 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14a892ce-ab7e-4abb-80d3-1063ffd177d7")
-	)
-	(junction
 		(at 59.69 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9887,6 +10231,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d41710a-cfa6-4aa4-8ce3-8147c2027c10")
+	)
+	(junction
+		(at 118.11 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c985625-f4ea-4fa6-a8af-933220d35cf8")
 	)
 	(junction
 		(at 63.5 50.8)
@@ -10011,6 +10361,16 @@
 			(type default)
 		)
 		(uuid "1a1dd185-a765-48ca-96aa-9527ff7efcb9")
+	)
+	(wire
+		(pts
+			(xy 118.11 147.32) (xy 118.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d15ba89-0618-4ce7-8129-f827e1ac80bd")
 	)
 	(wire
 		(pts
@@ -10264,6 +10624,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 80.01) (xy 118.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a84f4c6-7854-4584-8752-2aa4f53c3ec1")
+	)
+	(wire
+		(pts
 			(xy 161.29 35.56) (xy 162.56 35.56)
 		)
 		(stroke
@@ -10271,6 +10641,16 @@
 			(type default)
 		)
 		(uuid "6ab7ddc6-0649-4482-ad74-3ac1a08342b1")
+	)
+	(wire
+		(pts
+			(xy 118.11 129.54) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7fcbde-ae43-4c2f-a64e-aa2d2d0d8b13")
 	)
 	(wire
 		(pts
@@ -10374,13 +10754,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 110.49 148.59)
+			(xy 85.09 80.01) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b0900f2-7e7f-4ab5-9cc3-ea006299b0d2")
+		(uuid "7b7b341e-341d-470e-8162-6fcd3457b7c5")
 	)
 	(wire
 		(pts
@@ -10404,7 +10784,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 106.68) (xy 110.49 106.68)
+			(xy 68.58 106.68) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10584,6 +10964,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b22562-bbb9-4708-beab-054a68e99e76")
+	)
+	(wire
+		(pts
+			(xy 118.11 148.59) (xy 110.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd13cae-c0ad-4d3c-8944-517518aa70a8")
+	)
+	(wire
+		(pts
 			(xy 59.69 105.41) (xy 59.69 121.92)
 		)
 		(stroke
@@ -10624,13 +11024,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 106.68) (xy 147.32 106.68)
+			(xy 68.58 80.01) (xy 68.58 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2eb8d9f-74d9-499f-9131-f8582e93ba34")
+		(uuid "c9d14e20-2ae2-4529-a8f5-3bf5e8606769")
 	)
 	(wire
 		(pts
@@ -10661,6 +11061,16 @@
 			(type default)
 		)
 		(uuid "d677bb6c-cb84-4309-8e93-16a8cf4bcfc2")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d878e163-b6d9-419b-b95a-113a93ef2a1d")
 	)
 	(wire
 		(pts
@@ -11102,6 +11512,28 @@
 			)
 		)
 	)
+	(global_label "TI-HP"
+		(shape input)
+		(at 100.965 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "60d1368e-72c6-4902-8ca3-e5369c7c6bf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.7117 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D"
 		(shape input)
 		(at 218.44 54.61 0)
@@ -11170,6 +11602,28 @@
 	)
 	(global_label "TI-HP"
 		(shape input)
+		(at 114.3 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "70139151-b38f-4cc3-884c-c8f3028d02ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.0467 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TI-HP"
+		(shape input)
 		(at 108.585 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11181,6 +11635,28 @@
 		(uuid "72d7fcce-f4c6-4879-b45d-de1d92b3f269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.3317 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1-4"
+		(shape input)
+		(at 70.485 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "7993121b-0729-491c-85b7-90eb212e05bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.8809 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,6 +12614,76 @@
 		)
 	)
 	(symbol
+		(lib_name "Tank_2")
+		(lib_id "PID_symbols:Tank")
+		(at 116.84 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f0c1cf-79ab-441d-aa83-400f9fcde13b")
+		(property "Reference" "Ox3"
+			(at 116.84 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 123.19 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "331aaf93-1b1a-4481-94e8-5f81a76b8a1f")
+		)
+		(pin ""
+			(uuid "3444a4e1-8daa-4093-a8f5-72af241f5c66")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
+					(reference "Ox3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Check_Valve_3")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 100.33 163.83 270)
@@ -12475,6 +13021,73 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
 					(reference "QD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Solenoid")
+		(at 74.93 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "594e9f9d-a909-485d-be3b-255ace982f95")
+		(property "Reference" "nO_Sol10"
+			(at 78.994 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "990c9ad2-50ac-4573-80db-042ff4b336f1")
+		)
+		(pin ""
+			(uuid "a79029de-5202-4876-9e88-a0672bf61ccd")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
+					(reference "nO_Sol10")
 					(unit 1)
 				)
 			)
@@ -12832,6 +13445,79 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
 					(reference "Chamber2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Pressure_Transducer_3")
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 124.46 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fff76f4-3ca8-4b8f-87f5-59713b30c494")
+		(property "Reference" "PT13"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "76caff81-dfef-449e-b1cd-7b8d21c19726")
+		)
+		(pin ""
+			(uuid "aff10703-8a8f-4bd5-982a-e4ad41d28f76")
+		)
+		(pin ""
+			(uuid "31700f35-568a-440d-b2c3-fb7b7ce0efcc")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/8ff5724e-b29b-49c2-a1fa-190081404476"
+					(reference "PT13")
 					(unit 1)
 				)
 			)
