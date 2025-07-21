@@ -1094,7 +1094,7 @@
 	)
 	(sheet
 		(at 129.54 134.62)
-		(size 105.41 55.88)
+		(size 45.72 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1484,6 +1484,48 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.832 134.62)
+		(size 53.594 27.686)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8ba80f5-7b5d-4dc5-95fa-8f3f89e19357")
+		(property "Sheetname" "EREG calibration"
+			(at 179.832 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EREG_calibration.kicad_sch"
+			(at 179.832 162.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "12")
 				)
 			)
 		)
