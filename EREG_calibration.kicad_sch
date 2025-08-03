@@ -2667,6 +2667,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pressure_Transducer_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pressure_Transducer_3_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_3_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Tank_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2896,6 +3035,12 @@
 		(uuid "09cecdd6-25a1-4054-9514-b950f5031569")
 	)
 	(junction
+		(at 62.23 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1524dca9-133c-47d3-8e01-d244cfdde2bf")
+	)
+	(junction
 		(at 189.23 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2982,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "2fa84708-2f52-4a01-b5bc-57ed3bc378c5")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e5a94e-6c34-424b-9168-0fdfd8057f6f")
 	)
 	(wire
 		(pts
@@ -3125,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 57.15) (xy 88.9 57.15)
+			(xy 82.55 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3380,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 57.15) (xy 64.77 57.15)
+			(xy 53.34 57.15) (xy 62.23 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3262,6 +3417,16 @@
 			(type default)
 		)
 		(uuid "ccf6ba88-35bc-4d6c-a7fe-fe62a7029dda")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 62.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bc1d1e-179d-4be0-9e29-e487f5da92af")
 	)
 	(wire
 		(pts
@@ -3332,8 +3497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Normally Open Solenoid Valve"
-			(at 156.21 34.29 0)
+		(property "Value" "Low pressure vent valve"
+			(at 156.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3690,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Ball_Valve")
-		(at 67.31 57.15 0)
+		(at 72.39 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3534,7 +3699,7 @@
 		(fields_autoplaced yes)
 		(uuid "252d97d3-5716-4a28-bdc8-5d9a0fbd7d41")
 		(property "Reference" "BV12"
-			(at 71.12 50.8 0)
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3708,7 @@
 			)
 		)
 		(property "Value" "High pressure valve"
-			(at 71.12 53.34 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 57.15 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 57.15 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 57.15 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,6 +4827,79 @@
 		)
 	)
 	(symbol
+		(lib_name "Pressure_Transducer_3")
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 62.23 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23e381b-53d0-4602-b58c-8049094b5ae6")
+		(property "Reference" "PT8"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "300"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3a4fb181-7e0b-4aa6-b8c2-a7b7ed3f9bda")
+		)
+		(pin ""
+			(uuid "b29d39f9-8606-4c79-9f55-3862900ac817")
+		)
+		(pin ""
+			(uuid "6ce25e52-e609-44e1-87d3-e0063633be40")
+		)
+		(instances
+			(project ""
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/e8ba80f5-7b5d-4dc5-95fa-8f3f89e19357"
+					(reference "PT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Normally Open Solenoid_1")
 		(lib_id "PID_symbols:Normally Open Solenoid")
 		(at 88.9 91.44 90)
@@ -4682,7 +4920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Normally open Solenoid Valve"
+		(property "Value" "High pressure vent valve"
 			(at 92.71 87.6299 90)
 			(effects
 				(font
