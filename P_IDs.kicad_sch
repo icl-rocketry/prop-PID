@@ -1132,7 +1132,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "462f9fab-58b5-4b75-b4d3-2a00576f9247")
-		(property "Sheetname" "Pluto GSS"
+		(property "Sheetname" "[ARCHIVE] Pluto GSS"
 			(at 129.54 133.9084 0)
 			(effects
 				(font
@@ -1422,7 +1422,7 @@
 	)
 	(sheet
 		(at 237.49 17.78)
-		(size 41.91 171.45)
+		(size 41.91 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Sheetfile" "gss.kicad_sch"
-			(at 237.49 189.8146 0)
+			(at 237.49 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,6 +1509,48 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 107.95)
+		(size 41.91 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfa72dbe-5cc4-4877-90f2-823d7907a47f")
+		(property "Sheetname" "Pluto GFS"
+			(at 237.49 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pluto_Exclusive_GFS.kicad_sch"
+			(at 237.49 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "16")
 				)
 			)
 		)
