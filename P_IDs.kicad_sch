@@ -1160,7 +1160,7 @@
 	)
 	(sheet
 		(at 19.05 166.37)
-		(size 102.87 24.13)
+		(size 24.384 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1244,7 +1244,7 @@
 	)
 	(sheet
 		(at 19.05 134.62)
-		(size 102.87 25.4)
+		(size 24.384 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1373,6 +1373,49 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 134.62)
+		(size 78.74 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae0870b5-a96e-4211-8f2b-9400e9fdedc4")
+		(property "Sheetname" "Pluto Common Bulkhead"
+			(at 48.26 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pluto_Common_Bulkhead.kicad_sch"
+			(at 48.26 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "15")
 				)
 			)
 		)
