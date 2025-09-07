@@ -4508,7 +4508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a87dcc-43d4-4cf6-9a83-ad5e466c99c0")
-		(property "Reference" "PT40"
+		(property "Reference" "PT6"
 			(at 137.16 143.51 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "PT40")
+					(reference "PT6")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20b0a2ea-9354-472c-8a8d-880abe42182e")
-		(property "Reference" "NitrousTank2"
+		(property "Reference" "NitrousTank1"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "NitrousTank2")
+					(reference "NitrousTank1")
 					(unit 1)
 				)
 			)
@@ -4791,7 +4791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b506be-f369-4869-b496-f470d24ce370")
-		(property "Reference" "MB_V7"
+		(property "Reference" "MB_V2"
 			(at 173.99 107.95 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "MB_V7")
+					(reference "MB_V2")
 					(unit 1)
 				)
 			)
@@ -4928,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43cbb48a-b1af-4f5e-82ca-d81fabd20715")
-		(property "Reference" "BV9"
+		(property "Reference" "BV5"
 			(at 99.06 130.1749 90)
 			(effects
 				(font
@@ -4982,7 +4982,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BV9")
+					(reference "BV5")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "707f5839-6f04-4335-97a6-c44f1ec8a5a5")
-		(property "Reference" "BV10"
+		(property "Reference" "BV6"
 			(at 118.11 130.1749 90)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "BV10")
+					(reference "BV6")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad11f4a2-79eb-4f2d-9151-0337315941d6")
-		(property "Reference" "PT41"
+		(property "Reference" "PT4"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "PT41")
+					(reference "PT4")
 					(unit 1)
 				)
 			)
@@ -5499,7 +5499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ceecd2-a215-435b-8c87-bef6b3d126eb")
-		(property "Reference" "CV17"
+		(property "Reference" "CV6"
 			(at 118.11 141.7319 90)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "CV17")
+					(reference "CV6")
 					(unit 1)
 				)
 			)
@@ -5570,7 +5570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07e321b-c35c-4382-b948-d703686ef6d2")
-		(property "Reference" "NitrousTank1"
+		(property "Reference" "NitrousTank2"
 			(at 119.38 157.4799 0)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "NitrousTank1")
+					(reference "NitrousTank2")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7834113-24d6-4f1b-a9c7-6b1cc23b9055")
-		(property "Reference" "PT39"
+		(property "Reference" "PT5"
 			(at 72.39 143.51 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "PT39")
+					(reference "PT5")
 					(unit 1)
 				)
 			)
@@ -5712,7 +5712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea5f32fd-cb0c-48a7-9d17-80d0ca4f7c07")
-		(property "Reference" "CV16"
+		(property "Reference" "CV5"
 			(at 99.06 141.7319 90)
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 		(instances
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/b22dc67f-22e2-4992-8273-fe279f768d16"
-					(reference "CV16")
+					(reference "CV5")
 					(unit 1)
 				)
 			)
