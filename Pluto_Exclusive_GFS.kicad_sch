@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e236647b-20a6-46f4-86aa-9288d3c869d1")
+	(uuid "2af96c08-b342-4148-b77c-c1acd36a0fa0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Ball_Valve_1"
@@ -3292,6 +3292,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< HEAD
 		(symbol "Pressure_Transducer_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3432,6 +3433,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Pressure_Transducer_3"
+=======
+		(symbol "Pressure_Transducer_2"
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4020,6 +4024,7 @@
 		(uuid "286a99a2-6f88-47d1-8faa-6719ebc776e6")
 	)
 	(junction
+<<<<<<< HEAD
 		(at 160.02 95.885)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4033,6 +4038,15 @@
 	)
 	(junction
 		(at 231.14 116.84)
+=======
+		(at 208.28 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49b44606-5297-400e-9df4-a6eaf2b42868")
+	)
+	(junction
+		(at 236.22 116.84)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f03366-d695-4a14-9dd6-01edcb905787")
@@ -4062,10 +4076,17 @@
 		(uuid "bc8ca386-83f6-4a52-8e0e-8c1c25530a58")
 	)
 	(junction
+<<<<<<< HEAD
 		(at 160.02 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c17eb533-ae8f-4d7d-a324-941e9793c9da")
+=======
+		(at 200.66 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a79de9-74ee-49cd-8b5f-eb1ec5be8cb2")
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 	)
 	(junction
 		(at 193.04 72.39)
@@ -4078,6 +4099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff14e512-1068-4def-ac42-04f8ddcb8348")
+	)
+	(junction
+		(at 200.66 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea08c7ee-675b-45a4-8265-9171fa8e5d5b")
 	)
 	(wire
 		(pts
@@ -4111,7 +4138,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 193.04 48.26) (xy 193.04 64.77)
+=======
+			(xy 200.66 50.8) (xy 200.66 72.39)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4121,7 +4152,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 231.14 116.84) (xy 237.49 116.84)
+=======
+			(xy 236.22 116.84) (xy 242.57 116.84)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4161,17 +4196,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 193.04 72.39) (xy 209.55 72.39)
+=======
+			(xy 200.66 116.84) (xy 208.28 116.84)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "31052d23-e223-46ed-9e48-d914e0028b84")
 	)
 	(wire
 		(pts
 			(xy 245.11 72.39) (xy 252.73 72.39)
+=======
+		(uuid "30518cde-1d9c-46cd-85e0-b1167e4c7254")
+	)
+	(wire
+		(pts
+			(xy 250.19 72.39) (xy 257.81 72.39)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4181,7 +4228,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 231.14 96.52) (xy 233.68 96.52)
+=======
+			(xy 236.22 96.52) (xy 238.76 96.52)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4272,31 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 222.25 72.39) (xy 231.14 72.39)
+=======
+			(xy 208.28 72.39) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52937ae3-d002-4dfa-a297-b9e5c2051cd8")
+	)
+	(wire
+		(pts
+			(xy 200.66 104.14) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563c5420-8dd9-48ab-a5ae-9e0455095935")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 236.22 72.39)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4306,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 189.23 116.84)
+			(xy 160.02 116.84) (xy 200.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4251,6 +4326,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 195.58 48.26) (xy 193.04 48.26)
 		)
 		(stroke
@@ -4261,6 +4337,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(xy 148.59 64.77) (xy 144.78 64.77)
 		)
 		(stroke
@@ -4271,6 +4349,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 189.23 116.84) (xy 208.28 116.84)
 		)
 		(stroke
@@ -4282,6 +4361,9 @@
 	(wire
 		(pts
 			(xy 208.28 116.84) (xy 209.55 116.84)
+=======
+			(xy 214.63 137.16) (xy 208.28 137.16)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4291,7 +4373,31 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 231.14 72.39) (xy 237.49 72.39)
+=======
+			(xy 173.99 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0c522e-c014-40ed-bcf4-c40e86fe80ea")
+	)
+	(wire
+		(pts
+			(xy 193.04 72.39) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8b32f9-867b-467e-87e7-d6446987e653")
+	)
+	(wire
+		(pts
+			(xy 236.22 72.39) (xy 242.57 72.39)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4361,13 +4467,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 189.23 116.84) (xy 189.23 132.08)
+=======
+			(xy 193.04 64.77) (xy 193.04 72.39)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "bb416bc7-e826-4a64-894b-80282a976178")
+=======
+		(uuid "bd742d65-2141-4452-9a17-8f7ecd613dc2")
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 	)
 	(wire
 		(pts
@@ -4381,7 +4495,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 189.865 64.77) (xy 193.04 64.77)
+=======
+			(xy 186.69 64.77) (xy 193.04 64.77)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4391,7 +4509,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 245.11 116.84) (xy 254 116.84)
+=======
+			(xy 250.19 116.84) (xy 259.08 116.84)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
@@ -4431,23 +4553,27 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 189.865 81.28) (xy 193.04 81.28)
+=======
+			(xy 200.66 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6d6d30-3f4b-49b2-8fca-1bebe64ea7d8")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 193.04 81.28)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "deb9f646-4556-4692-9a02-aafe486544df")
-	)
-	(wire
-		(pts
-			(xy 190.5 132.08) (xy 189.23 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def86e00-0422-41e3-8782-488b6f2363c5")
 	)
 	(wire
 		(pts
@@ -4915,17 +5041,29 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "PID_symbols:Check_Valve")
 		(at 169.545 64.77 0)
+=======
+		(lib_name "Pressure_Transducer_2")
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 200.66 101.6 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "17339648-e8ba-4da8-aa7d-5627ff58353a")
 		(property "Reference" "CV38"
 			(at 171.958 58.42 0)
+=======
+		(uuid "195443fd-305c-4a4f-bcd8-ccb0db628730")
+		(property "Reference" "PT66"
+			(at 200.66 96.52 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,8 +5071,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "~"
 			(at 171.958 60.96 0)
+=======
+		(property "Value" "300"
+			(at 200.66 102.87 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5085,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 169.545 64.77 0)
+=======
+			(at 200.66 101.6 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5098,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 169.545 64.77 0)
+=======
+			(at 200.66 101.6 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5111,11 @@
 			)
 		)
 		(property "Description" ""
+<<<<<<< HEAD
 			(at 169.545 64.77 0)
+=======
+			(at 200.66 101.6 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,25 +6175,42 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_name "Needle_Valve_4")
 		(lib_id "PID_symbols:Needle_Valve")
 		(at 162.56 53.34 0)
+=======
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 200.66 48.26 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(uuid "9fab18d3-cc13-49d9-90b0-22c6305ca642")
 		(property "Reference" "N2_Needle2"
 			(at 166.37 47.625 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "9abda393-8d71-4199-9c55-9a3494b99ea9")
+		(property "Reference" "PT64"
+			(at 200.66 43.18 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "~"
 			(at 166.37 48.26 0)
+=======
+		(property "Value" "100"
+			(at 200.66 49.53 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6218,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 162.56 53.34 0)
+=======
+			(at 200.66 48.26 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6231,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 162.56 53.34 0)
+=======
+			(at 200.66 48.26 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6244,11 @@
 			)
 		)
 		(property "Description" ""
+<<<<<<< HEAD
 			(at 162.56 53.34 0)
+=======
+			(at 200.66 48.26 0)
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6950,11 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/cfa72dbe-5cc4-4877-90f2-823d7907a47f"
+<<<<<<< HEAD
 					(reference "Ox_Bottle_Valve_2")
+=======
+					(reference "CV36")
+>>>>>>> 0f23fce359f8d74629ece338015a5a0ed845e6f0
 					(unit 1)
 				)
 			)
