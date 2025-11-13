@@ -5,4 +5,46 @@
 	(uuid "5da82324-7f9c-4ed0-9e7d-b6fd3c1481a8")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 16.51 16.51)
+		(size 59.69 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0af49a0b-311a-4e5f-a192-08c30979a0d0")
+		(property "Sheetname" "GFS (Concept)"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GFSYr26.kicad_sch"
+			(at 16.51 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
+					(page "19")
+				)
+			)
+		)
+	)
 )
