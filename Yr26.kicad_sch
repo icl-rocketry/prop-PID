@@ -47,4 +47,46 @@
 			)
 		)
 	)
+	(sheet
+		(at 81.892 17.3601)
+		(size 60.602 49.1879)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e26eede-228d-4500-af9a-279d991bb26a")
+		(property "Sheetname" "BiProp26Feed"
+			(at 81.892 16.6485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Yr26_Feed.kicad_sch"
+			(at 81.892 67.1326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
+					(page "20")
+				)
+			)
+		)
+	)
 )
