@@ -47,4 +47,46 @@
 			)
 		)
 	)
+	(sheet
+		(at 16.51 74.295)
+		(size 59.055 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d375e00a-1ce3-4f93-9279-82acf09c7292")
+		(property "Sheetname" "Silwood Project"
+			(at 16.51 73.5834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "J0.kicad_sch"
+			(at 16.51 112.9796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
+					(page "20")
+				)
+			)
+		)
+	)
 )
