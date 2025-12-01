@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 81.892 17.3601)
-		(size 60.602 49.1879)
+		(at 16.51 74.295)
+		(size 59.055 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -62,9 +62,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5e26eede-228d-4500-af9a-279d991bb26a")
-		(property "Sheetname" "BiProp26Feed"
-			(at 81.892 16.6485 0)
+		(uuid "d375e00a-1ce3-4f93-9279-82acf09c7292")
+		(property "Sheetname" "Silwood Project"
+			(at 16.51 73.5834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +72,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Yr26_Feed.kicad_sch"
-			(at 81.892 67.1326 0)
+		(property "Sheetfile" "J0.kicad_sch"
+			(at 16.51 112.9796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,48 +85,6 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
 					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 82.55)
-		(size 73.66 50.8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b07d6d45-4167-43c1-b075-b17ff7610f69")
-		(property "Sheetname" "Silwood Project"
-			(at 25.4 81.8384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "J0.kicad_sch"
-			(at 25.4 133.9346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
-					(page "21")
 				)
 			)
 		)

@@ -1404,500 +1404,60 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pressure_Regulator_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Servo_Reg"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+	)
+	(text "Top Panel"
+		(exclude_from_sim no)
+		(at 184.785 31.115 0)
+		(effects
+			(font
+				(size 3.81 3.81)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pressure Regulator"
-				(at 3.81 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Pressure Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pressure_Regulator_2_0_1"
-				(polyline
-					(pts
-						(xy 2.032 2.794) (xy 5.588 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Pressure_Regulator_2_1_1"
-				(unit_name "Reg")
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
-						(xy 2.286 3.048) (xy 2.032 2.794)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 4.318) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 3.81 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 2.794)
-					(mid 3.81 3.5305)
-					(end 5.588 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.254) (xy 7.62 4.318) (xy 3.81 4.318)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-						(color 224 108 117 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Pressure_Regulator_2_1_2"
-				(unit_name "Reg")
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Pressure_Regulator_2_2_1"
-				(unit_name "Servo-Reg")
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
-						(xy 2.286 3.048) (xy 2.032 2.794)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.54 10.795)
-					(end 5.08 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.175 5.715)
-					(end 4.445 5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 4.318) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 3.81 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 3.81 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 2.794)
-					(mid 3.81 3.5305)
-					(end 5.588 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.254) (xy 7.62 4.318) (xy 3.81 4.318)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-						(color 224 108 117 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Pressure_Regulator_2_2_2"
-				(unit_name "Servo-Reg")
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "0c09319a-593e-471b-ad3e-1993137783f9")
+	)
+	(text "Back Panel"
+		(exclude_from_sim no)
+		(at 67.31 31.115 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "59da115a-13e2-416a-96b3-57f009629186")
 	)
 	(junction
-		(at 93.345 31.115)
+		(at 146.685 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa1838d-eeeb-408f-bebf-6341c35a1efb")
 	)
 	(junction
-		(at 69.215 73.66)
+		(at 109.855 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cacde61-0497-4e67-97ef-09d9584f2e3b")
+		(uuid "81973e27-b5d4-4a08-b2f1-14ff85a7804d")
 	)
 	(junction
-		(at 69.215 52.705)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7054de4c-38e2-4f42-95c5-ad3b4c3ecb9d")
-	)
-	(junction
-		(at 170.18 52.705)
+		(at 223.52 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c02d07a1-c2f4-40ba-ae3a-da07a159fdb0")
 	)
+	(junction
+		(at 109.855 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc9bebe5-7fd9-4c3a-b9ee-1aabf6b0d91b")
+	)
+	(junction
+		(at 109.855 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e3723a-6e23-4e02-a1ee-49ee13a0ec76")
+	)
 	(wire
 		(pts
-			(xy 170.18 60.325) (xy 182.88 60.325)
+			(xy 223.52 85.725) (xy 236.22 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1467,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 69.215 73.66)
+			(xy 27.305 98.425) (xy 27.305 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acf5bb1-2a2d-44ce-8b2c-6185c3e5ccee")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 109.855 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1917,17 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 73.66) (xy 69.215 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2059a72b-a70d-4d49-a661-dcf24d9ffc15")
-	)
-	(wire
-		(pts
-			(xy 69.215 31.115) (xy 75.565 31.115)
+			(xy 109.855 56.515) (xy 128.905 56.515)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 52.705) (xy 84.455 52.705)
+			(xy 109.855 78.105) (xy 137.795 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +1507,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 52.705) (xy 170.18 52.705)
+			(xy 109.855 56.515) (xy 109.855 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5d6e54-ba74-4d06-b6b1-ed53510d2ec8")
+	)
+	(wire
+		(pts
+			(xy 155.575 78.105) (xy 223.52 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1957,27 +1527,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 120.015) (xy 69.215 73.66)
+			(xy 48.26 98.425) (xy 27.305 98.425)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49c9eed4-357b-4ed4-9d5b-1dead40037bd")
+		(uuid "69a47868-0cee-4c86-b68a-3baa12c87daa")
 	)
 	(wire
 		(pts
-			(xy 40.64 52.705) (xy 69.215 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5822ac6c-7140-4bad-9df1-17a2cc9783a7")
-	)
-	(wire
-		(pts
-			(xy 93.345 31.115) (xy 99.06 31.115)
+			(xy 146.685 56.515) (xy 152.4 56.515)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1547,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.325) (xy 170.18 52.705)
+			(xy 88.265 99.06) (xy 109.855 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fed1a38-da7b-44fe-8da3-0ab4dbdf9595")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.725) (xy 223.52 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 31.115) (xy 93.345 40.64)
+			(xy 146.685 56.515) (xy 146.685 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 52.705) (xy 170.18 45.72)
+			(xy 223.52 78.105) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2017,17 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 31.115) (xy 69.215 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5356179-0476-41cb-8a53-07f6402fa403")
-	)
-	(wire
-		(pts
-			(xy 170.18 45.72) (xy 182.88 45.72)
+			(xy 223.52 71.12) (xy 236.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 31.115) (xy 93.345 31.115)
+			(xy 141.605 56.515) (xy 146.685 56.515)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 133.985 73.66)
+			(xy 153.67 99.06) (xy 187.325 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2057,17 +1617,37 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 120.015) (xy 69.215 120.015)
+			(xy 43.815 56.515) (xy 109.855 56.515)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3a6ff0f-1d83-4d2a-be00-eb91e7bfa54e")
+		(uuid "da075db2-38bd-48f0-88ee-86b93e84c81b")
+	)
+	(wire
+		(pts
+			(xy 109.855 78.105) (xy 109.855 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf2ba5a-c4d5-48ba-aeba-73c9f2b7de67")
+	)
+	(polyline
+		(pts
+			(xy 121.285 36.195) (xy 121.285 139.065)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+		)
+		(uuid "fa9a94bb-88a6-430a-974c-c23427e3194c")
 	)
 	(hierarchical_label "N2_HP"
 		(shape input)
-		(at 40.64 52.705 180)
+		(at 43.815 56.515 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2076,9 +1656,20 @@
 		)
 		(uuid "075bc081-b763-4a48-8a51-ad64e65938fd")
 	)
+	(hierarchical_label "N2_LP"
+		(shape output)
+		(at 27.305 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e418047-de6f-42b6-88c9-dbb5d5bca18c")
+	)
 	(hierarchical_label "N2_Purge"
-		(shape input)
-		(at 133.985 73.66 0)
+		(shape output)
+		(at 187.325 99.06 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2088,8 +1679,8 @@
 		(uuid "64433c4b-8fec-4fe4-adca-9f9b2316789f")
 	)
 	(hierarchical_label "N2_Reg_Fuel"
-		(shape input)
-		(at 182.88 45.72 0)
+		(shape output)
+		(at 236.22 71.12 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2099,8 +1690,8 @@
 		(uuid "a06a6720-62cc-44ee-be62-fa2ddec079af")
 	)
 	(hierarchical_label "N2_Reg_Ox"
-		(shape input)
-		(at 182.88 60.325 0)
+		(shape output)
+		(at 236.22 85.725 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2112,15 +1703,15 @@
 	(symbol
 		(lib_name "Pressure_Regulator_1")
 		(lib_id "PID_symbols:Pressure_Regulator")
-		(at 90.17 73.66 0)
+		(at 143.51 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "395d58f3-e9ac-4a14-9b0d-090d7c6827b8")
-		(property "Reference" "Reg"
-			(at 93.98 77.47 0)
+		(property "Reference" "Reg1"
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +1719,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 94.0425 67.945 0)
+			(at 147.3825 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +1727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 73.66 0)
+			(at 143.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 73.66 0)
+			(at 143.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +1745,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 93.98 80.01 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,18 +1757,18 @@
 			(uuid "6f57992b-813b-4364-92c4-d4bb9fdf88a7")
 		)
 		(pin ""
-			(uuid "c964b594-e846-494c-b0f6-e7922d057dc5")
+			(uuid "2ed4d449-2029-45e2-b3ac-c77a1adb5d0f")
 		)
 		(pin ""
-			(uuid "809a22d5-2cf2-433d-8269-9e0e1cb025c2")
+			(uuid "c063c290-e11c-4a4f-ad70-422290089739")
 		)
 		(pin ""
 			(uuid "0fd10ab2-c635-4acb-8c95-aeab20212799")
 		)
 		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
-					(reference "Reg")
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/652192f8-bb08-498c-9451-d3de72942c70"
+					(reference "Reg1")
 					(unit 1)
 				)
 			)
@@ -2185,7 +1776,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Regulator")
-		(at 78.105 31.115 0)
+		(at 131.445 56.515 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2193,8 +1784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c24098e-55e9-4900-b834-373f5a5efbcf")
-		(property "Reference" "Servo_Reg1"
-			(at 81.9775 16.51 0)
+		(property "Reference" "Servo_Reg2"
+			(at 135.3175 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +1793,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.9775 19.05 0)
+			(at 135.3175 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 31.115 0)
+			(at 131.445 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 31.115 0)
+			(at 131.445 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +1819,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 81.915 37.465 0)
+			(at 135.255 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,98 +1834,23 @@
 			(uuid "eb6a94d8-bb30-4eca-83e9-146c13a0fbdc")
 		)
 		(pin ""
-			(uuid "0cc3de6d-6e35-4e2d-b21a-1d10cc0cbd40")
+			(uuid "47525961-2c5c-483c-962b-77e9ddc07c3f")
 		)
 		(pin ""
-			(uuid "a163ed3c-febb-4d85-8781-2a9df13e6675")
+			(uuid "c1271a79-1895-4a74-9ee9-ce7ade3e38b2")
 		)
 		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
-					(reference "Servo_Reg1")
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/652192f8-bb08-498c-9451-d3de72942c70"
+					(reference "Servo_Reg2")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Regulator_2")
-		(lib_id "PID_symbols:Pressure_Regulator")
-		(at 90.17 120.015 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "828e8966-024e-43c8-8266-7751ad428806")
-		(property "Reference" "Servo_Reg1"
-			(at 94.0425 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 94.0425 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pressure Regulator"
-			(at 93.98 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "e63843a3-c471-489b-b0cc-760681f3f912")
-		)
-		(pin ""
-			(uuid "7f3db6a8-1aed-4945-8eff-78ed1035d964")
-		)
-		(pin ""
-			(uuid "cde9b302-ffba-4c8c-bbd0-84e37447ec89")
-		)
-		(pin ""
-			(uuid "815ce844-8fd0-4b57-942a-0e030a5f4700")
-		)
-		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
-					(reference "Servo_Reg1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 101.6 31.115 0)
+		(at 154.94 56.515 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2342,8 +1858,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a4fcdf-241e-4343-9a89-b17cc5de5c1e")
-		(property "Reference" "PT6"
-			(at 101.6 26.67 0)
+		(property "Reference" "PT7"
+			(at 154.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +1867,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 32.385 0)
+			(at 154.94 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +1876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 31.115 0)
+			(at 154.94 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +1885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 31.115 0)
+			(at 154.94 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +1894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 31.115 0)
+			(at 154.94 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,18 +1903,18 @@
 			)
 		)
 		(pin ""
-			(uuid "a4b19f93-589b-4cdc-9d40-bf6e4f6faf18")
+			(uuid "c8f954fb-64eb-48ea-8ad3-2710899b75ee")
 		)
 		(pin ""
-			(uuid "04f6e394-e3df-4ae9-a511-3af8d381992e")
+			(uuid "106c9ca1-8c15-41de-8724-8cbb608de27d")
 		)
 		(pin ""
-			(uuid "4ff67b59-7e36-4dbb-9284-8d1bc7d687da")
+			(uuid "5356d710-8f18-4b57-89cd-18e8c379abe4")
 		)
 		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
-					(reference "PT6")
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/652192f8-bb08-498c-9451-d3de72942c70"
+					(reference "PT7")
 					(unit 1)
 				)
 			)
@@ -2406,7 +1922,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Dome_Reg")
-		(at 93.345 52.705 0)
+		(at 146.685 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2414,8 +1930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb81075e-637f-40df-94ca-b752c92f1ef1")
-		(property "Reference" "Dome1"
-			(at 94.0254 60.96 0)
+		(property "Reference" "Dome2"
+			(at 147.3654 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +1939,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 94.0254 63.5 0)
+			(at 147.3654 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +1947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.345 52.705 0)
+			(at 146.685 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.345 52.705 0)
+			(at 146.685 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +1965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.345 52.705 0)
+			(at 146.685 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,19 +1974,84 @@
 			)
 		)
 		(pin ""
-			(uuid "323524ca-cf8f-4729-b357-5d4a371c15e3")
+			(uuid "c5432d54-5688-4e5a-9603-8bb7838815e9")
 		)
 		(pin ""
-			(uuid "364f5d69-bfe4-4e66-a35c-9bea19da18b1")
+			(uuid "af51c454-c20f-436a-8956-bd89857e7070")
 		)
 		(pin ""
-			(uuid "5f121193-7b4e-4fdc-b39a-51de98da7522")
+			(uuid "3985fbb0-91e8-4b09-8dd4-850821830a69")
 		)
 		(instances
-			(project ""
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
-					(reference "Dome1")
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/652192f8-bb08-498c-9451-d3de72942c70"
+					(reference "Dome2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 87.63)
+		(size 40.005 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f45ac0d-3df8-4780-9bb6-5e669a1052d3")
+		(property "Sheetname" "Pressure Panel"
+			(at 48.26 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PressurePanel.kicad_sch"
+			(at 48.26 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "N2_HP" input
+			(at 88.265 99.06 0)
+			(uuid "a753a8f1-e6e5-46d1-9925-d957b9d567d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N2_LP" output
+			(at 48.26 98.425 180)
+			(uuid "1dfdd29f-82a0-4add-9731-007c1707f972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/e4d564e4-d138-43e5-8324-63e7f8fba031"
+					(page "27")
+				)
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/652192f8-bb08-498c-9451-d3de72942c70"
+					(page "6")
 				)
 			)
 		)

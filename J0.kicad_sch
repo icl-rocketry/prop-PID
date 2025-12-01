@@ -5,6 +5,28 @@
 	(uuid "399b6c2b-a9d0-4223-87fa-df81ea52ff9d")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 123.19 81.28)
+		(end 142.875 107.315)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 082f18c9-f735-4a0e-b9d7-920348eb335a)
+	)
+	(text "Manifold\n"
+		(exclude_from_sim no)
+		(at 132.715 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "143427ae-1283-454e-b629-d3ed8359ea5a")
+	)
 	(text "J-0\n"
 		(exclude_from_sim no)
 		(at 158.75 -11.43 0)
@@ -16,9 +38,25 @@
 		)
 		(uuid "19d4659a-32c7-43fa-8210-cfd363489ae0")
 	)
+	(junction
+		(at 173.355 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da04fb3a-f8cd-407c-abdc-9df677801362")
+	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 93.98 80.01)
+			(xy 132.715 43.815) (xy 132.715 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2cbc54-b1c5-4b8a-9723-fe2898bcabb0")
+	)
+	(wire
+		(pts
+			(xy 85.725 95.25) (xy 95.885 95.25)
 		)
 		(stroke
 			(width 0.254)
@@ -28,17 +66,77 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 133.35 74.93)
+			(xy 168.91 44.45) (xy 173.355 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9790bc3b-162d-49e3-98f7-514be2f08b8d")
+		(uuid "2f384593-ab77-4d32-941b-ba08313f65ad")
+	)
+	(wire
+		(pts
+			(xy 132.715 95.885) (xy 114.935 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5307f0d8-75f1-4f78-94bb-dd8c3f1101df")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.815) (xy 132.715 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577f100e-3f0d-46d0-b208-6645bd43d7cf")
+	)
+	(wire
+		(pts
+			(xy 107.315 69.215) (xy 173.355 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de1e665-71da-4de3-a7d2-4090a900a6f9")
+	)
+	(wire
+		(pts
+			(xy 173.355 44.45) (xy 173.355 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622da213-f38d-4acf-a894-393cea69f430")
+	)
+	(wire
+		(pts
+			(xy 173.355 69.215) (xy 183.515 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d0ff20-3ae4-42c8-94d8-80345254f591")
+	)
+	(wire
+		(pts
+			(xy 107.315 69.215) (xy 107.315 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f862b3fc-f349-4a6a-b039-340729d215c7")
 	)
 	(sheet
-		(at 154.94 74.93)
-		(size 17.78 86.36)
+		(at 156.845 76.835)
+		(size 17.78 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -53,7 +151,7 @@
 		)
 		(uuid "2a11f1f0-1db0-4a3b-bc44-4a76b750bc36")
 		(property "Sheetname" "Fuel Bay"
-			(at 154.94 74.2184 0)
+			(at 156.845 76.1234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "J0_Fuel.kicad_sch"
-			(at 154.94 161.8746 0)
+			(at 156.845 124.4096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,8 +177,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 74.93)
-		(size 19.05 86.36)
+		(at 95.885 76.835)
+		(size 19.05 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -95,7 +193,7 @@
 		)
 		(uuid "343346ed-3011-4de4-9739-8cfc7e2486c8")
 		(property "Sheetname" "N2O Bay"
-			(at 93.98 74.2184 0)
+			(at 95.885 76.1234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +202,7 @@
 			)
 		)
 		(property "Sheetfile" "J0_N2O.kicad_sch"
-			(at 93.98 161.8746 0)
+			(at 95.885 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,13 +211,33 @@
 			)
 		)
 		(pin "N2O_Fill" input
-			(at 93.98 80.01 180)
+			(at 95.885 95.25 180)
 			(uuid "1ee61589-cc42-4a43-8b67-6e92aec6d20b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "N2_HP" input
+			(at 107.315 76.835 90)
+			(uuid "ac4e1968-d497-40cf-ae79-eb8c5e8934f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N2_LP" input
+			(at 114.935 95.885 0)
+			(uuid "5a7bb117-3e6c-4508-8064-19e0eb133392")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -131,8 +249,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 48.26)
-		(size 78.74 19.05)
+		(at 137.16 37.465)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -145,9 +263,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4685d168-feae-4fe5-a995-eaab704f316f")
-		(property "Sheetname" "N2 Bay"
-			(at 93.98 47.5484 0)
+		(uuid "4035a438-db16-4119-8b4d-f938f5ee1d69")
+		(property "Sheetname" "Pressure Panel1"
+			(at 137.16 36.7534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,8 +273,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "JO_N2_Bay.kicad_sch"
-			(at 93.98 67.8946 0)
+		(property "Sheetfile" "PressurePanel.kicad_sch"
+			(at 137.16 57.0996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,11 +283,21 @@
 			)
 		)
 		(pin "N2_HP" input
-			(at 133.35 67.31 270)
-			(uuid "6a885c93-6909-45b9-8f2b-3efd50d06a60")
+			(at 168.91 44.45 0)
+			(uuid "d7d84ea0-4c03-44b2-9def-4366a9aeca6d")
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N2_LP" output
+			(at 137.16 43.815 180)
+			(uuid "9e348e4d-069d-49df-a3c8-eb5494930314")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -177,13 +305,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292"
-					(page "25")
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 31.115 48.26)
+		(at 33.02 63.5)
 		(size 52.705 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -199,7 +327,7 @@
 		)
 		(uuid "4f024983-2e1e-4582-8230-72c25523eed0")
 		(property "Sheetname" "N20 BOTTLES"
-			(at 31.115 47.5484 0)
+			(at 33.02 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +336,7 @@
 			)
 		)
 		(property "Sheetfile" "J-0_N2O_Bottles.kicad_sch"
-			(at 31.115 88.2146 0)
+			(at 33.02 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +345,7 @@
 			)
 		)
 		(pin "N2O_FILL" output
-			(at 83.82 80.01 0)
+			(at 85.725 95.25 0)
 			(uuid "a05fecb2-781b-4a2f-bc45-ce456e86779e")
 			(effects
 				(font
@@ -235,7 +363,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 48.26)
+		(at 183.515 64.77)
 		(size 53.34 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -251,7 +379,7 @@
 		)
 		(uuid "5e417696-9b80-46cd-a7e0-3b030f339530")
 		(property "Sheetname" "N2 Bottles"
-			(at 181.61 47.5484 0)
+			(at 183.515 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,48 +388,7 @@
 			)
 		)
 		(property "Sheetfile" "J0_N2.kicad_sch"
-			(at 181.61 80.5946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292"
-					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 126.365 74.93)
-		(size 13.335 85.725)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e4d564e4-d138-43e5-8324-63e7f8fba031")
-		(property "Sheetname" "N2 Reg"
-			(at 127 99.06 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "N2_Reg.kicad_sch"
-			(at 126.365 161.2396 0)
+			(at 183.515 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,31 +397,11 @@
 			)
 		)
 		(pin "N2_HP" input
-			(at 133.35 74.93 90)
-			(uuid "79a904a4-0453-4553-9e24-12a3ef33c98b")
+			(at 183.515 69.215 180)
+			(uuid "a4e9b965-1411-438a-8e24-680f16ceaf9f")
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(pin "N2_LP" input
-			(at 126.365 109.22 180)
-			(uuid "afd27790-4b81-465e-b1ee-3340931b52e4")
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-				(justify left)
-			)
-		)
-		(pin "N2_Reg" input
-			(at 126.365 118.11 180)
-			(uuid "38ba4ef2-8934-4a02-866f-985f360f547e")
-			(effects
-				(font
-					(size 0.254 0.254)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -342,7 +409,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292"
-					(page "26")
+					(page "24")
 				)
 			)
 		)
