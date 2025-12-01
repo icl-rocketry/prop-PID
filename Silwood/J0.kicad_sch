@@ -134,6 +134,28 @@
 		)
 		(uuid "f862b3fc-f349-4a6a-b039-340729d215c7")
 	)
+	(global_label "D"
+		(shape input)
+		(at 132.715 61.595 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01f48eff-3646-4109-8a26-23f7313d81d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.316 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(sheet
 		(at 156.845 76.835)
 		(size 17.78 46.99)

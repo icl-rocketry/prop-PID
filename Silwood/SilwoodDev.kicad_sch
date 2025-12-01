@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3715ee25-66b1-4f6c-841e-c8dd2abaead3")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 125.095 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd048e28-fdfa-4787-a823-f1dfc641a771")
+	)
+	(wire
+		(pts
+			(xy 125.095 43.815) (xy 157.48 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca264218-a6a0-49e6-9c71-8ea5faef4f20")
+	)
+	(sheet
+		(at 37.465 34.29)
+		(size 87.63 43.815)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "716e35de-df01-4160-9e44-aa331f24f65f")
+		(property "Sheetname" "Pluto"
+			(at 37.465 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pluto.kicad_sch"
+			(at 37.465 78.6896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NitrousFill" input
+			(at 125.095 60.96 0)
+			(uuid "d523715d-c4ca-4c67-9941-c46bbc5e411b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NitrogenFill" input
+			(at 125.095 43.815 0)
+			(uuid "d23f2d41-7188-4feb-b35b-abe58c2a3b79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/05158890-fb12-44fd-8f58-13d3c7afd151"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 34.29)
+		(size 66.675 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e320f35-5e7f-414e-91e4-92bfb9958dbc")
+		(property "Sheetname" "GroundFillingStation"
+			(at 157.48 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GroundFillingStation.kicad_sch"
+			(at 157.48 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NitrogenFill" output
+			(at 157.48 43.815 180)
+			(uuid "95833d82-d66a-4ed5-81aa-653440cae8f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NitrousFill" output
+			(at 157.48 60.96 180)
+			(uuid "6bbea880-ae65-4abf-a2bb-64fb50eb10e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/05158890-fb12-44fd-8f58-13d3c7afd151"
+					(page "19")
+				)
+			)
+		)
+	)
+)
