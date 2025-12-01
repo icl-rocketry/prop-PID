@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 16.51 16.51)
-		(size 59.69 49.53)
+		(size 58.42 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,8 +20,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0af49a0b-311a-4e5f-a192-08c30979a0d0")
-		(property "Sheetname" "GFS (Concept)"
+		(uuid "3e19c696-edbd-4f2a-8306-64ef9f058e41")
+		(property "Sheetname" "GFS26"
 			(at 16.51 15.7984 0)
 			(effects
 				(font
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GFSYr26.kicad_sch"
-			(at 16.51 66.6246 0)
+		(property "Sheetfile" "GFS.kicad_sch"
+			(at 16.51 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,49 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
-					(page "19")
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 16.51)
+		(size 62.23 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac6f9866-6d7d-491d-94a4-140f8922d2b9")
+		(property "Sheetname" "FeedSystem"
+			(at 80.01 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Feed.kicad_sch"
+			(at 80.01 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9"
+					(page "24")
 				)
 			)
 		)
