@@ -1865,6 +1865,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PID_symbols:stop"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "U"
+				(at 2.286 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "stop_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.05)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 92.075 100.33)
@@ -1948,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 105.41) (xy 132.715 117.475)
+			(xy 132.715 105.41) (xy 132.715 106.045)
 		)
 		(stroke
 			(width 0)
@@ -1978,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.715 106.68) (xy 132.715 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90b31d6-a5b9-40ae-9c86-1c76a9143b7c")
+	)
+	(wire
+		(pts
 			(xy 103.505 105.41) (xy 123.19 105.41)
 		)
 		(stroke
@@ -1985,6 +2094,50 @@
 			(type default)
 		)
 		(uuid "f698ef16-9e6e-4c04-921c-098da90aa9b8")
+	)
+	(global_label "1-4"
+		(shape input)
+		(at 103.505 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "1dab4023-1077-4ad9-a64f-2d320dd8470e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.505 101.6051 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1-2"
+		(shape input)
+		(at 132.715 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "1e287ee3-53eb-4031-ac63-b26a7b046796")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.4501 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "N2_HP"
 		(shape input)
@@ -1998,7 +2151,6 @@
 		(uuid "0b05e603-7f8e-4467-ba83-37134644d4ca")
 	)
 	(symbol
-		(lib_name "Check_Valve_2")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 142.24 85.725 270)
 		(unit 1)
@@ -2008,7 +2160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fa3d6eb-3979-434f-8e4d-ab1a885d81a9")
-		(property "Reference" "CV14"
+		(property "Reference" "CV24"
 			(at 146.685 87.5029 90)
 			(effects
 				(font
@@ -2062,7 +2214,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "CV14")
+					(reference "CV24")
 					(unit 1)
 				)
 			)
@@ -2078,7 +2230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40fddac2-ffc0-4a2a-99a3-ef60261e1552")
-		(property "Reference" "MB_V5"
+		(property "Reference" "MB_V6"
 			(at 106.68 68.5799 90)
 			(effects
 				(font
@@ -2132,14 +2284,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "MB_V5")
+					(reference "MB_V6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Hose_1")
 		(lib_id "PID_symbols:Hose")
 		(at 123.19 83.185 0)
 		(unit 1)
@@ -2149,7 +2300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46463da1-8c37-4b01-8bf8-915cc02fc0c6")
-		(property "Reference" "Hose11"
+		(property "Reference" "Hose14"
 			(at 125.095 78.7399 0)
 			(effects
 				(font
@@ -2203,13 +2354,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "Hose11")
+					(reference "Hose14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Check_Valve_1")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 103.505 85.725 270)
 		(unit 1)
@@ -2219,7 +2371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4daa7e3f-09d9-461f-92dc-0c5841eab9ce")
-		(property "Reference" "CV12"
+		(property "Reference" "CV22"
 			(at 107.95 87.5029 90)
 			(effects
 				(font
@@ -2273,7 +2425,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "CV12")
+					(reference "CV22")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f7e6cc-04f7-412f-951b-686efd38414b")
-		(property "Reference" "MB_V11"
+		(property "Reference" "MB_V7"
 			(at 126.365 68.5799 90)
 			(effects
 				(font
@@ -2344,7 +2496,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "MB_V11")
+					(reference "MB_V7")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7999bbe5-542d-4fd2-91d8-9f166144dac4")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 149.225 46.3549 0)
 			(effects
 				(font
@@ -2411,7 +2563,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5c532f-e783-4e05-9045-5ce77642299d")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 130.175 46.3549 0)
 			(effects
 				(font
@@ -2478,14 +2630,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Hose_2")
+		(lib_name "Hose_1")
 		(lib_id "PID_symbols:Hose")
 		(at 142.24 83.185 0)
 		(unit 1)
@@ -2495,7 +2647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816016f0-9494-4267-9c01-436d23bc9612")
-		(property "Reference" "Hose12"
+		(property "Reference" "Hose15"
 			(at 144.145 78.7399 0)
 			(effects
 				(font
@@ -2549,14 +2701,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "Hose12")
+					(reference "Hose15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Hose_3")
+		(lib_name "Hose_2")
 		(lib_id "PID_symbols:Hose")
 		(at 161.925 83.82 0)
 		(unit 1)
@@ -2566,7 +2718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "905468a8-aad6-4b4d-8e36-3b4e4cf504f0")
-		(property "Reference" "Hose13"
+		(property "Reference" "Hose16"
 			(at 163.83 79.3749 0)
 			(effects
 				(font
@@ -2620,14 +2772,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "Hose13")
+					(reference "Hose16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_3")
+		(lib_name "Check_Valve_2")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 161.925 86.36 270)
 		(unit 1)
@@ -2637,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93fee21d-0a08-47c0-80a9-74bed5f3a025")
-		(property "Reference" "CV15"
+		(property "Reference" "CV25"
 			(at 166.37 88.1379 90)
 			(effects
 				(font
@@ -2691,14 +2843,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "CV15")
+					(reference "CV25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "MBallValve_3")
+		(lib_name "MBallValve_2")
 		(lib_id "PID_symbols:MBallValve")
 		(at 161.925 69.85 90)
 		(unit 1)
@@ -2708,7 +2860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab7f7798-bdcb-4cbe-a717-6d665bbacfb6")
-		(property "Reference" "MB_V13"
+		(property "Reference" "MB_V9"
 			(at 165.1 69.2149 90)
 			(effects
 				(font
@@ -2762,7 +2914,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "MB_V13")
+					(reference "MB_V9")
 					(unit 1)
 				)
 			)
@@ -2778,7 +2930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a4e7bb-45a4-4339-ba09-8e90d96d6bdd")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 168.91 46.9899 0)
 			(effects
 				(font
@@ -2829,7 +2981,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c827ab8d-782d-4494-aeea-bbf1fea93686")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 110.49 46.3549 0)
 			(effects
 				(font
@@ -2896,14 +3048,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_1")
+		(lib_name "Check_Valve_3")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 123.19 85.725 270)
 		(unit 1)
@@ -2913,7 +3065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7415da2-f02d-46dc-94e5-a24af65fe1e2")
-		(property "Reference" "CV13"
+		(property "Reference" "CV23"
 			(at 127.635 87.5029 90)
 			(effects
 				(font
@@ -2967,13 +3119,84 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "CV13")
+					(reference "CV23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "PID_symbols:stop")
+		(at 132.715 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e94448a4-2c24-4cda-90f4-6106f5dc8833")
+		(property "Reference" "U22"
+			(at 132.207 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.715 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.715 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.715 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e163572d-1d82-4b50-acfc-18bbc92cfe62")
+		)
+		(pin ""
+			(uuid "c2c0e833-28ba-4e9b-8c77-8a18bf0cd210")
+		)
+		(instances
+			(project ""
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Hose_3")
 		(lib_id "PID_symbols:Hose")
 		(at 103.505 83.185 0)
 		(unit 1)
@@ -2983,7 +3206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edeff329-5be5-48ef-8bf7-32669d659147")
-		(property "Reference" "Hose10"
+		(property "Reference" "Hose13"
 			(at 105.41 78.7399 0)
 			(effects
 				(font
@@ -3037,14 +3260,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "Hose10")
+					(reference "Hose13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "MBallValve_2")
+		(lib_name "MBallValve_3")
 		(lib_id "PID_symbols:MBallValve")
 		(at 142.24 69.215 90)
 		(unit 1)
@@ -3054,7 +3277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee8ea75-f334-49d0-a24f-71b06de0321b")
-		(property "Reference" "MB_V12"
+		(property "Reference" "MB_V8"
 			(at 145.415 68.5799 90)
 			(effects
 				(font
@@ -3108,7 +3331,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/5e417696-9b80-46cd-a7e0-3b030f339530"
-					(reference "MB_V12")
+					(reference "MB_V8")
 					(unit 1)
 				)
 			)

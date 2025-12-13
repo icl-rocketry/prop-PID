@@ -5,16 +5,17 @@
 	(uuid "1fe58bd7-d6db-4cdb-9816-3cf1e5c4b0ec")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Check_Valve_2"
+		(symbol "Filter_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CV"
-				(at 2.54 -4.064 0)
+			(property "Reference" "Filter"
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -52,10 +53,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Check_Valve_2_0_1"
+			(symbol "Filter_1_1_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 5.08 -2.54)
+						(xy -3.302 -0.635) (xy -3.302 0.635)
 					)
 					(stroke
 						(width 0)
@@ -67,7 +68,22 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy -3.277 0.65) (xy -3.177 0.95) (xy -2.877 1.2) (xy -2.427 1.25) (xy 2.423 1.25) (xy 2.723 1.15)
+						(xy 2.923 0.95) (xy 3.023 0.7) (xy 3.023 -0.6) (xy 2.973 -0.85) (xy 2.823 -1.05) (xy 2.573 -1.2)
+						(xy 1.973 -1.2) (xy -2.527 -1.2) (xy -2.702 -1.3) (xy -2.952 -1.2) (xy -3.227 -1) (xy -3.227 -0.6)
+						(xy -3.277 -0.3) (xy -3.277 0.6)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 1.27) (xy 2.413 1.27)
 					)
 					(stroke
 						(width 0)
@@ -79,7 +95,55 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.54)
+						(xy -2.667 1.016) (xy -2.667 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 0.635)
+					(mid -3.116 1.084)
+					(end -2.667 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -0.254) (xy -2.667 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.667 -1.27)
+					(mid -3.116 -1.084)
+					(end -3.302 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 0.508) (xy -2.159 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -91,7 +155,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 2.54)
+						(xy -1.651 1.016) (xy -1.651 0.254)
 					)
 					(stroke
 						(width 0)
@@ -101,33 +165,212 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Check_Valve_2_1_1"
-				(circle
-					(center 0 2.54)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -1.651 -0.254) (xy -1.651 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 2.54 -1.27) (xy 3.81 0) (xy 5.08 -2.54)
+						(xy -1.143 0.508) (xy -1.143 -0.508)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -2.54 0 0)
+				(polyline
+					(pts
+						(xy -0.635 1.016) (xy -0.635 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.254) (xy -0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 0.508) (xy -0.127 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 0.381 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -0.254) (xy 0.381 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0.508) (xy 0.889 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 1.016) (xy 1.397 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -0.254) (xy 1.397 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.508) (xy 1.905 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.016) (xy 2.413 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 1.27)
+					(mid 2.862 1.084)
+					(end 3.048 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -0.254) (xy 2.413 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 -0.635)
+					(mid 2.862 -1.084)
+					(end 2.413 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.27) (xy -2.667 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0.635) (xy 3.048 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.842 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -144,8 +387,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 5.588 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -165,12 +408,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter_1"
+		(symbol "Hose_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Filter"
-				(at 0 -3.302 0)
+			(property "Reference" "Hose"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -212,11 +455,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Filter_1_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.143) (xy -0.635 1.397)
-					)
+			(symbol "Hose_1_0_1"
+				(arc
+					(start 0 6.35)
+					(mid 0.6323 5.715)
+					(end 0 5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -225,10 +468,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.127 -0.381) (xy -0.127 0.635)
-					)
+				(arc
+					(start 0 5.08)
+					(mid 0.6323 4.445)
+					(end 0 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -237,10 +480,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.381 -1.143) (xy 0.381 1.397)
+				(arc
+					(start 0 3.81)
+					(mid 0.6323 3.175)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -250,237 +505,10 @@
 					)
 				)
 			)
-			(symbol "Filter_1_1_1"
-				(rectangle
-					(start -3.175 -1.651)
-					(end 2.921 1.905)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.667 -1.143) (xy -2.667 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.397) (xy -2.159 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 -0.381) (xy -2.159 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 -1.651) (xy -2.159 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 -1.143) (xy -1.651 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.397) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 -0.381) (xy -1.143 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 -1.651) (xy -1.143 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.397) (xy -0.127 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -1.651) (xy -0.127 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 1.397) (xy 0.889 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -0.381) (xy 0.889 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -1.651) (xy 0.889 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -1.143) (xy 1.397 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.397) (xy 1.905 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.381) (xy 1.905 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.651) (xy 1.905 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.143) (xy 2.413 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Hose_1_1_1"
 				(pin passive line
-					(at -5.715 0.127 0)
-					(length 2.54)
+					(at 0 7.62 270)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -497,8 +525,145 @@
 					)
 				)
 				(pin passive line
-					(at 5.461 0.127 180)
-					(length 2.54)
+					(at 0 0 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hose_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Hose"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Hose_2_0_1"
+				(arc
+					(start 0 6.35)
+					(mid 0.6323 5.715)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 0.6323 4.445)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.6323 3.175)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Hose_2_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -820,6 +985,166 @@
 				)
 				(pin passive line
 					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PID_symbols:Check_Valve"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CV"
+				(at 2.54 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Check_Valve_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Check_Valve_1_1"
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -1.27) (xy 3.81 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3825,7 +4150,43 @@
 					)
 				)
 				(pin input line
+					(at -2.54 5.08 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 6.35 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 0)
 					(length 0)
 					(name ""
 						(effects
@@ -3873,6 +4234,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -3910,50 +4272,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "Filter_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.143) (xy -0.635 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -0.381) (xy -0.127 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 -1.143) (xy 0.381 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "Filter_1_1"
-				(rectangle
-					(start -3.175 -1.651)
-					(end 2.921 1.905)
+				(polyline
+					(pts
+						(xy -3.302 -0.635) (xy -3.302 0.635)
+					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.277 0.65) (xy -3.177 0.95) (xy -2.877 1.2) (xy -2.427 1.25) (xy 2.423 1.25) (xy 2.723 1.15)
+						(xy 2.923 0.95) (xy 3.023 0.7) (xy 3.023 -0.6) (xy 2.973 -0.85) (xy 2.823 -1.05) (xy 2.573 -1.2)
+						(xy 1.973 -1.2) (xy -2.527 -1.2) (xy -2.702 -1.3) (xy -2.952 -1.2) (xy -3.227 -1) (xy -3.227 -0.6)
+						(xy -3.277 -0.3) (xy -3.277 0.6)
+					)
+					(stroke
+						(width -0.0001)
 						(type solid)
 					)
 					(fill
@@ -3962,7 +4302,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.667 -1.143) (xy -2.667 1.397)
+						(xy -2.667 1.27) (xy 2.413 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3974,7 +4314,55 @@
 				)
 				(polyline
 					(pts
-						(xy -2.159 1.397) (xy -2.159 1.905)
+						(xy -2.667 1.016) (xy -2.667 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 0.635)
+					(mid -3.116 1.084)
+					(end -2.667 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -0.254) (xy -2.667 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.667 -1.27)
+					(mid -3.116 -1.084)
+					(end -3.302 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 0.508) (xy -2.159 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -3986,7 +4374,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.159 -0.381) (xy -2.159 0.635)
+						(xy -1.651 1.016) (xy -1.651 0.254)
 					)
 					(stroke
 						(width 0)
@@ -3998,7 +4386,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.159 -1.651) (xy -2.159 -1.143)
+						(xy -1.651 -0.254) (xy -1.651 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -4010,7 +4398,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 -1.143) (xy -1.651 1.397)
+						(xy -1.143 0.508) (xy -1.143 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4022,7 +4410,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.143 1.397) (xy -1.143 1.905)
+						(xy -0.635 1.016) (xy -0.635 0.254)
 					)
 					(stroke
 						(width 0)
@@ -4034,7 +4422,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.143 -0.381) (xy -1.143 0.635)
+						(xy -0.635 -0.254) (xy -0.635 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -4046,7 +4434,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.143 -1.651) (xy -1.143 -1.143)
+						(xy -0.127 0.508) (xy -0.127 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4058,7 +4446,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.127 1.397) (xy -0.127 1.905)
+						(xy 0.381 1.016) (xy 0.381 0.254)
 					)
 					(stroke
 						(width 0)
@@ -4070,7 +4458,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.127 -1.651) (xy -0.127 -1.143)
+						(xy 0.381 -0.254) (xy 0.381 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -4082,7 +4470,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 1.397) (xy 0.889 1.905)
+						(xy 0.889 0.508) (xy 0.889 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4094,7 +4482,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 -0.381) (xy 0.889 0.635)
+						(xy 1.397 1.016) (xy 1.397 0.254)
 					)
 					(stroke
 						(width 0)
@@ -4106,7 +4494,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 -1.651) (xy 0.889 -1.143)
+						(xy 1.397 -0.254) (xy 1.397 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -4118,7 +4506,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.397 -1.143) (xy 1.397 1.397)
+						(xy 1.905 0.508) (xy 1.905 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4130,7 +4518,55 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 1.397) (xy 1.905 1.905)
+						(xy 2.413 1.016) (xy 2.413 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 1.27)
+					(mid 2.862 1.084)
+					(end 3.048 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -0.254) (xy 2.413 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 -0.635)
+					(mid 2.862 -1.084)
+					(end 2.413 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.27) (xy -2.667 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -4142,31 +4578,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -0.381) (xy 1.905 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.651) (xy 1.905 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.143) (xy 2.413 1.397)
+						(xy 3.048 0.635) (xy 3.048 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -4177,7 +4589,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.715 0.127 0)
+					(at -5.842 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4195,7 +4607,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.461 0.127 180)
+					(at 5.588 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4219,7 +4631,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
+			(property "Reference" "Hose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4316,14 +4728,14 @@
 				(pin passive line
 					(at 0 7.62 270)
 					(length 1.27)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4334,14 +4746,14 @@
 				(pin passive line
 					(at 0 0 90)
 					(length 1.27)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4687,8 +5099,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Reg"
-				(at 3.81 -2.54 0)
+			(property "Reference" "Servo_Reg"
+				(at 3.81 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4728,6 +5140,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "Pressure Regulator"
@@ -4778,6 +5198,7 @@
 				)
 			)
 			(symbol "Pressure_Regulator_1_1"
+				(unit_name "Reg")
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
@@ -4806,6 +5227,203 @@
 				(polyline
 					(pts
 						(xy 3.81 4.318) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 2.794)
+					(mid 3.81 3.5305)
+					(end 5.588 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.254) (xy 7.62 4.318) (xy 3.81 4.318)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Pressure_Regulator_1_2"
+				(unit_name "Reg")
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Pressure_Regulator_2_1"
+				(unit_name "Servo-Reg")
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
+						(xy 2.286 3.048) (xy 2.032 2.794)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 10.795)
+					(end 5.08 6.985)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.175 5.715)
+					(end 4.445 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 4.318) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 6.985)
 					)
 					(stroke
 						(width 0)
@@ -4885,6 +5503,184 @@
 				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Pressure_Regulator_2_2"
+				(unit_name "Servo-Reg")
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PID_symbols:Pressure_Transducer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pressure_Transducer_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
 					(name ""
 						(effects
 							(font
@@ -5123,105 +5919,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "Tank_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 8.89)
-					(mid -1.7961 10.6861)
-					(end 0 11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid -1.7961 -1.7961)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 11.43) (xy 2.54 11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 11.43)
-					(mid 4.3361 10.6861)
-					(end 5.08 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 4.3361 -1.7961)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(symbol "Tank_1_1"
+				(unit_name "Small")
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 8.255) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
@@ -5236,522 +5955,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin passive line
-					(at 1.27 11.43 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -2.54 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pressure_Transducer_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pressure_Transducer_5_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Pressure_Transducer_5_1_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "PT\n"
-					(at 0 1.016 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pressure_Transducer_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pressure_Transducer_6_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Pressure_Transducer_6_1_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "PT\n"
-					(at 0 1.016 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pressure_Transducer_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pressure_Transducer_7_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Pressure_Transducer_7_1_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "PT\n"
-					(at 0 1.016 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Tank_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "T"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tank_3_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(arc
@@ -5828,7 +6031,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 5.08 8.89)
+						(xy 5.08 8.89) (xy 5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -5836,24 +6039,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "Tank_3_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
-						(xy 1.524 -2.54) (xy 2.286 -2.54) (xy 3.048 -2.54) (xy 4.064 -2.032) (xy 4.572 -1.524) (xy 4.826 -1.016)
-						(xy 5.08 0) (xy 5.08 3.81) (xy 5.08 8.89) (xy 4.826 9.906) (xy 4.318 10.668) (xy 3.81 11.176)
-						(xy 3.048 11.43) (xy 1.524 11.43) (xy 0.508 11.43) (xy -0.254 11.43) (xy -1.016 11.176) (xy -1.524 10.922)
-						(xy -2.032 10.414) (xy -2.54 9.144) (xy -2.54 0)
-					)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -5893,9 +6078,515 @@
 					)
 				)
 			)
+			(symbol "Tank_1_2"
+				(unit_name "Small")
+				(pin passive line
+					(at 1.27 11.43 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_2_1"
+				(unit_name "Big COAX")
+				(polyline
+					(pts
+						(xy -5.715 0.635) (xy -5.715 28.575)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.715 28.575)
+					(mid -4.7851 30.8201)
+					(end -2.54 31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -4.7851 -1.6101)
+					(end -5.715 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 31.75) (xy 5.08 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0799 31.7499)
+					(mid 7.325 30.82)
+					(end 8.2549 28.5749)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.255 0.635)
+					(mid 7.3251 -1.6101)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.4324 -2.5474) (xy 6.85 -2) (xy 7.62 -1.27) (xy 8.128 -0.508) (xy 8.25 1.45) (xy 8.25 4.75)
+						(xy 8.25 28.65) (xy 8.15 29.55) (xy 7.4 30.85) (xy 6.2 31.6) (xy 5.15 31.7) (xy -2.4 31.75) (xy -3.25 31.7)
+						(xy -4.3 31.25) (xy -5.2 30.4) (xy -5.5 29.7) (xy -5.65 28.85) (xy -5.7 28.45) (xy -5.75 0.3)
+						(xy -5.35 -1) (xy -4.45 -1.85) (xy -3.7 -2.3) (xy -2.8 -2.55) (xy 5.5 -2.5)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 28.575) (xy 8.255 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 20.32 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_2_2"
+				(unit_name "Big COAX")
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
-		(symbol "Tank_4"
+		(symbol "Pressure_Transducer_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pressure_Transducer_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_1_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pressure_Transducer_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pressure_Transducer_2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_2_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Tank_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5942,10 +6633,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Tank_4_0_1"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Tank_1_1_1"
+				(unit_name "Small")
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 8.89)
+						(xy -2.54 0) (xy -2.54 8.255) (xy -2.54 8.89)
 					)
 					(stroke
 						(width 0)
@@ -5953,6 +6653,22 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
+						(xy 1.524 -2.54) (xy 2.286 -2.54) (xy 3.048 -2.54) (xy 4.064 -2.032) (xy 4.572 -1.524) (xy 4.826 -1.016)
+						(xy 5.08 0) (xy 5.08 3.81) (xy 5.08 8.89) (xy 4.826 9.906) (xy 4.318 10.668) (xy 3.81 11.176)
+						(xy 3.048 11.43) (xy 1.524 11.43) (xy 0.508 11.43) (xy -0.254 11.43) (xy -1.016 11.176) (xy -1.524 10.922)
+						(xy -2.032 10.414) (xy -2.54 9.144) (xy -2.54 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(arc
@@ -6029,7 +6745,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 5.08 8.89)
+						(xy 5.08 8.89) (xy 5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -6037,24 +6753,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "Tank_4_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
-						(xy 1.524 -2.54) (xy 2.286 -2.54) (xy 3.048 -2.54) (xy 4.064 -2.032) (xy 4.572 -1.524) (xy 4.826 -1.016)
-						(xy 5.08 0) (xy 5.08 3.81) (xy 5.08 8.89) (xy 4.826 9.906) (xy 4.318 10.668) (xy 3.81 11.176)
-						(xy 3.048 11.43) (xy 1.524 11.43) (xy 0.508 11.43) (xy -0.254 11.43) (xy -1.016 11.176) (xy -1.524 10.922)
-						(xy -2.032 10.414) (xy -2.54 9.144) (xy -2.54 0)
-					)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -6077,6 +6775,670 @@
 				)
 				(pin passive line
 					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_1_1_2"
+				(unit_name "Small")
+				(pin passive line
+					(at 1.27 11.43 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_1_2_1"
+				(unit_name "Big COAX")
+				(polyline
+					(pts
+						(xy -5.715 0.635) (xy -5.715 28.575)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.715 28.575)
+					(mid -4.7851 30.8201)
+					(end -2.54 31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -4.7851 -1.6101)
+					(end -5.715 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 31.75) (xy 5.08 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0799 31.7499)
+					(mid 7.325 30.82)
+					(end 8.2549 28.5749)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.255 0.635)
+					(mid 7.3251 -1.6101)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.4324 -2.5474) (xy 6.85 -2) (xy 7.62 -1.27) (xy 8.128 -0.508) (xy 8.25 1.45) (xy 8.25 4.75)
+						(xy 8.25 28.65) (xy 8.15 29.55) (xy 7.4 30.85) (xy 6.2 31.6) (xy 5.15 31.7) (xy -2.4 31.75) (xy -3.25 31.7)
+						(xy -4.3 31.25) (xy -5.2 30.4) (xy -5.5 29.7) (xy -5.65 28.85) (xy -5.7 28.45) (xy -5.75 0.3)
+						(xy -5.35 -1) (xy -4.45 -1.85) (xy -3.7 -2.3) (xy -2.8 -2.55) (xy 5.5 -2.5)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 28.575) (xy 8.255 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 20.32 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_1_2_2"
+				(unit_name "Big COAX")
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Tank_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Tank_2_1_1"
+				(unit_name "Small")
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 8.255) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.286 -1.016) (xy -2.032 -1.524) (xy -1.524 -2.032) (xy -1.016 -2.286) (xy -0.254 -2.54)
+						(xy 1.524 -2.54) (xy 2.286 -2.54) (xy 3.048 -2.54) (xy 4.064 -2.032) (xy 4.572 -1.524) (xy 4.826 -1.016)
+						(xy 5.08 0) (xy 5.08 3.81) (xy 5.08 8.89) (xy 4.826 9.906) (xy 4.318 10.668) (xy 3.81 11.176)
+						(xy 3.048 11.43) (xy 1.524 11.43) (xy 0.508 11.43) (xy -0.254 11.43) (xy -1.016 11.176) (xy -1.524 10.922)
+						(xy -2.032 10.414) (xy -2.54 9.144) (xy -2.54 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 8.89)
+					(mid -1.7961 10.6861)
+					(end 0 11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.7961 -1.7961)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 11.43) (xy 2.54 11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 11.43)
+					(mid 4.3361 10.6861)
+					(end 5.08 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.3361 -1.7961)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 8.89) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 1.27 11.43 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_2_1_2"
+				(unit_name "Small")
+				(pin passive line
+					(at 1.27 11.43 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_2_2_1"
+				(unit_name "Big COAX")
+				(polyline
+					(pts
+						(xy -5.715 0.635) (xy -5.715 28.575)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.715 28.575)
+					(mid -4.7851 30.8201)
+					(end -2.54 31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -4.7851 -1.6101)
+					(end -5.715 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 31.75) (xy 5.08 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0799 31.7499)
+					(mid 7.325 30.82)
+					(end 8.2549 28.5749)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.255 0.635)
+					(mid 7.3251 -1.6101)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.4324 -2.5474) (xy 6.85 -2) (xy 7.62 -1.27) (xy 8.128 -0.508) (xy 8.25 1.45) (xy 8.25 4.75)
+						(xy 8.25 28.65) (xy 8.15 29.55) (xy 7.4 30.85) (xy 6.2 31.6) (xy 5.15 31.7) (xy -2.4 31.75) (xy -3.25 31.7)
+						(xy -4.3 31.25) (xy -5.2 30.4) (xy -5.5 29.7) (xy -5.65 28.85) (xy -5.7 28.45) (xy -5.75 0.3)
+						(xy -5.35 -1) (xy -4.45 -1.85) (xy -3.7 -2.3) (xy -2.8 -2.55) (xy 5.5 -2.5)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 28.575) (xy 8.255 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 20.32 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Tank_2_2_2"
+				(unit_name "Big COAX")
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
 					(length 0)
 					(name ""
 						(effects
@@ -6375,7 +7737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0738de2b-c183-4fe0-9c2a-c2ed01377b15")
-		(property "Reference" "nO_Sol40"
+		(property "Reference" "nO_Sol5"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -6427,14 +7789,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "nO_Sol40")
+					(reference "nO_Sol5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Normally_Closed_Solenoid_1")
 		(lib_id "PID_symbols:Normally_Closed_Solenoid")
 		(at 151.13 129.54 90)
 		(unit 1)
@@ -6444,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1358aa57-79a1-417f-924e-56e320451ebf")
-		(property "Reference" "nC_Sol13"
+		(property "Reference" "nC_Sol5"
 			(at 154.94 128.9049 90)
 			(effects
 				(font
@@ -6499,7 +7860,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "nC_Sol13")
+					(reference "nC_Sol5")
 					(unit 1)
 				)
 			)
@@ -6515,7 +7876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e0319c-7b6b-4d8b-a4b8-69f72e3dcec8")
-		(property "Reference" "Reg25"
+		(property "Reference" "Reg6"
 			(at 175.3225 43.18 0)
 			(effects
 				(font
@@ -6564,17 +7925,23 @@
 		(pin ""
 			(uuid "a1129081-9b03-4ecd-b857-d1fe14cb01aa")
 		)
+		(pin ""
+			(uuid "6272cf52-a1f5-4865-816d-c52e50d92bc6")
+		)
+		(pin ""
+			(uuid "7d1a5aae-7762-4de1-be90-721122c06c69")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "Reg25")
+					(reference "Reg6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Normally_Closed_Solenoid_2")
+		(lib_name "Normally_Closed_Solenoid_1")
 		(lib_id "PID_symbols:Normally_Closed_Solenoid")
 		(at 151.13 59.69 90)
 		(unit 1)
@@ -6584,7 +7951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50d8304f-99a1-4f9d-8bfb-273cd82ee741")
-		(property "Reference" "nC_Sol12"
+		(property "Reference" "nC_Sol3"
 			(at 154.94 59.0549 90)
 			(effects
 				(font
@@ -6638,7 +8005,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "nC_Sol12")
+					(reference "nC_Sol3")
 					(unit 1)
 				)
 			)
@@ -6654,7 +8021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "575fab7c-c94d-401e-8e0d-ce447975e001")
-		(property "Reference" "Filter10"
+		(property "Reference" "Filter6"
 			(at 107.95 149.3519 90)
 			(effects
 				(font
@@ -6708,7 +8075,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "Filter10")
+					(reference "Filter6")
 					(unit 1)
 				)
 			)
@@ -6724,7 +8091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591fae25-341f-42e4-bbda-bdf7a3a2f54d")
-		(property "Reference" "H9"
+		(property "Reference" "H6"
 			(at 106.68 76.8349 0)
 			(effects
 				(font
@@ -6769,22 +8136,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "227f2df3-002d-458c-b28b-39ae41412eba")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "7021a162-f9ac-43e0-9bc1-95be8cab1626")
 		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "H9")
+					(reference "H6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Normally_Closed_Solenoid_2")
 		(lib_id "PID_symbols:Normally_Closed_Solenoid")
 		(at 105.41 100.33 90)
 		(unit 1)
@@ -6794,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66309750-84ae-4c99-967f-ce6144ceb81f")
-		(property "Reference" "nC_Sol11"
+		(property "Reference" "nC_Sol4"
 			(at 109.22 99.6949 90)
 			(effects
 				(font
@@ -6849,14 +8217,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "nC_Sol11")
+					(reference "nC_Sol4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_5")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 92.71 88.9 0)
 		(unit 1)
@@ -6866,7 +8233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753097fc-7190-4e39-8102-fa8f80a32e7f")
-		(property "Reference" "PT108"
+		(property "Reference" "PT22"
 			(at 92.71 83.82 0)
 			(effects
 				(font
@@ -6922,7 +8289,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "PT108")
+					(reference "PT22")
 					(unit 1)
 				)
 			)
@@ -6938,7 +8305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76f99498-2e4c-47ae-ab17-ddeb2bbfdb81")
-		(property "Reference" "T18"
+		(property "Reference" "T6"
 			(at 110.49 62.2299 0)
 			(effects
 				(font
@@ -6990,16 +8357,23 @@
 		(pin ""
 			(uuid "3207f462-9a5f-4537-a515-c02278a8c08d")
 		)
+		(pin ""
+			(uuid "578b3862-5da3-4f23-bb44-e3bfa6b5326f")
+		)
+		(pin ""
+			(uuid "81adc155-eb0c-46cb-b4d7-0365ef67d1f1")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "T18")
+					(reference "T6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Hose_1")
 		(lib_id "PID_symbols:Hose")
 		(at 151.13 115.57 0)
 		(unit 1)
@@ -7009,7 +8383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfeb117-16d8-46e6-98b8-fefeeaf82f93")
-		(property "Reference" "H10"
+		(property "Reference" "H7"
 			(at 152.4 111.1249 0)
 			(effects
 				(font
@@ -7054,23 +8428,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "d0bfb70e-c951-4c91-bd99-a480e8ed2b31")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "1740070e-1568-4c7a-80c1-e537cbf137a1")
 		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "H10")
+					(reference "H7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Check_Valve_2")
 		(lib_id "PID_symbols:Check_Valve")
 		(at 105.41 116.84 270)
 		(unit 1)
@@ -7080,7 +8453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b600ac14-0590-4e04-94e2-aafaff68a110")
-		(property "Reference" "CV64"
+		(property "Reference" "CV21"
 			(at 109.22 118.6179 90)
 			(effects
 				(font
@@ -7134,14 +8507,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "CV64")
+					(reference "CV21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Tank_4")
+		(lib_name "Tank_1")
 		(lib_id "PID_symbols:Tank")
 		(at 189.23 49.53 270)
 		(unit 1)
@@ -7151,7 +8524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf5a32b1-25c4-4abe-a053-09d3805ec272")
-		(property "Reference" "T20"
+		(property "Reference" "T5"
 			(at 193.675 43.18 90)
 			(effects
 				(font
@@ -7201,16 +8574,23 @@
 		(pin ""
 			(uuid "32bc3f30-977b-4723-af1b-422486eb3888")
 		)
+		(pin ""
+			(uuid "5d6711a7-282a-4be3-a049-f5c5d18403df")
+		)
+		(pin ""
+			(uuid "62155dde-1394-499a-8e55-f29d7aea0fba")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "T20")
+					(reference "T5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Hose_2")
 		(lib_id "PID_symbols:Hose")
 		(at 158.75 50.8 270)
 		(unit 1)
@@ -7220,7 +8600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b339ee-a62e-483c-a746-057dc89057be")
-		(property "Reference" "H11"
+		(property "Reference" "H5"
 			(at 162.56 46.99 90)
 			(effects
 				(font
@@ -7263,16 +8643,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin ""
 			(uuid "1ab67b00-5507-4e03-a0f1-33a9cf756c41")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "00b5ddb5-e86a-4ea6-a79b-b3d086e52162")
 		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "H11")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7288,7 +8668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d9451a-8b27-4ed3-8913-0dfa8dff2620")
-		(property "Reference" "Engine21"
+		(property "Reference" "Engine2"
 			(at 135.89 160.9018 0)
 			(effects
 				(font
@@ -7342,17 +8722,23 @@
 		(pin ""
 			(uuid "dddca479-543d-4f19-8952-b0af68d60909")
 		)
+		(pin ""
+			(uuid "6ca80511-4544-4ab1-bb08-cddc1563515b")
+		)
+		(pin ""
+			(uuid "ceacfcef-0fde-422e-bc29-d205d99e5c75")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "Engine21")
+					(reference "Engine2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_7")
+		(lib_name "Pressure_Transducer_1")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 129.54 143.51 0)
 		(unit 1)
@@ -7362,7 +8748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf68c15e-99de-4177-8b46-067df34dc7e7")
-		(property "Reference" "PT109"
+		(property "Reference" "PT23"
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -7418,14 +8804,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "PT109")
+					(reference "PT23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Tank_3")
+		(lib_name "Tank_2")
 		(lib_id "PID_symbols:Tank")
 		(at 149.86 99.06 0)
 		(unit 1)
@@ -7435,7 +8821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac71bbc-de99-4e86-a6f4-385d6f69cda8")
-		(property "Reference" "T19"
+		(property "Reference" "T7"
 			(at 156.21 93.9799 0)
 			(effects
 				(font
@@ -7487,10 +8873,16 @@
 		(pin ""
 			(uuid "41b8e5ad-219f-4063-b35b-27ef7dac0d37")
 		)
+		(pin ""
+			(uuid "20215b13-19b1-4bbf-a440-e2466ad25ba7")
+		)
+		(pin ""
+			(uuid "0dd675c4-5473-4a6f-a649-a397f20383cf")
+		)
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "T19")
+					(reference "T7")
 					(unit 1)
 				)
 			)
@@ -7507,7 +8899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6b3b637-d3cb-4f16-a6fc-a2214f6f8966")
-		(property "Reference" "Filter11"
+		(property "Reference" "Filter7"
 			(at 153.67 149.3519 90)
 			(effects
 				(font
@@ -7561,14 +8953,14 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "Filter11")
+					(reference "Filter7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Pressure_Transducer_6")
+		(lib_name "Pressure_Transducer_2")
 		(lib_id "PID_symbols:Pressure_Transducer")
 		(at 165.1 82.55 0)
 		(unit 1)
@@ -7578,7 +8970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f583d246-7deb-48c1-9eec-4863c4b0d518")
-		(property "Reference" "PT110"
+		(property "Reference" "PT21"
 			(at 165.1 77.47 0)
 			(effects
 				(font
@@ -7635,7 +9027,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "PT110")
+					(reference "PT21")
 					(unit 1)
 				)
 			)
@@ -7651,7 +9043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff5ff1b9-53b1-4af7-9dcc-8a1063ab89fa")
-		(property "Reference" "SPRV37"
+		(property "Reference" "SPRV8"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -7703,7 +9095,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/081dbac5-8f85-4051-aee6-075b7a4e109e"
-					(reference "SPRV37")
+					(reference "SPRV8")
 					(unit 1)
 				)
 			)
