@@ -24,6 +24,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -123,6 +124,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -912,6 +914,7 @@
 		)
 	)
 	(symbol
+		(lib_name "stop_1")
 		(lib_id "PID_symbols:stop")
 		(at 117.475 173.99 0)
 		(unit 1)
@@ -936,6 +939,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -981,7 +985,6 @@
 		)
 	)
 	(symbol
-		(lib_name "stop_1")
 		(lib_id "PID_symbols:stop")
 		(at 129.54 187.325 0)
 		(unit 1)
@@ -1006,6 +1009,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

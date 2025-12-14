@@ -23,6 +23,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -49,7 +50,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MBallValve_1_0_1"
@@ -171,6 +171,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -197,7 +198,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MBallValve_2_0_1"
@@ -319,6 +319,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -345,7 +346,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MBallValve_3_0_1"
@@ -467,6 +467,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -493,7 +494,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Manual_Pressure_Gauge_1_1_1"
@@ -577,6 +577,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -603,7 +604,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MBallValve_0_1"
@@ -725,6 +725,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -751,7 +752,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Manual_Pressure_Gauge_1_1"
@@ -835,6 +835,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -861,7 +862,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -1185,8 +1185,7 @@
 					)
 					(stroke
 						(width 0.25)
-						(type default)
-						(color 224 108 117 1)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1300,6 +1299,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1326,7 +1326,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Quick_Disconnect_0_1"
@@ -1413,6 +1412,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1439,7 +1439,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SPRV_0_1"
@@ -1586,6 +1585,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1612,7 +1612,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Quick_Disconnect_1_0_1"
@@ -1961,6 +1960,7 @@
 		(uuid "c94e35e4-e987-49fa-8e0f-8f37ad47594d")
 	)
 	(symbol
+		(lib_name "MBallValve_2")
 		(lib_id "PID_symbols:MBallValve")
 		(at 65.405 83.185 0)
 		(unit 1)
@@ -1984,6 +1984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2010,7 +2011,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2053,6 +2053,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2079,7 +2080,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2098,6 +2098,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Manual_Pressure_Gauge_1")
 		(lib_id "PID_symbols:Manual_Pressure_Gauge")
 		(at 134.62 70.485 90)
 		(unit 1)
@@ -2106,7 +2107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e7d9965-24f8-42c8-b511-9591428ed419")
-		(property "Reference" "Manual_Pressure_Gauge1"
+		(property "Reference" "Manual_Pressure_Gauge2"
 			(at 123.19 66.04 90)
 			(effects
 				(font
@@ -2122,6 +2123,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2148,7 +2150,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2160,7 +2161,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/4035a438-db16-4119-8b4d-f938f5ee1d69"
-					(reference "Manual_Pressure_Gauge1")
+					(reference "Manual_Pressure_Gauge2")
 					(unit 1)
 				)
 			)
@@ -2190,6 +2191,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2216,7 +2218,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2251,7 +2252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b5fcb4-86f4-41c6-bd2a-4b655167ab2b")
-		(property "Reference" "MB_V2"
+		(property "Reference" "MB_V4"
 			(at 167.005 77.47 0)
 			(effects
 				(font
@@ -2265,6 +2266,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2291,7 +2293,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2303,7 +2304,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/4035a438-db16-4119-8b4d-f938f5ee1d69"
-					(reference "MB_V2")
+					(reference "MB_V4")
 					(unit 1)
 				)
 			)
@@ -2335,6 +2336,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2361,7 +2363,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2380,7 +2381,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MBallValve_2")
+		(lib_name "MBallValve_3")
 		(lib_id "PID_symbols:MBallValve")
 		(at 134.62 95.25 90)
 		(unit 1)
@@ -2390,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b35d956e-08a5-4f3c-a006-70dc0727e43d")
-		(property "Reference" "MB_V4"
+		(property "Reference" "MB_V3"
 			(at 138.43 94.6149 90)
 			(effects
 				(font
@@ -2406,6 +2407,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2432,7 +2434,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2444,14 +2445,13 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/4035a438-db16-4119-8b4d-f938f5ee1d69"
-					(reference "MB_V4")
+					(reference "MB_V3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Manual_Pressure_Gauge_1")
 		(lib_id "PID_symbols:Manual_Pressure_Gauge")
 		(at 84.455 73.66 90)
 		(unit 1)
@@ -2460,7 +2460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b533a6d0-89ff-4327-bcc2-db65a2ed0871")
-		(property "Reference" "Manual_Pressure_Gauge2"
+		(property "Reference" "Manual_Pressure_Gauge1"
 			(at 73.025 69.215 90)
 			(effects
 				(font
@@ -2476,6 +2476,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2502,7 +2503,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2514,7 +2514,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/4035a438-db16-4119-8b4d-f938f5ee1d69"
-					(reference "Manual_Pressure_Gauge2")
+					(reference "Manual_Pressure_Gauge1")
 					(unit 1)
 				)
 			)
@@ -2547,6 +2547,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2573,7 +2574,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2592,7 +2592,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MBallValve_3")
 		(lib_id "PID_symbols:MBallValve")
 		(at 100.33 94.615 90)
 		(unit 1)
@@ -2602,7 +2601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4042be2-3644-4e96-8a54-1a9a149eabd0")
-		(property "Reference" "MB_V3"
+		(property "Reference" "MB_V2"
 			(at 104.14 93.9799 90)
 			(effects
 				(font
@@ -2618,6 +2617,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2644,7 +2644,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -2656,7 +2655,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/4035a438-db16-4119-8b4d-f938f5ee1d69"
-					(reference "MB_V3")
+					(reference "MB_V2")
 					(unit 1)
 				)
 			)

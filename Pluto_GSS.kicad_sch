@@ -27,6 +27,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -53,7 +54,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Hose_1_0_1"
@@ -164,6 +164,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -190,7 +191,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Hose_2_0_1"
@@ -301,6 +301,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -327,7 +328,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Cylinder_1_1"
@@ -373,7 +373,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -382,6 +381,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -408,7 +408,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Filter_1_1"
@@ -784,6 +783,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -810,7 +810,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Hose_0_1"
@@ -954,7 +953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ae2a21-f326-4da3-a905-41973508f16b")
-		(property "Reference" "N2O_Tank_1"
+		(property "Reference" "C?"
 			(at 77.47 93.98 90)
 			(effects
 				(font
@@ -968,6 +967,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -994,7 +994,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1003,7 +1002,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2O_Tank_1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -1019,7 +1018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4a2588-a7bb-45ad-a5e7-ce09dd3208ce")
-		(property "Reference" "N2O_Hose_2"
+		(property "Reference" "Hose?"
 			(at 100.965 119.38 90)
 			(effects
 				(font
@@ -1033,6 +1032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1059,7 +1059,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1071,7 +1070,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2O_Hose_2")
+					(reference "Hose?")
 					(unit 1)
 				)
 			)
@@ -1100,6 +1099,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1126,7 +1126,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1154,7 +1153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7806f8-5156-420b-bc26-7759804770c5")
-		(property "Reference" "N2O_Tank_2"
+		(property "Reference" "C?"
 			(at 77.47 113.03 90)
 			(effects
 				(font
@@ -1168,6 +1167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1194,7 +1194,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1203,7 +1202,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2O_Tank_2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -1220,7 +1219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82a6c6e-996b-4a0f-b8e8-9870ae031e84")
-		(property "Reference" "N2O_Hose_1"
+		(property "Reference" "Hose?"
 			(at 100.965 100.33 90)
 			(effects
 				(font
@@ -1234,6 +1233,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1260,7 +1260,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1272,7 +1271,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2O_Hose_1")
+					(reference "Hose?")
 					(unit 1)
 				)
 			)
@@ -1289,7 +1288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05e726b-e697-450d-b6aa-1839e42010e1")
-		(property "Reference" "N2_Hose3"
+		(property "Reference" "Hose?"
 			(at 100.965 60.96 90)
 			(effects
 				(font
@@ -1303,6 +1302,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1329,7 +1329,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1341,7 +1340,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2_Hose3")
+					(reference "Hose?")
 					(unit 1)
 				)
 			)
@@ -1357,7 +1356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1252ea-2f8e-48d2-9b3f-bd29634373fb")
-		(property "Reference" "N2_Cylinder3"
+		(property "Reference" "C?"
 			(at 77.47 55.245 90)
 			(effects
 				(font
@@ -1371,6 +1370,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1397,7 +1397,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin ""
@@ -1406,7 +1405,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340/d1c23521-1854-4751-80d3-fa4616e29f0e"
-					(reference "N2_Cylinder3")
+					(reference "C?")
 					(unit 1)
 				)
 			)
