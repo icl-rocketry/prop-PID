@@ -3890,6 +3890,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pneumatic_Rotary_Ball_Valve_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Pmatic_B_Valve"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pneumatic_Rotary_Ball_Valve_1_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.81 2.54) (xy -3.81 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 3.81 2.54) (xy 3.81 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54) (xy 0 3.81) (xy -2.54 3.81) (xy -2.54 6.35) (xy 2.54 6.35) (xy 2.54 3.81)
+						(xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pressure_Transducer_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5448,6 +5655,12 @@
 		(uuid "c4e79233-cd99-4fb2-88a0-8f8e6104b8dc")
 	)
 	(junction
+		(at 135.255 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a84cef-833e-45b9-825f-2a87827ac150")
+	)
+	(junction
 		(at 139.065 55.245)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5512,6 +5725,16 @@
 			(type default)
 		)
 		(uuid "2bc9abaa-6684-4dac-aa83-6a7c402f1fb1")
+	)
+	(wire
+		(pts
+			(xy 135.255 79.375) (xy 140.97 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c52461d-6dca-405d-acb1-b09ccf7c6c80")
 	)
 	(wire
 		(pts
@@ -5665,6 +5888,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.685 61.595) (xy 135.255 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0046f7-1b6b-41d9-9f5c-4eb2c3121df8")
+	)
+	(wire
+		(pts
 			(xy 129.54 147.32) (xy 117.475 147.32)
 		)
 		(stroke
@@ -5762,6 +5995,16 @@
 			(type default)
 		)
 		(uuid "7b02156d-2726-475c-8695-902a670700d1")
+	)
+	(wire
+		(pts
+			(xy 135.255 61.595) (xy 135.255 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d12f21-b3eb-48fb-9e59-978e142b9ed4")
 	)
 	(wire
 		(pts
@@ -5925,6 +6168,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.035 55.245) (xy 160.02 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6ad264-fb3b-4262-937e-ed9919e7a78e")
+	)
+	(wire
+		(pts
 			(xy 120.65 26.67) (xy 139.065 26.67)
 		)
 		(stroke
@@ -6015,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 55.245) (xy 160.02 55.245)
+			(xy 139.065 55.245) (xy 140.335 55.245)
 		)
 		(stroke
 			(width 0)
@@ -6035,7 +6288,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 79.375) (xy 140.97 79.375)
+			(xy 109.22 79.375) (xy 135.255 79.375)
 		)
 		(stroke
 			(width 0)
@@ -6771,6 +7024,80 @@
 			(project ""
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Pneumatic_Rotary_Ball_Valve_1")
+		(lib_id "PID_symbols:Pneumatic_Rotary_Ball_Valve")
+		(at 146.685 55.245 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "287dfb1c-342d-4100-b792-53a8452aa495")
+		(property "Reference" "Pmatic_B_Valve10"
+			(at 126.365 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 146.685 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.685 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "868e8d99-5140-4de4-8f11-dfd082a08971")
+		)
+		(pin ""
+			(uuid "0de4dc30-7765-4438-98da-36b5f52cb48b")
+		)
+		(pin ""
+			(uuid "bf7a5d5f-6b1d-404b-a9c9-63a443e29b47")
+		)
+		(pin ""
+			(uuid "6f43e9f4-3a74-4ca9-8ba3-1c95667e81b9")
+		)
+		(instances
+			(project ""
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292"
+					(reference "Pmatic_B_Valve10")
 					(unit 1)
 				)
 			)
