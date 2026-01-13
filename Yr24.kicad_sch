@@ -24,7 +24,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -124,7 +123,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -947,7 +945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38500b1a-6b2f-4aee-beb0-7e0ecbf1f49f")
-		(property "Reference" "U1"
+		(property "Reference" "U35"
 			(at 121.666 101.092 0)
 			(effects
 				(font
@@ -962,7 +960,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1001,7 +998,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340"
-					(reference "U1")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -1018,7 +1015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc65582f-41d5-49b6-a999-6fa52c15196c")
-		(property "Reference" "U2"
+		(property "Reference" "U36"
 			(at 133.731 114.427 0)
 			(effects
 				(font
@@ -1033,7 +1030,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1072,7 +1068,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/d4c68d07-3148-4b28-9ebc-772298248340"
-					(reference "U2")
+					(reference "U36")
 					(unit 1)
 				)
 			)
