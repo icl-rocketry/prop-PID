@@ -6443,7 +6443,7 @@
 	)
 	(text "Container Wall"
 		(exclude_from_sim no)
-		(at 154.305 25.4 0)
+		(at 155.575 24.13 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -6860,7 +6860,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.695 88.265) (xy 99.695 94.615)
+			(xy 99.695 92.075) (xy 99.695 94.615)
 		)
 		(stroke
 			(width 0)
@@ -7586,19 +7586,19 @@
 			)
 		)
 	)
-	(global_label "Tube"
+	(global_label "1-2"
 		(shape input)
-		(at 93.98 100.965 0)
+		(at 107.315 55.245 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.254 0.254)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2596f501-ba87-4365-aebc-037672bbb029")
+		(uuid "28a9ff68-184d-4161-be5d-37854dbfc1b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.3174 100.965 0)
+			(at 113.6374 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,28 +7621,6 @@
 		(uuid "327c440c-cecb-44f5-af97-31e978f97faa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.9074 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "1-2"
-		(shape input)
-		(at 102.87 55.245 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.254 0.254)
-			)
-			(justify left)
-		)
-		(uuid "38d8db6d-e4ad-44c7-b972-67fe7722b41a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 53.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8366,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 99.695 85.725 0)
+		(at 99.695 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8397,7 +8375,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dec5d4e-cf7e-43b4-a1d7-716d4a80be2a")
 		(property "Reference" "PT2"
-			(at 99.695 81.28 0)
+			(at 99.695 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8383,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 99.695 86.995 0)
+			(at 99.695 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.695 85.725 0)
+			(at 99.695 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.695 85.725 0)
+			(at 99.695 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.695 85.725 0)
+			(at 99.695 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)

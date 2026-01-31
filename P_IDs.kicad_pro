@@ -227,7 +227,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -277,7 +277,7 @@
         "line_style": 0,
         "name": "Direct",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
       },
@@ -286,8 +286,8 @@
         "line_style": 0,
         "name": "Main-1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 92, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 72, 0)",
         "wire_width": 25
       },
       {
@@ -295,44 +295,62 @@
         "line_style": 0,
         "name": "Main-1/2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 239, 0)",
-        "wire_width": 10
+        "priority": 3,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 15
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "Main-1/4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgb(209, 255, 4)",
-        "wire_width": 6
+        "priority": 5,
+        "schematic_color": "rgb(143, 255, 149)",
+        "wire_width": 10
       },
       {
         "bus_width": 12,
         "line_style": 2,
         "name": "Main-1/8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(209, 255, 4)",
-        "wire_width": 6
+        "priority": 6,
+        "schematic_color": "rgb(143, 255, 149)",
+        "wire_width": 10
       },
       {
-        "bus_width": 15,
+        "bus_width": 25,
         "line_style": 1,
         "name": "Main-3/4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 92, 0)",
-        "wire_width": 15
+        "priority": 2,
+        "schematic_color": "rgb(0, 72, 0)",
+        "wire_width": 25
       },
       {
         "bus_width": 10,
         "line_style": 1,
         "name": "Main-3/8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(0, 239, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 15
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "N2_LP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 144, 255)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Pneumatics",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 10
       },
       {
@@ -340,7 +358,7 @@
         "line_style": 2,
         "name": "Torch Igniter - Tube",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 12
       },
@@ -349,18 +367,9 @@
         "line_style": 0,
         "name": "Torch Igniter -1/4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "Tubing",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(0, 144, 255)",
-        "wire_width": 10
       }
     ],
     "meta": {
@@ -374,8 +383,8 @@
         "pattern": "Main"
       },
       {
-        "netclass": "Tubing",
-        "pattern": "Tube"
+        "netclass": "N2_LP",
+        "pattern": "N2_LP"
       },
       {
         "netclass": "Torch Igniter -1/4",
@@ -414,7 +423,7 @@
         "pattern": "1"
       },
       {
-        "netclass": "Tubing",
+        "netclass": "Pneumatics",
         "pattern": "Pn"
       }
     ]
@@ -511,7 +520,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 10.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
