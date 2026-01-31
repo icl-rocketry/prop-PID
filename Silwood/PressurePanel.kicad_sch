@@ -1833,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 88.265) (xy 84.455 83.185)
+			(xy 84.455 92.075) (xy 84.455 83.185)
 		)
 		(stroke
 			(width 0)
@@ -2183,6 +2183,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -2523,7 +2524,7 @@
 	(symbol
 		(lib_name "Quick_Disconnect_1")
 		(lib_id "PID_symbols:Quick_Disconnect")
-		(at 84.455 92.075 90)
+		(at 84.455 95.885 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2532,7 +2533,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7cd2b68-b133-474c-ba20-1bc714b82d6b")
 		(property "Reference" "QD1"
-			(at 81.28 90.8049 90)
+			(at 81.28 94.6149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2542,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 92.71 90)
+			(at 81.28 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.455 92.075 0)
+			(at 84.455 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.455 92.075 0)
+			(at 84.455 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.455 92.075 0)
+			(at 84.455 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
