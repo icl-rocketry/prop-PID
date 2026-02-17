@@ -11112,7 +11112,7 @@
 		)
 		(uuid "6f2d6117-4595-40bc-a71d-21e6bfc43acb")
 	)
-	(text "3: Local Location feed system of Component\n\nKEY:\nRef: Dome reference pressure system\nM: Main run line\nV: Venting Line\nT: Tank Pressurisation Line\nN: Nitrogen High Pressure Source Line\nO: Oxidiser Source Line\nF: Fill Line\nD: Drain Line\nP: Purge Line\nLP: Low Pressure Impulse Air Line"
+	(text "3: Local Location feed line of Component\n\nKEY:\nRef: Dome reference pressure system\nM: Main run line\nV: Venting Line\nT: Tank Pressurisation Line\nN: Nitrogen High Pressure Source Line\nO: Oxidiser Source Line\nF: Fill Line\nD: Drain Line\nP: Purge Line\nLP: Low Pressure Impulse Air Line"
 		(exclude_from_sim no)
 		(at 334.01 111.76 0)
 		(effects
@@ -11132,6 +11132,17 @@
 			)
 		)
 		(uuid "7434d065-31a8-4b26-9f47-b52fd200a863")
+	)
+	(text "TANK"
+		(exclude_from_sim no)
+		(at 200.025 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a2d5e0b-9fa1-4f4b-9056-20bc00466988")
 	)
 	(text "Quick-Disconnect"
 		(exclude_from_sim no)
@@ -12915,7 +12926,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 127 125.73 180)
 		(fields_autoplaced yes)
@@ -13003,7 +13014,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 84.455 125.73 0)
 		(fields_autoplaced yes)
@@ -13267,7 +13278,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 146.685 155.575 270)
 		(fields_autoplaced yes)
@@ -17336,13 +17347,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e082d6-2d1f-4034-ac7c-2b137070af33")
-		(property "Reference" "T4"
-			(at 200.66 140.335 0)
+		(property "Reference" "TANK_"
+			(at 199.39 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -17396,7 +17408,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/2a11f1f0-1db0-4a3b-bc44-4a76b750bc36"
-					(reference "T4")
+					(reference "TANK_")
 					(unit 2)
 				)
 			)

@@ -11276,6 +11276,17 @@
 		)
 		(uuid "e123e552-772c-41d6-8d23-47cd8f92ca4a")
 	)
+	(text "TANK"
+		(exclude_from_sim no)
+		(at 196.85 137.795 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e38e78ec-39f1-4411-ba9a-a61ba7998be1")
+	)
 	(text "Dome-Loaded \nRegulator"
 		(exclude_from_sim no)
 		(at 417.83 141.605 0)
@@ -12894,7 +12905,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 85.725 118.11 0)
 		(fields_autoplaced yes)
@@ -12918,7 +12929,7 @@
 	)
 	(global_label "1"
 		(shape input)
-		(at 200.66 168.275 180)
+		(at 200.66 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12928,7 +12939,7 @@
 		)
 		(uuid "4e7a3a64-92cf-48a1-9cb6-d53e98026928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.9515 168.275 0)
+			(at 199.9515 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13235,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 144.78 147.955 270)
 		(fields_autoplaced yes)
@@ -13246,7 +13257,7 @@
 			)
 		)
 	)
-	(global_label "3-8"
+	(global_label "1-2"
 		(shape input)
 		(at 125.095 118.11 180)
 		(fields_autoplaced yes)
@@ -17549,7 +17560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5527b0a-25f2-4ba3-8021-d06ac8004738")
-		(property "Reference" "T3"
+		(property "Reference" "TANK"
 			(at 197.485 137.16 0)
 			(effects
 				(font
@@ -17610,7 +17621,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/d375e00a-1ce3-4f93-9279-82acf09c7292/343346ed-3011-4de4-9739-8cfc7e2486c8"
-					(reference "T3")
+					(reference "TANK")
 					(unit 2)
 				)
 			)
