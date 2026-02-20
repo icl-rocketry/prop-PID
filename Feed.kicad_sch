@@ -6124,6 +6124,112 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PID_symbols:Thermocouple"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TC"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Thermocouple_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.397) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermocouple_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 2.54 270)
+					(length 1.35)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PID_symbols:stop"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -10077,6 +10183,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 124.46) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55abcf83-f2be-433c-86f1-9b358d6450f5")
+	)
+	(wire
+		(pts
 			(xy 92.71 119.38) (xy 92.71 121.92)
 		)
 		(stroke
@@ -10138,6 +10254,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 170.18) (xy 87.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69846e23-0f25-4156-a6ea-d7aceddf0704")
+	)
+	(wire
+		(pts
 			(xy 17.78 40.64) (xy 26.67 40.64)
 		)
 		(stroke
@@ -10185,6 +10311,16 @@
 			(type default)
 		)
 		(uuid "7cb0862e-9ece-49ed-a30b-f309cafd06f8")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9ac165-d749-4948-96cb-1e7eadfdcb63")
 	)
 	(wire
 		(pts
@@ -10319,6 +10455,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 100.33) (xy 115.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa96558-d67a-47bc-b69a-9be052026a07")
+	)
+	(wire
+		(pts
 			(xy 170.18 171.45) (xy 170.18 119.38)
 		)
 		(stroke
@@ -10376,6 +10522,16 @@
 			(type default)
 		)
 		(uuid "ab03739a-665a-4ccd-b466-9c8e0e5b6166")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b660f9bd-505e-4894-a7f0-d90635cf05f1")
 	)
 	(wire
 		(pts
@@ -10446,6 +10602,16 @@
 			(type default)
 		)
 		(uuid "d01b3883-acf4-4730-9394-794e96a7dcd4")
+	)
+	(wire
+		(pts
+			(xy 88.9 170.18) (xy 87.63 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a6b28b-3c5d-45c1-b7cd-5c28be242b37")
 	)
 	(wire
 		(pts
@@ -10762,6 +10928,50 @@
 		(uuid "6422d3ca-413d-431b-ac1a-367941e64a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.18 200.6651 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 93.98 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "7355733c-ee0a-4fb3-a84d-b9386a884e39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2594 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 115.57 101.6 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "74db579b-061c-438c-99ea-4431ce544b75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 100.8794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,6 +11421,28 @@
 			)
 		)
 	)
+	(global_label "D"
+		(shape input)
+		(at 87.63 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right)
+		)
+		(uuid "f71d18df-461b-4db0-89de-7002a2d2761d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 172.1706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3-8"
 		(shape input)
 		(at 100.33 119.38 180)
@@ -11246,6 +11478,28 @@
 		(uuid "fdc43b93-c7fd-42d2-a2d8-21ae54031226")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 119.3851 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 138.43 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "ff4cf56a-1c75-4f3a-94ef-160d2a45e1f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1506 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,6 +11855,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PID_symbols:Thermocouple")
+		(at 92.71 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291d3fd1-733e-4172-97aa-ff1898dfc107")
+		(property "Reference" "TC"
+			(at 95.25 133.9849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "507a607f-3073-4e33-8dc7-122af9e3c8be")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
+					(reference "TC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PID_symbols:Quick_Disconnect")
 		(at 142.24 227.33 90)
 		(unit 1)
@@ -11734,6 +12054,72 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
 					(reference "OXEREGPT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Thermocouple")
+		(at 142.24 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317a2d0d-73e0-45e8-b56c-5498cd903344")
+		(property "Reference" "TC"
+			(at 146.05 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "69b08115-4df5-4cf5-ac07-f2bb7270c099")
+		)
+		(instances
+			(project ""
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
+					(reference "TC")
 					(unit 1)
 				)
 			)
@@ -12293,6 +12679,72 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
 					(reference "HighFreq_PT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Thermocouple")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd150ef-0a8c-4444-995b-35c3d9acf72b")
+		(property "Reference" "TC"
+			(at 118.11 106.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0f339563-9c2d-43df-88a0-a37ad4c6f54a")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
+					(reference "TC")
 					(unit 1)
 				)
 			)
@@ -13010,6 +13462,71 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
 					(reference "Fuel_Vent_Sol")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PID_symbols:Thermocouple")
+		(at 87.63 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9027e7e-fc4f-4e73-ab58-5a5e76fdf458")
+		(property "Reference" "TC"
+			(at 86.36 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f4790b36-f023-43db-a493-587b5d709319")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/ac6f9866-6d7d-491d-94a4-140f8922d2b9"
+					(reference "TC")
 					(unit 1)
 				)
 			)
