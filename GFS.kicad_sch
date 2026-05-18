@@ -7294,6 +7294,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pressure_Transducer_6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pressure_Transducer_6_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PT\n"
+					(at 0 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Quick_Disconnect_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9738,10 +9876,16 @@
 		(uuid "1d68d25c-5223-4a85-b72a-27b2aee9517b")
 	)
 	(junction
-		(at 184.15 173.99)
+		(at 178.435 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72c40f5b-48b2-4e01-9178-eb2dc47609b5")
+		(uuid "1e761c42-18d4-4d3a-884c-4dfaa7ddf29d")
+	)
+	(junction
+		(at 384.175 150.495)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "237495e9-bc31-4bde-8efe-72abcfd17848")
 	)
 	(junction
 		(at 170.18 127)
@@ -9774,16 +9918,16 @@
 		(uuid "aced072f-a2ef-4e6d-9155-cf1b96fb0cd1")
 	)
 	(junction
-		(at 142.24 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ade30649-3814-4548-a820-512019a8369e")
-	)
-	(junction
 		(at 354.965 178.435)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba004245-e0a2-456e-bf88-3c0e588c0963")
+	)
+	(junction
+		(at 146.05 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3c9be98-912f-494f-966b-26e10375b760")
 	)
 	(junction
 		(at 190.5 173.99)
@@ -9815,7 +9959,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 156.21) (xy 271.78 156.21)
+			(xy 262.89 156.21) (xy 271.78 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9875,7 +10019,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.175 81.915) (xy 384.175 164.465)
+			(xy 384.175 81.915) (xy 384.175 150.495)
 		)
 		(stroke
 			(width 0)
@@ -9905,7 +10049,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 173.99) (xy 184.15 173.99)
+			(xy 168.91 173.99) (xy 178.435 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9945,13 +10089,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 171.45) (xy 184.15 173.99)
+			(xy 178.435 171.45) (xy 178.435 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "161323f1-4bb4-419b-84ad-09c6f03c311a")
+	)
+	(wire
+		(pts
+			(xy 146.05 173.99) (xy 152.4 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175b8e0f-533a-495e-940e-3732c0be7024")
 	)
 	(wire
 		(pts
@@ -10205,16 +10359,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 184.15) (xy 264.16 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bed39aa-b892-4f8c-939d-aa870e15aa24")
-	)
-	(wire
-		(pts
 			(xy 384.175 81.915) (xy 383.54 81.915)
 		)
 		(stroke
@@ -10285,6 +10429,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 150.495) (xy 384.175 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948504cd-aaf7-4ee4-b0bd-34008f1846e2")
+	)
+	(wire
+		(pts
 			(xy 19.05 55.245) (xy 27.94 55.245)
 		)
 		(stroke
@@ -10295,7 +10449,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 173.99) (xy 142.24 173.99)
+			(xy 137.16 173.99) (xy 146.05 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10345,7 +10499,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 171.45) (xy 142.24 173.99)
+			(xy 146.05 172.085) (xy 146.05 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10405,6 +10559,16 @@
 	)
 	(wire
 		(pts
+			(xy 178.435 173.99) (xy 190.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74d0be0-5eac-4701-9d35-04e64386a25e")
+	)
+	(wire
+		(pts
 			(xy 19.05 40.005) (xy 27.94 40.005)
 		)
 		(stroke
@@ -10422,16 +10586,6 @@
 			(type default)
 		)
 		(uuid "c960cee8-d29a-4d81-894f-d3893d662689")
-	)
-	(wire
-		(pts
-			(xy 190.5 173.99) (xy 184.15 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce431f5a-154a-46da-a882-0b5a3a48c6f8")
 	)
 	(wire
 		(pts
@@ -10465,6 +10619,26 @@
 	)
 	(wire
 		(pts
+			(xy 384.175 150.495) (xy 384.175 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fdf58b-ee37-4bd1-b4bc-2688221a43fc")
+	)
+	(wire
+		(pts
+			(xy 264.16 179.705) (xy 260.985 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da418402-023c-4918-b43c-9782de8c1d3f")
+	)
+	(wire
+		(pts
 			(xy 271.78 156.21) (xy 271.78 165.1)
 		)
 		(stroke
@@ -10495,16 +10669,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 173.99) (xy 152.4 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea077cc9-1050-4299-b111-60e0b764e019")
-	)
-	(wire
-		(pts
 			(xy 356.235 42.545) (xy 184.15 42.545)
 		)
 		(stroke
@@ -10522,6 +10686,16 @@
 			(type default)
 		)
 		(uuid "f3a49784-6f11-4565-89fa-e5c7a27d77a0")
+	)
+	(wire
+		(pts
+			(xy 264.16 179.705) (xy 264.16 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77cdf44-6279-4c43-9bd0-12b70bbe969d")
 	)
 	(wire
 		(pts
@@ -11283,7 +11457,7 @@
 		(at 357.505 174.625 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.254 0.254)
 			)
 			(justify left)
 		)
@@ -11509,24 +11683,23 @@
 	(symbol
 		(lib_name "Pressure_Transducer_2")
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 264.16 181.61 180)
+		(at 258.445 179.705 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0842973d-5c4a-48d9-9663-06bb09f28f1c")
-		(property "Reference" "PT"
-			(at 264.16 176.53 0)
+		(property "Reference" "N2_Bottle"
+			(at 258.445 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 264.16 180.34 0)
+			(at 258.445 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 181.61 0)
+			(at 258.445 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 181.61 0)
+			(at 258.445 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 181.61 0)
+			(at 258.445 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,7 +11745,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PT")
+					(reference "N2_Bottle")
 					(unit 1)
 				)
 			)
@@ -11587,7 +11760,7 @@
 	(symbol
 		(lib_name "Pressure_Transducer_1")
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 142.24 168.91 0)
+		(at 146.05 169.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11595,17 +11768,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a1ab881-a84b-46ab-987b-0159ac6b9cf4")
-		(property "Reference" "PT"
-			(at 142.24 163.83 0)
+		(property "Reference" "Ox_Bottle_1"
+			(at 146.05 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 142.24 170.18 0)
+			(at 146.05 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +11786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 168.91 0)
+			(at 146.05 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 168.91 0)
+			(at 146.05 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 168.91 0)
+			(at 146.05 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +11823,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PT")
+					(reference "Ox_Bottle_1")
 					(unit 1)
 				)
 			)
@@ -12114,13 +12286,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "287f76b4-6fb5-41af-80c5-2511678f18c2")
-		(property "Reference" "PT"
+		(property "Reference" "Ox_Hose"
 			(at 162.56 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -12170,7 +12341,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PT")
+					(reference "Ox_Hose")
 					(unit 1)
 				)
 			)
@@ -13174,7 +13345,7 @@
 	(symbol
 		(lib_name "Pressure_Transducer_4")
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 184.15 168.91 0)
+		(at 178.435 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13182,17 +13353,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66643e19-6f74-4c77-951c-f9ea0c89ffb8")
-		(property "Reference" "PT26"
-			(at 184.15 163.83 0)
+		(property "Reference" "Ox_Bottle_2"
+			(at 178.435 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 170.18 0)
+			(at 178.435 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,7 +13371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 168.91 0)
+			(at 178.435 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13210,7 +13380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 168.91 0)
+			(at 178.435 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13219,7 +13389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 168.91 0)
+			(at 178.435 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13238,7 +13408,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PT26")
+					(reference "Ox_Bottle_2")
 					(unit 1)
 				)
 			)
@@ -14973,7 +15143,7 @@
 	)
 	(symbol
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 264.16 156.21 180)
+		(at 260.35 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14981,17 +15151,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc61d525-bbcd-46a1-ad62-68c2f2749c4e")
-		(property "Reference" "PT"
-			(at 264.16 161.29 0)
+		(property "Reference" "N2_Hose"
+			(at 260.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 264.16 154.94 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15000,7 +15169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 156.21 0)
+			(at 260.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15009,7 +15178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 156.21 0)
+			(at 260.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15018,7 +15187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 156.21 0)
+			(at 260.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15037,7 +15206,7 @@
 		(instances
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PT")
+					(reference "N2_Hose")
 					(unit 1)
 				)
 			)
@@ -15202,6 +15371,78 @@
 			(project "Yr26"
 				(path "/5da82324-7f9c-4ed0-9e7d-b6fd3c1481a8/3e19c696-edbd-4f2a-8306-64ef9f058e41"
 					(reference "SPRV_O(2)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Pressure_Transducer_6")
+		(lib_id "PID_symbols:Pressure_Transducer")
+		(at 372.11 150.495 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6104a60-e81a-461c-8a6c-34f960c3544f")
+		(property "Reference" "Pneumatic"
+			(at 372.11 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 372.11 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c6906a49-fecb-4f66-b81a-fef95f2bc4f7")
+		)
+		(pin ""
+			(uuid "af6055c3-8a46-4057-b374-acaf85157a4d")
+		)
+		(pin ""
+			(uuid "1d2552bf-54da-4ece-94e1-71d39d774bfb")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
+					(reference "Pneumatic")
 					(unit 1)
 				)
 			)
