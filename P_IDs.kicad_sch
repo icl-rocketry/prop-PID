@@ -5,7 +5,7 @@
 	(uuid "045f1f05-3134-4b6d-91b6-463031104f1e")
 	(paper "A4")
 	(lib_symbols)
-	(text "2025/2026 P&ID'S"
+	(text "2026/2027 P&ID'S"
 		(exclude_from_sim no)
 		(at 103.632 168.656 0)
 		(effects
@@ -16,8 +16,8 @@
 		(uuid "eade53f0-8f92-4ca7-ae15-cec53cbfcb9f")
 	)
 	(sheet
-		(at 15.24 16.51)
-		(size 232.41 142.24)
+		(at 218.44 16.51)
+		(size 29.21 142.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32,7 +32,7 @@
 		)
 		(uuid "a0b6300e-76e9-4a18-afd6-e2d656b0d8f9")
 		(property "Sheetname" "25-26"
-			(at 15.24 15.7984 0)
+			(at 218.44 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "Yr26.kicad_sch"
-			(at 15.24 159.3346 0)
+			(at 218.44 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,6 +53,48 @@
 			(project "P_IDs"
 				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
 					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 195.58 142.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6c68888-3c48-41e0-8ed1-6559211dce6a")
+		(property "Sheetname" "26-27"
+			(at 15.24 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Yr27.kicad_sch"
+			(at 15.24 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e"
+					(page "25")
 				)
 			)
 		)

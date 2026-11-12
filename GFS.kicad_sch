@@ -3205,6 +3205,116 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Manual_Pressure_Gauge_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Manual_Pressure_Gauge"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Manual_Pressure_Gauge_4_1_1"
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 1.778 1.778) (xy 0.254 1.27) (xy 1.016 1.016) (xy 1.27 0.254) (xy 1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Needle_Valve_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8117,179 +8227,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SPRV_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SPRV"
-				(at 3.556 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SPRV_3_0_1"
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 4.826) (xy 3.302 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 4.318) (xy 3.048 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 3.81) (xy 2.794 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.302) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SPRV_3_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SPRV_4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9870,12 +9807,6 @@
 		(uuid "1d1d23e7-936c-470e-9185-ede3cf73eea5")
 	)
 	(junction
-		(at 264.16 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d68d25c-5223-4a85-b72a-27b2aee9517b")
-	)
-	(junction
 		(at 178.435 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10329,16 +10260,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 189.23) (xy 264.16 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5840b4b1-2871-4b2c-8cea-daf1d7483e2b")
-	)
-	(wire
-		(pts
 			(xy 190.5 202.565) (xy 202.565 202.565)
 		)
 		(stroke
@@ -10396,6 +10317,16 @@
 			(type default)
 		)
 		(uuid "77b4a075-f308-4a40-aadc-5c4aaf281232")
+	)
+	(wire
+		(pts
+			(xy 358.14 187.96) (xy 365.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816a8d59-6bd2-4d38-be55-f322929595ba")
 	)
 	(wire
 		(pts
@@ -10629,7 +10560,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 179.705) (xy 260.985 179.705)
+			(xy 262.89 189.23) (xy 271.78 189.23)
 		)
 		(stroke
 			(width 0)
@@ -10646,16 +10577,6 @@
 			(type default)
 		)
 		(uuid "e5642b17-279c-4e07-bc26-044b60414fa8")
-	)
-	(wire
-		(pts
-			(xy 264.16 189.23) (xy 271.78 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f5e413-c8ae-4ce9-80a5-6ce6fe762aff")
 	)
 	(wire
 		(pts
@@ -10686,16 +10607,6 @@
 			(type default)
 		)
 		(uuid "f3a49784-6f11-4565-89fa-e5c7a27d77a0")
-	)
-	(wire
-		(pts
-			(xy 264.16 179.705) (xy 264.16 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77cdf44-6279-4c43-9bd0-12b70bbe969d")
 	)
 	(wire
 		(pts
@@ -10882,6 +10793,28 @@
 		(uuid "282e6bcb-a245-4a87-a87c-cd44f4602abb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.2624 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D"
+		(shape input)
+		(at 360.68 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left)
+		)
+		(uuid "32efc5b9-2f9f-4613-8787-850e1ce93dac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.4006 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,7 +11616,7 @@
 	(symbol
 		(lib_name "Pressure_Transducer_2")
 		(lib_id "PID_symbols:Pressure_Transducer")
-		(at 258.445 179.705 180)
+		(at 260.35 189.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11691,7 +11624,7 @@
 		(dnp no)
 		(uuid "0842973d-5c4a-48d9-9663-06bb09f28f1c")
 		(property "Reference" "N2_Bottle"
-			(at 258.445 174.625 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11699,7 +11632,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 258.445 178.435 0)
+			(at 260.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.445 179.705 0)
+			(at 260.35 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +11650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.445 179.705 0)
+			(at 260.35 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,7 +11659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 258.445 179.705 0)
+			(at 260.35 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,82 +13430,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SPRV_3")
-		(lib_id "PID_symbols:SPRV")
-		(at 247.65 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75e56f6e-58e6-4e62-ab5b-9684ed128f7f")
-		(property "Reference" "PRV"
-			(at 251.46 183.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 251.46 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a09e4c05-0c3d-4dae-b588-7551fdf3ef91")
-		)
-		(pin ""
-			(uuid "23d41190-2cdd-4819-8257-54e483bd5594")
-		)
-		(instances
-			(project "P_IDs"
-				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "PRV")
-					(unit 1)
-				)
-			)
-			(project "Yr26"
-				(path "/5da82324-7f9c-4ed0-9e7d-b6fd3c1481a8/3e19c696-edbd-4f2a-8306-64ef9f058e41"
-					(reference "SPRV_N")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Needle_Valve_2")
 		(lib_id "PID_symbols:Needle_Valve")
 		(at 284.48 189.23 0)
@@ -14332,6 +14189,75 @@
 		)
 	)
 	(symbol
+		(lib_name "Manual_Pressure_Gauge_4")
+		(lib_id "PID_symbols:Manual_Pressure_Gauge")
+		(at 368.3 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a20bb5f-f5b7-4b30-9448-ca625db75413")
+		(property "Reference" "Manual_Pressure_Gauge?"
+			(at 375.92 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 368.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4789ac43-12df-4e30-b0f5-918205c8f9ab")
+		)
+		(pin ""
+			(uuid "69cba342-f3eb-451a-b870-fe92175a19d8")
+		)
+		(instances
+			(project "P_IDs"
+				(path "/045f1f05-3134-4b6d-91b6-463031104f1e/a0b6300e-76e9-4a18-afd6-e2d656b0d8f9/3e19c696-edbd-4f2a-8306-64ef9f058e41"
+					(reference "Manual_Pressure_Gauge?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Manual_Pressure_Gauge_1")
 		(lib_id "PID_symbols:Manual_Pressure_Gauge")
 		(at 283.21 201.93 0)
@@ -14340,7 +14266,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a20bb5f-f5b7-4b30-9448-ca625db75413")
+		(uuid "9a20bb5f-f5b7-4b30-9448-ca625db75414")
 		(property "Reference" "Manual_Pressure_Gauge"
 			(at 290.83 206.248 0)
 			(effects
@@ -14386,10 +14312,10 @@
 			)
 		)
 		(pin ""
-			(uuid "4789ac43-12df-4e30-b0f5-918205c8f9ab")
+			(uuid "4789ac43-12df-4e30-b0f5-918205c8f9ac")
 		)
 		(pin ""
-			(uuid "69cba342-f3eb-451a-b870-fe92175a19d8")
+			(uuid "69cba342-f3eb-451a-b870-fe92175a19d9")
 		)
 		(instances
 			(project "P_IDs"
